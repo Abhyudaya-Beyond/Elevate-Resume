@@ -5,8 +5,6 @@
 
 ![App Version](https://img.shields.io/github/package-json/version/Abhyudaya-Beyond/Elevate-Resume?label=version)
 
-# Elevate
-
 **Your resume. Your story. Your control.**
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. Built with privacy-first principles and consciousness-first design.
