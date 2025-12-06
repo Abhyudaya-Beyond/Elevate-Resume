@@ -1,7 +1,7 @@
 import { HttpService } from "@nestjs/axios";
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { ContributorDto } from "@reactive-resume/dto";
+import { ContributorDto } from "@elevate/dto";
 
 import { Config } from "../config/schema";
 
@@ -19,21 +19,24 @@ export class ContributorsService {
   ) {}
 
   async fetchGitHubContributors() {
-    const response = await this.httpService.axiosRef.get(
-      `https://api.github.com/repos/AmruthPillai/Reactive-Resume/contributors`,
-    );
-    const data = response.data as GitHubResponse;
-
-    return data
-      .filter((_, index) => index <= 20)
-      .map((user) => {
-        return {
-          id: user.id,
-          name: user.login,
-          url: user.html_url,
-          avatar: user.avatar_url,
-        } satisfies ContributorDto;
-      });
+    // TODO: Update this to your Elevate GitHub repository when available
+    // For now, returning empty array to avoid fetching from old repository
+    // When you have your own repo, uncomment and update:
+    // const response = await this.httpService.axiosRef.get(
+    //   `https://api.github.com/repos/elevate/elevate/contributors`,
+    // );
+    // const data = response.data as GitHubResponse;
+    // return data
+    //   .filter((_, index) => index <= 20)
+    //   .map((user) => {
+    //     return {
+    //       id: user.id,
+    //       name: user.login,
+    //       url: user.html_url,
+    //       avatar: user.avatar_url,
+    //     } satisfies ContributorDto;
+    //   });
+    return [];
   }
 
   async fetchCrowdinContributors() {

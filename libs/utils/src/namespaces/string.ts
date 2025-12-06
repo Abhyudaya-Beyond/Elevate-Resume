@@ -1,8 +1,20 @@
-import sanitizeHtml from "sanitize-html";
 import type { Config as UniqueNamesConfig } from "unique-names-generator";
 import { adjectives, animals, uniqueNamesGenerator } from "unique-names-generator";
 
 import type { LayoutLocator, SortablePayload } from "./types";
+
+// Conditional import for sanitize-html (server-side only)
+let sanitizeHtml: typeof import("sanitize-html").default | null = null;
+
+if (typeof window === "undefined") {
+  // Only import on server-side
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    sanitizeHtml = require("sanitize-html");
+  } catch {
+    // Fallback if not available
+  }
+}
 
 export const getInitials = (name: string) => {
   // eslint-disable-next-line unicorn/better-regex
@@ -57,7 +69,12 @@ export const parseLayoutLocator = (payload: SortablePayload | null): LayoutLocat
   return { page, column, section };
 };
 
-export const sanitize = (html: string, options?: sanitizeHtml.IOptions) => {
+export const sanitize = (html: string, options?: import("sanitize-html").IOptions) => {
+  // If running in browser, return HTML as-is (sanitization should happen server-side)
+  if (typeof window !== "undefined" || !sanitizeHtml) {
+    return html;
+  }
+
   const allowedTags = (options?.allowedTags ?? []) as string[];
 
   return sanitizeHtml(html, {

@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { TagIcon } from "@phosphor-icons/react";
-import type { URL } from "@reactive-resume/schema";
-import { urlSchema } from "@reactive-resume/schema";
+import type { URL } from "@elevate/schema";
+import { urlSchema } from "@elevate/schema";
 import {
   Button,
   Input,
@@ -9,7 +9,7 @@ import {
   PopoverContent,
   PopoverTrigger,
   Tooltip,
-} from "@reactive-resume/ui";
+} from "@elevate/ui";
 import { forwardRef, useMemo } from "react";
 
 type Props = {

@@ -1,7 +1,9 @@
 import { Logger, Module } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
 import { MailerModule } from "@nestjs-modules/mailer";
+import { HandlebarsAdapter } from "@nestjs-modules/mailer/dist/adapters/handlebars.adapter";
 import * as nodemailer from "nodemailer";
+import { join } from "path";
 
 import { Config } from "@/server/config/schema";
 
@@ -27,6 +29,13 @@ const emptyTransporter = nodemailer.createTransport({});
         return {
           defaults: { from },
           transport: smtpUrl ?? emptyTransporter,
+          template: {
+            dir: join(__dirname, "templates"),
+            adapter: new HandlebarsAdapter(),
+            options: {
+              strict: true,
+            },
+          },
         };
       },
     }),

@@ -6,3 +6,23 @@
 * {
   @apply border-border/50;
 }
+
+/* CSS Compatibility Fixes */
+/* Add text-size-adjust with proper vendor prefix order */
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Add -webkit-backdrop-filter for Safari support */
+@layer utilities {
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  
+  .backdrop-blur-lg {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+}

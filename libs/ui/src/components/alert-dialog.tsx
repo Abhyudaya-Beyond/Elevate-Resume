@@ -1,5 +1,5 @@
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@elevate/utils";
 import { forwardRef } from "react";
 
 import { buttonVariants } from "../variants/button";

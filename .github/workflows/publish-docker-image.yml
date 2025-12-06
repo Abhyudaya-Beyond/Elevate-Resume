@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  IMAGE: amruthpillai/reactive-resume
+  IMAGE: abhyudaya-beyond/elevate-resume
 
 jobs:
   build:
@@ -152,16 +152,62 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
-      - name: Deploy the latest image on rxresu.me
-        run: curl -kX POST ${{ secrets.SERVICE_WEBHOOK }}
+      - name: Check for service webhook
+        id: check_service_webhook
+        run: |
+          set -euo pipefail
+          WEBHOOK_URL="${{ secrets.SERVICE_WEBHOOK }}"
+          # Validate webhook URL is present and non-empty (-n checks both)
+          if [ -n "$WEBHOOK_URL" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Service webhook URL is configured"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "⚠️ Service webhook URL is not configured. Skipping deployment."
+          fi
+
+      - name: Deploy the latest image
+        run: |
+          set -euo pipefail
+          WEBHOOK_URL="${{ secrets.SERVICE_WEBHOOK }}"
+          
+          # Defensive validation: ensure URL is set (should already be validated by check step)
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "❌ ERROR: SERVICE_WEBHOOK is empty. This should not happen if check step passed."
+            exit 1
+          fi
+          
+          PAYLOAD=$(jq -n \
+            --arg version "${{ steps.meta.outputs.version }}" \
+            --arg image "${{ env.IMAGE }}" \
+            --arg repository "${{ github.repository }}" \
+            --arg ref "${{ github.ref }}" \
+            '{"version": $version, "image": $image, "repository": $repository, "ref": $ref}')
+          
+          # Log deployment without exposing webhook URL (security: no credentials, paths, or query params in logs)
+          echo "🚀 Deploying to webhook endpoint"
+          curl -f -k -X POST \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "$WEBHOOK_URL" || exit 1
+        if: steps.check_service_webhook.outputs.exists == 'true'
+
+      - name: Check for Discord webhook
+        id: check_discord_webhook
+        run: |
+          if [ -n "${{ secrets.DISCORD_WEBHOOK }}" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Inform about the release on Discord
         uses: sarisia/actions-status-discord@v1.14.3
-        if: always()
+        if: always() && steps.check_discord_webhook.outputs.exists == 'true'
         with:
           username: ReleaseBot
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           status: ${{ job.status }}
           title: "Release `${{ steps.meta.outputs.version }}`"
-          description: "A new version of Reactive Resume just dropped! 🚀"
-          url: "https://github.com/AmruthPillai/Reactive-Resume"
+          description: "A new version of Elevate just dropped! 🚀"
+          url: "https://github.com/Abhyudaya-Beyond/Elevate-Resume"

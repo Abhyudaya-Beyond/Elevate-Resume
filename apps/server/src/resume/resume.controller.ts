@@ -19,9 +19,9 @@ import {
   importResumeSchema,
   ResumeDto,
   UpdateResumeDto,
-} from "@reactive-resume/dto";
-import { ResumeData, resumeDataSchema } from "@reactive-resume/schema";
-import { ErrorMessage } from "@reactive-resume/utils";
+} from "@elevate/dto";
+import { ResumeData, resumeDataSchema } from "@elevate/schema";
+import { ErrorMessage } from "@elevate/utils";
 import set from "lodash.set";
 import { zodToJsonSchema } from "zod-to-json-schema";
 

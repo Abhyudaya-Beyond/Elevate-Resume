@@ -1,4 +1,4 @@
-msgid ""
+﻿msgid ""
 msgstr ""
 "POT-Creation-Date: 2023-11-10 13:15+0100\n"
 "MIME-Version: 1.0\n"
@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ja\n"
-"Project-Id-Version: reactive-resume\n"
+"Project-Id-Version: elevate\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2025-11-04 14:22\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: reactive-resume\n"
+"X-Crowdin-Project: elevate\n"
 "X-Crowdin-Project-ID: 503410\n"
 "X-Crowdin-Language: ja\n"
 "X-Crowdin-File: messages.po\n"
@@ -22,29 +22,25 @@ msgstr ""
 msgid "You have enabled two-factor authentication successfully."
 msgstr "2要素認証が正常に設定されました。"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:57
-msgid "{templatesCount} resume templates to choose from"
-msgstr "{templatesCount} 個のテンプレートから選択できます"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:142
 msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, other {列}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:25
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>Reactive Resumeは、素晴らしいオープンソースコントリビューターの助けを借りながら、空き時間に作りました。</0><1>もし、このアプリを気に入り、永久に無料で使い続けたいと思った方は、寄付をお願いします。</1>"
+msgid "<0>Elevate is built with privacy-first principles, with help from great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:56
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:55
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>このアプリは完璧ではないと思いますが、完璧にしたいと思っています。</0><1>もし履歴書作成中に問題に直面したり、あなたや他のユーザーがもっと簡単に履歴書を作成できるようなアイデアがあれば、リポジトリにissueを作成するか、私にメールを送ってください。</1>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:299
-msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
-msgstr "<0>注意：</0>OpenAI APIを利用することにより、利用者はOpenAIの<1>利用規約と</1> <2>プライバシーポリシーに</2>同意したものとみなされます。Reactive Resumeは、サービスの不適切な利用や不正利用に対して一切の責任を負わず、その結果生じるいかなる影響や責任も利用者のみにあることにご注意ください。"
+msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Elevate bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:90
-msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
-msgstr "<0>コミュニティはReactive Resumeのドキュメントを作成することに多くの時間を費やしました。</0><1>また、使い始めるのに役立つ例や、完璧な履歴書を作成するのに役立つあなたが知らないかもしれない機能もたくさんあります。</1>"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:89
+msgid "<0>The community has spent a lot of time writing the documentation for Elevate, and we're sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:140
 msgid "<0>Two-factor authentication is currently disabled.</0> You can enable it by adding an authenticator app to your account."
@@ -54,28 +50,18 @@ msgstr "<0>二要素認証は現在無効になっています。</0>アカウ�
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>二要素認証が有効になっています。</0>サインインのたびにコードの入力が求められます。"
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "A free and open-source resume builder"
-msgstr "無料でオープンソースの履歴書ビルダー"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
-msgstr "履歴書の作成、更新、共有のプロセスを簡素化する、無料でオープンソースの履歴書ビルダー"
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:59
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "リンクがクリップボードにコピーされました"
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "<0>Amruth Pillai によるパッションプロジェクト</0>"
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "入力されたメールアドレスにパスワードリセットリンクを送信しました。"
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A privacy-first resume builder built with <0>open source</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -89,6 +75,10 @@ msgstr "このメールアドレスおよび/またはユーザー名を持つ�
 msgid "A4"
 msgstr "A4"
 
+#: apps/client/src/pages/home/components/footer.tsx:56
+msgid "About"
+msgstr ""
+
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
 msgid "Accepts only {accept} files"
@@ -98,7 +88,7 @@ msgstr "{accept} ファイルのみ"
 msgid "Account"
 msgstr "アカウント"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:179
 msgid "Add a custom field"
 msgstr "カスタムフィールドを追加"
 
@@ -125,7 +115,11 @@ msgstr "ページを追加"
 msgid "AI"
 msgstr "AI"
 
-#: apps/client/src/pages/auth/register/page.tsx:71
+#: apps/client/src/pages/home/sections/features/index.tsx:24
+msgid "AI-powered suggestions for impact"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:271
 msgid "Already have an account?"
 msgstr "既にアカウントをお持ちですか？"
 
@@ -140,10 +134,6 @@ msgstr "内部サーバーエラーが発生しました。"
 #: apps/client/src/pages/public/error.tsx:32
 msgid "An unexpected error occurred."
 msgstr "予期せぬエラーが発生しました。"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:134
-msgid "and many more..."
-msgstr "他にもたくさん"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:57
 msgid "Anyone with the link can view and download the resume."
@@ -191,13 +181,13 @@ msgstr "研究分野"
 msgid "Aspect Ratio"
 msgstr "アスペクト比"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:51
-msgid "Available in {languagesCount} languages"
-msgstr "{languagesCount} 言語で利用可能"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:53
 msgid "Awarder"
 msgstr "受賞者"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:33
+msgid "Awards"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:258
 msgid "Azure API Version"
@@ -250,9 +240,13 @@ msgstr "罫線"
 msgid "Border Radius"
 msgstr "境界の半径"
 
-#: apps/client/src/pages/public/page.tsx:93
-msgid "Built with"
-msgstr "利用したソフトウェア"
+#: apps/client/src/pages/home/sections/hero/index.tsx:77
+msgid "Build and share a resume that truly represents you—without trackers, dark patterns, or data lock-in."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:111
+msgid "Built for 2G networks"
+msgstr ""
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
@@ -275,6 +269,10 @@ msgstr "カジュアル"
 msgid "Center Artboard"
 msgstr "中央のアート"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:29
+msgid "Certifications"
+msgstr ""
+
 #: apps/client/src/components/locale-switch.tsx:17
 msgid "Change Language"
 msgstr "言語の変更"
@@ -291,6 +289,10 @@ msgstr "トーンを変更"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "名前についてのあなたの心を変えましたか? それを新しいものを与えます。"
+
+#: apps/client/src/pages/public/page.tsx:86
+msgid "Check out my resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:70
 msgid "Check your email for the confirmation link to update your email address."
@@ -327,6 +329,7 @@ msgid "Columns"
 msgstr "カラム"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:39
+#: apps/client/src/pages/home/components/footer.tsx:48
 msgid "Company"
 msgstr "会社名"
 
@@ -357,8 +360,7 @@ msgstr "クリップボードにコピー"
 msgid "Create"
 msgstr "作成"
 
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/register/page.tsx:69
+#: apps/client/src/pages/auth/register/page.tsx:82
 msgid "Create a new account"
 msgstr "新しいアカウントを作成"
 
@@ -372,14 +374,33 @@ msgstr "新しいアイテムを作成"
 msgid "Create a new resume"
 msgstr "新しい履歴書を作成"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
-msgctxt "This is a link to create a new account"
-msgid "Create one now"
-msgstr "今すぐ作成する"
+#: apps/client/src/pages/auth/register/page.tsx:255
+msgid "Create account"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:259
 msgid "Create Sample Resume"
 msgstr "サンプルの再開を作成"
+
+#: apps/client/src/pages/auth/register/page.tsx:104
+msgid "Create your Elevate account"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:64
+msgid "Create Your First Resume"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:54
+msgid "Create your first resume to get started. You have full control over your story."
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:188
+msgid "Created with"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:252
+msgid "Creating account..."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:82
 msgid "Current Password"
@@ -391,21 +412,9 @@ msgstr "現在のパスワード"
 msgid "Custom CSS"
 msgstr "カスタムCSS"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:62
-msgid "Custom resume sections"
-msgstr "カスタム履歴書セクション"
-
 #: apps/client/src/stores/resume.ts:53
 msgid "Custom Section"
 msgstr "カスタムセクション"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "カスタマイズ可能なカラーパレット"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "カスタムレイアウト"
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -414,6 +423,10 @@ msgstr "危険ゾーン"
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:87
 msgid "Dark"
 msgstr "ダーク"
+
+#: apps/client/src/pages/home/components/header.tsx:43
+msgid "Dashboard"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:67
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:67
@@ -431,7 +444,6 @@ msgstr "日付または日付の範囲"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:137
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:158
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
 msgid "Delete"
@@ -454,9 +466,9 @@ msgstr "配備名"
 msgid "Description"
 msgstr "説明"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:58
-msgid "Design single/multi page resumes"
-msgstr "デザインシングル/マルチページの再開"
+#: apps/client/src/pages/home/sections/features/index.tsx:48
+msgid "Designed for India's Policy Makers"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:139
 msgid "Disable"
@@ -473,15 +485,15 @@ msgstr "2段階認証を無効にする"
 msgid "Discard"
 msgstr "破棄する"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:110
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:109
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:225
 msgid "Don't have an account?"
 msgstr "アカウントをお持ちでないですか？"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "どこから始めたらいいかわからない？ドキュメントをヒット！"
 
@@ -489,9 +501,13 @@ msgstr "どこから始めたらいいかわからない？ドキュメントを
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "あなたの言語が表示されませんか？<0>アプリの翻訳を手伝ってください。</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:45
-msgid "Donate to Reactive Resume"
-msgstr "Reactive Resume に寄付する"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:44
+msgid "Donate to Elevate"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:147
+msgid "Download"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:56
 msgid "Download a JSON snapshot of your resume. This file can be used to import your resume in the future, or can even be shared with others to collaborate."
@@ -511,7 +527,7 @@ msgstr "ダウンロード"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:181
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:246
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:168
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
@@ -526,16 +542,54 @@ msgid "Duplicate an existing resume"
 msgstr "既存の履歴書を複製"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:97
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:112
 msgid "Edit"
 msgstr "編集"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:26
+msgid "Education"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:169
 msgid "Effects"
 msgstr "効果"
 
+#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:62
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/components/footer.tsx:25
+#: apps/client/src/pages/home/page.tsx:25
+#: apps/client/src/pages/public/page.tsx:114
+#: apps/client/src/pages/public/page.tsx:190
+msgid "Elevate"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "Elevate has helped people land jobs at these great companies:"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Elevate is a privacy-first, open-source resume builder that puts you in control of your data and narrative. Your support helps us continue building a tool that respects your privacy and gives you complete ownership of your resume. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:50
+msgid "Elevate is built on a foundation of privacy-first principles and years of refinement. Every feature has been designed with your control and data ownership in mind, creating a resume builder that respects you as the owner of your professional narrative."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+msgid "Elevate thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features and the linguists whose translations have made it accessible to a broader audience."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:141
+#: apps/client/src/pages/auth/login/page.tsx:128
+#: apps/client/src/pages/auth/register/page.tsx:187
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:81
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
 msgid "Email"
@@ -553,7 +607,7 @@ msgstr "以下に新しいパスワードを入力し、安全であることを
 msgid "Enter one of the 10 backup codes you saved when you enabled two-factor authentication."
 msgstr "2要素認証を有効にしたときに保存した10のバックアップコードのいずれかを入力します。"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:63
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:67
 msgid "Enter Phosphor Icon"
 msgstr "蛍光体のアイコンを入力"
 
@@ -577,9 +631,9 @@ msgstr "エラー {statusCode}"
 msgid "Errors"
 msgstr "エラー"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
-msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
-msgstr "たとえ金銭的に貢献する立場にないとしても、GitHubリポジトリにスターを付けることで違いを生み出すことができます。 あなたの友人に言葉を広めるか、またはReactive Resume があなたをどのように役立ったかを私に知らせるためにクイックメッセージを落とす。 あなたのフィードバックとサポートはいつでも歓迎し、非常に感謝しています!"
+#: apps/client/src/pages/home/sections/support/index.tsx:26
+msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let us know how Elevate has helped you. Your feedback and support are always welcome and much appreciated!"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:271
 msgid "Expand All"
@@ -591,15 +645,28 @@ msgstr ""
 msgid "Expand section"
 msgstr ""
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:25
+msgid "Experience"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Reactive Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Reactive Resume で利用可能なテンプレートを探索し、作成した履歴書を表示します。 また、次の履歴書の作成をガイドするための例としても役立ちます。"
+msgid "Explore the templates available in Elevate and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:121
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:39
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:132
 msgid "Export"
 msgstr "輸出"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:121
+msgid "Export Anytime"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:36
+msgid "Features"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:255
 msgid "File"
@@ -608,10 +675,6 @@ msgstr "ファイル"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:221
 msgid "Filetype"
 msgstr "ファイル タイプ"
-
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "最後に"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -641,9 +704,9 @@ msgstr "例えば、どの会社にこの履歴書を送ったか、または仕
 msgid "Forget"
 msgstr "忘れた"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
-msgid "Forgot Password?"
-msgstr "パスワードをお忘れですか？"
+#: apps/client/src/pages/auth/login/page.tsx:191
+msgid "Forgot password?"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:68
 msgid "Forgot your password?"
@@ -654,18 +717,18 @@ msgstr "パスワードをお忘れですか？"
 msgid "Format"
 msgstr "書式"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "バグを見つけたり、新しい機能を考えたりしましたか?"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:46
-msgid "Free, forever"
-msgstr "無料、永久に"
 
 #: apps/client/src/components/ai-actions.tsx:125
 #: apps/client/src/components/ai-actions.tsx:128
 msgid "Friendly"
 msgstr "フレンドリーな"
+
+#: apps/client/src/pages/auth/register/page.tsx:137
+msgid "Full name"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:56
 msgid "Full Name"
@@ -675,15 +738,19 @@ msgstr "フルネーム"
 msgid "Generate a random title for your resume"
 msgstr "あなたの履歴書のランダムなタイトルを生成します"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:32
+#: apps/client/src/pages/home/components/header.tsx:51
 msgid "Get Started"
 msgstr "はじめよう"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:18
+#: apps/client/src/pages/home/sections/cta/index.tsx:46
+msgid "Get Started Free"
+msgstr ""
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:23
 msgid "GitHub"
 msgstr "GitHub"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+#: apps/client/src/pages/home/sections/statistics/index.tsx:14
 msgid "GitHub Stars"
 msgstr "GitHub Stars"
 
@@ -692,6 +759,7 @@ msgid "Give your old resume a new name."
 msgstr "古い履歴書に新しい名前を付けてください。"
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:67
+#: apps/client/src/pages/home/sections/cta/index.tsx:39
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:18
 msgid "Go to Dashboard"
 msgstr "ダッシュボードに移動"
@@ -700,17 +768,13 @@ msgstr "ダッシュボードに移動"
 msgid "Go to home"
 msgstr "ホームに戻る"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:31
+#: apps/client/src/pages/auth/_components/social-auth.tsx:37
 msgid "Google"
 msgstr "Google"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
 msgstr "Grayscale"
-
-#: apps/client/src/pages/dashboard/resumes/page.tsx:45
-msgid "Grid"
-msgstr "グリッド"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:70
 msgid "Headline"
@@ -738,8 +802,8 @@ msgstr "非表示"
 msgid "Hide Icons"
 msgstr "アイコンを隠す"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
-#: apps/client/src/pages/auth/register/page.tsx:168
+#: apps/client/src/pages/auth/login/page.tsx:174
+#: apps/client/src/pages/auth/register/page.tsx:231
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "<0>Ctrl</0>を長押しすると、一時的にパスワードが表示されます。"
@@ -748,30 +812,22 @@ msgstr "<0>Ctrl</0>を長押しすると、一時的にパスワードが表示�
 msgid "Horizontal"
 msgstr "水平方向"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:67
-msgid "Host your resume publicly"
-msgstr "あなたの履歴書を公開してください"
-
-#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "私はいつもReactive Resume のユーザーからフィードバックやサポートを受けて聞くのが大好きです。 私が受け取ったメッセージの一部をご紹介します。フィードバックがあれば、お気軽に<0>{email}</0>までメールをお送りください。"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "アイコン"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "このアプリがあなたの求人を助けてくれた場合は、<0>この連絡フォーム</0>を通じて連絡してください。"
+msgid "If Elevate has helped you with your job hunt, let us know by reaching out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "2段階認証を無効にすると、ログイン時に認証コードを入力する必要がなくなります。"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
-msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
-msgstr "多言語対応の方は、より多くの言語やコミュニティにアプリを導入するのに役立ちます。 リストにあなたの言語が表示されない場合は心配しないでください - GitHubで私に声をかけてください 必ず含めるようにします。 始める準備はできましたか？以下のリンクをクリックして、Crowdin で翻訳をご覧ください。"
+#: apps/client/src/pages/home/sections/support/index.tsx:22
+msgid "If you're multilingual, we'd love your help in bringing Elevate to more languages and communities. Don't worry if you don't see your language on the list - reach out at support@elevate.local, and we'll make sure to include it."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:309
 msgid "Import"
@@ -800,14 +856,22 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "このセクションでは、アカウントとユーザーに関連付けられているすべてのデータを削除できます。 しかし、このアクションは <0>不可逆</0>であることに留意してください。"
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:121
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:122
 msgid "Information"
 msgstr "情報"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
 msgstr "機関"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:28
+msgid "Institutional Credibility"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:34
+msgid "Interests"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -841,21 +905,6 @@ msgstr "入力された認証トークンが無効です。もう一度認証プ
 msgid "It looks like your email address has already been verified."
 msgstr "あなたのメールアドレスは既に確認されています。"
 
-#: apps/client/src/pages/auth/register/page.tsx:101
-msgctxt "Localized version of a placeholder name. For example, Max Mustermann in German or Jan Kowalski in Polish."
-msgid "John Doe"
-msgstr "ジョン・ドゥ"
-
-#: apps/client/src/pages/auth/register/page.tsx:123
-msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
-msgid "john.doe"
-msgstr "ジョン- ドゥ"
-
-#: apps/client/src/pages/auth/register/page.tsx:145
-msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
-msgid "john.doe@example.com"
-msgstr "john.doe@example.com"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
 msgid "JSON"
 msgstr "JSON"
@@ -876,7 +925,10 @@ msgstr "ラベル"
 msgid "Language"
 msgstr "言語"
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:83
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:28
+msgid "Languages"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:139
 msgid "Last updated {lastUpdated}"
 msgstr "最終更新 {lastUpdated}"
@@ -887,7 +939,7 @@ msgstr "最終更新 {lastUpdated}"
 msgid "Layout"
 msgstr "レイアウト"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:40
 msgid "Learn more"
 msgstr "もっと詳しく"
 
@@ -908,22 +960,24 @@ msgstr "<0>MIT</0>以下でライセンス"
 msgid "Light"
 msgstr "ライト"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:69
-msgid "Light or dark theme"
-msgstr "ライトまたはダークテーマ"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:165
 msgid "Line Height"
 msgstr "行の高さ"
+
+#: apps/client/src/pages/public/page.tsx:93
+#: apps/client/src/pages/public/page.tsx:103
+msgid "Link copied to clipboard"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:22
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "LinkedIn, JSON Resume etc."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:49
-msgid "List"
-msgstr "リスト"
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:69
+#: apps/client/src/pages/home/sections/hero/index.tsx:148
+msgid "Local"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
@@ -933,15 +987,15 @@ msgid "Location"
 msgstr "場所"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:51
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:115
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:188
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:115
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:166
 msgid "Lock"
 msgstr "ロック"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:64
-msgid "Lock a resume to prevent editing"
-msgstr "編集を防ぐために履歴書をロックする"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:87
+msgid "Locked"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:43
 msgid "Locking a resume will prevent any further changes to it. This is useful when you have already shared your resume with someone and you don't want to accidentally make any changes to it."
@@ -959,10 +1013,6 @@ msgstr "デバイスを紛失しましたか？"
 #: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:252
 msgid "Main"
 msgstr "メイン"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:59
-msgid "Manage multiple resumes"
-msgstr "複数の履歴書を管理"
 
 #. The month and year should be uniform across all languages.
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:71
@@ -986,15 +1036,10 @@ msgstr "マージン（マージン）"
 msgid "Max Tokens"
 msgstr "最大トークン"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:48
-msgid "MIT License"
-msgstr "MIT ライセンス"
-
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:205
 msgid "Model"
 msgstr "モデル"
 
-#: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:36
@@ -1002,7 +1047,7 @@ msgstr "モデル"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:70
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:92
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:153
 msgid "Name"
 msgstr "名前"
@@ -1012,6 +1057,10 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "名前"
 
+#: apps/client/src/pages/home/sections/features/index.tsx:18
+msgid "Narrative Control"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "ネットワーク"
@@ -1020,13 +1069,17 @@ msgstr "ネットワーク"
 msgid "New Password"
 msgstr "新しいパスワード"
 
+#: apps/client/src/pages/dashboard/resumes/page.tsx:58
+msgid "New Resume"
+msgstr ""
+
 #: apps/client/src/components/locale-combobox.tsx:45
 msgid "No results found"
 msgstr "結果が見つかりませんでした"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:49
-msgid "No user tracking or advertising"
-msgstr "ユーザー追跡または広告なし"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:49
+msgid "No resumes yet"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:133
 msgid "Note: This will make your account less secure."
@@ -1049,25 +1102,16 @@ msgstr "ワンタイムパスワード"
 msgid "Oops, the server returned an error."
 msgstr "サーバーがエラーを返しました。"
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:97
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:77
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:148
 msgid "Open"
 msgstr "開く"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:47
-msgid "Open Source"
-msgstr "オープンソース"
 
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
 #: apps/client/src/services/openai/improve-writing.ts:33
 msgid "OpenAI did not return any choices for your text."
 msgstr "OpenAIはテキストの選択肢を返しませんでした。"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:52
-msgid "OpenAI Integration"
-msgstr "OpenAI 統合"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:120
 msgid "OpenAI/Azure OpenAI/Ollama Integration"
@@ -1082,7 +1126,7 @@ msgstr "OpenAI/OllamaのAPIキー"
 msgid "Options"
 msgstr "オプション"
 
-#: apps/client/src/pages/auth/layout.tsx:47
+#: apps/client/src/pages/auth/layout.tsx:50
 msgctxt "The user can either login with email/password, or continue with GitHub or Google."
 msgid "or continue with"
 msgstr "または続けてください"
@@ -1090,6 +1134,10 @@ msgstr "または続けてください"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:39
 msgid "Organization"
 msgstr "組織"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:22
+msgid "Overview"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:25
@@ -1101,8 +1149,8 @@ msgstr "ページ"
 msgid "Page {pageNumber}"
 msgstr "ページ {pageNumber}"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:163
+#: apps/client/src/pages/auth/login/page.tsx:157
+#: apps/client/src/pages/auth/register/page.tsx:214
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
 msgid "Password"
@@ -1112,21 +1160,9 @@ msgstr "パスワード"
 msgid "PDF"
 msgstr "PDF"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:63
-msgid "Personal notes for each resume"
-msgstr "各履歴書の個人的なメモ"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:108
 msgid "Phone"
 msgstr "電話番号"
-
-#: apps/client/src/pages/auth/layout.tsx:76
-msgid "Photograph by Patrick Tomasso"
-msgstr "パトリック・トマッソ撮影"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:66
-msgid "Pick any font from Google Fonts"
-msgstr "Googleフォントから任意のフォントを選択"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:69
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:121
@@ -1158,21 +1194,34 @@ msgstr "位置"
 msgid "Position"
 msgstr "位置"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:96
-msgid "Powered by"
-msgstr "Powered by"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "Powered by <0>Simple Icons</0>"
+
+#: apps/client/src/pages/home/components/footer.tsx:42
+msgid "Pricing"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:43
 msgid "Primary Color"
 msgstr "プライマリ色"
 
-#: apps/client/src/pages/home/components/footer.tsx:47
+#: apps/client/src/pages/home/sections/features/index.tsx:33
+msgid "Privacy First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:50
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:50
+#: apps/client/src/pages/home/sections/hero/index.tsx:99
+msgid "Privacy-First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:34
+msgid "Product"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:113
 #: apps/client/src/components/ai-actions.tsx:116
@@ -1183,55 +1232,41 @@ msgstr "プロフェッショナル"
 msgid "Profile"
 msgstr "プロフィール"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:24
+msgid "Profiles"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:30
+msgid "Projects"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:55
 msgid "Public"
 msgstr "公開"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:31
+msgid "Publications"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:53
 msgid "Publisher"
 msgstr "発行者"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:73
 msgid "Raise an issue"
 msgstr "課題を上げる"
 
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:74
-#: apps/client/src/pages/public/page.tsx:95
-msgid "Reactive Resume"
-msgstr "リアクティブ再開"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Reactive Resume has helped people land jobs at these great companies:"
-msgstr "Reactive Resume は、これらの偉大な会社で人々の仕事の着陸を支援してきました。"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume はフリーでオープンソースのプロジェクトで、主に私によって作成されました。サポートに感謝いたします。 あなたが貢献したいと思っていて、あなたができる場合にのみ、上場プラットフォームのいずれかを介して寄付を行うことを検討してください。 また、Open Collectiveを通じてReactive Resumeへの寄付は免税となります。これは、Open Collective Europeが財政的に主催しているためです。"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "Reactive Resume - Reactive Resume は、3年以上の労力を要する情熱的なプロジェクトです。 そして、それによって(近く)完璧に作られたいくつかの再反復されたアイデアや機能が来る。"
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "Reactive Resume は、その活気に満ちたコミュニティのおかげで繁栄します. このプロジェクトは、時間とスキルを捧げた多くの個人にその進歩を負っています. 以下に示す。 GitHubの機能を強化したコーダーとCrowdinの翻訳者がより多くの視聴者にアクセスできるようにしたことを祝福します。"
+#: apps/client/src/pages/home/sections/cta/index.tsx:31
+msgid "Ready to elevate your career?"
+msgstr ""
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:89
 msgid "Redo"
 msgstr "Redo"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:35
+msgid "References"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:157
@@ -1243,7 +1278,7 @@ msgid "Remove Page"
 msgstr "ページを削除"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:111
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:101
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:159
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:86
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:152
 msgid "Rename"
@@ -1271,18 +1306,13 @@ msgid "Reset Zoom"
 msgstr "Reset Zoom"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/resumes/page.tsx:39
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
 msgid "Resumes"
 msgstr "再開する"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:14
+#: apps/client/src/pages/home/sections/statistics/index.tsx:16
 msgid "Resumes Generated"
 msgstr "生成された再開"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:105
-msgid "Rich in features, not in pricing."
-msgstr "豊富な機能、価格設定ではありません。"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
 msgid "Rounded"
@@ -1336,25 +1366,21 @@ msgstr "フォントバリアントを検索"
 msgid "Search for a language"
 msgstr "言語を検索"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:56
-msgid "Secure with two-factor authentication"
-msgstr "2要素認証で保護"
-
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:65
 msgid "Security"
 msgstr "セキュリティ"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:50
-msgid "Self-host with Docker"
-msgstr "Dockerを使ったセルフホスト"
+#: apps/client/src/pages/builder/_components/form-panel.tsx:44
+msgid "Select a section to edit"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:104
 msgid "Send Email"
 msgstr "メールを送信"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:79
-msgid "Send me a message"
-msgstr "メッセージを送る"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:78
+msgid "Send us a message"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:97
 msgid "Separate Links"
@@ -1370,6 +1396,19 @@ msgstr "設定"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:159
 msgid "Setup two-factor authentication on your account"
 msgstr "アカウントに2要素認証を設定する"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:19
+msgid "Shape your story, multiple versions"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:157
+msgid "Share"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:94
+#: apps/client/src/pages/public/page.tsx:104
+msgid "Share this link with anyone to view your resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:38
@@ -1394,47 +1433,48 @@ msgid "Sidebar"
 msgstr "Sidebar"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:209
+#: apps/client/src/pages/auth/register/page.tsx:278
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
+#: apps/client/src/pages/home/components/header.tsx:48
 msgid "Sign in"
 msgstr "ログイン"
 
-#: apps/client/src/pages/auth/register/page.tsx:74
-msgid "Sign in now"
-msgstr "今すぐサインイン"
+#: apps/client/src/pages/auth/login/page.tsx:95
+msgid "Sign in to Elevate"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:73
 msgid "Sign in to your account"
 msgstr "アカウントにサインインする"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:55
-msgid "Sign in with Email"
-msgstr "メールアドレスでサインイン"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:53
-msgid "Sign in with GitHub"
-msgstr "GitHub でサインイン"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:54
-msgid "Sign in with Google"
-msgstr "Googleアカウントでログイン"
-
-#: apps/client/src/pages/auth/register/page.tsx:179
+#: apps/client/src/pages/auth/login/page.tsx:232
 msgid "Sign up"
 msgstr "新規登録"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/home/sections/features/index.tsx:23
+msgid "Signal Strength"
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:111
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "Eメールでのサインインは現在、管理者によって無効化されています。"
 
-#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/login/page.tsx:206
+msgid "Signing in..."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:120
 msgid "Signups are currently disabled by the administrator."
 msgstr "サインアップは管理者によって現在無効になっています。"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:65
 msgid "Size (in px)"
 msgstr "サイズ (px)"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:27
+msgid "Skills"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:228
 msgid "Slug"
@@ -1457,6 +1497,10 @@ msgstr "リクエストの処理中に問題が発生しました。後でもう
 msgid "Square"
 msgstr "正方形（正方形）"
 
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:33
+msgid "Start building"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:23
 msgid "Start building from scratch"
@@ -1465,6 +1509,14 @@ msgstr "最初からビルドを開始"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Start building your resume by giving it a name."
 msgstr "履歴書の作成を開始するには名前を付けてください。"
+
+#: apps/client/src/pages/home/sections/cta/index.tsx:34
+msgid "Start building your resume today. No credit card required."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:107
+msgid "Start building your story today."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:22
@@ -1480,6 +1532,7 @@ msgstr "統計は公開履歴書に対してのみ利用可能です。"
 msgid "Store your backup codes securely"
 msgstr "バックアップコードを安全に保管してください"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:23
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
@@ -1492,17 +1545,17 @@ msgstr "バックアップコードを安全に保管してください"
 msgid "Summary"
 msgstr "Summary"
 
+#: apps/client/src/pages/home/sections/support/index.tsx:17
+msgid "Support options coming soon. For now, reach out at support@elevate.local"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:23
 msgid "Support the app by donating what you can!"
 msgstr "できることを寄付してアプリをサポートしましょう！"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:9
-msgid "Supporting Reactive Resume"
-msgstr "リアクティブレジュームをサポート"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:65
-msgid "Supports A4/Letter page formats"
-msgstr "A4/レターページ形式に対応"
+msgid "Supporting Elevate"
+msgstr ""
 
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
@@ -1522,9 +1575,14 @@ msgstr "システム"
 msgid "Template"
 msgstr "テンプレート"
 
+#: apps/client/src/pages/home/components/footer.tsx:39
 #: apps/client/src/pages/home/sections/templates/index.tsx:9
 msgid "Templates"
 msgstr "テンプレート"
+
+#: apps/client/src/pages/home/components/footer.tsx:53
+msgid "Terms of Service"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:68
 msgid "Testimonials"
@@ -1569,7 +1627,7 @@ msgstr "この操作は元に戻せません。履歴書は永久に削除され
 msgid "This email address is associated with an OAuth account. Please sign in with your OAuth provider."
 msgstr "このメールアドレスは OAuth アカウントに関連付けられています。OAuth プロバイダーでサインインしてください。"
 
-#: apps/client/src/pages/builder/_components/header.tsx:57
+#: apps/client/src/pages/builder/_components/header.tsx:64
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "この履歴書はロックされています。更に変更を加えるにはロックを解除してください。"
 
@@ -1597,10 +1655,6 @@ msgstr "改ページ線の切り替え"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:150
 msgid "Toggle Page Numbers"
 msgstr "ページ番号の切り替え"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:68
-msgid "Track views and downloads"
-msgstr "ビューとダウンロードを追跡する"
 
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/auth/verify-otp/page.tsx:57
@@ -1640,7 +1694,7 @@ msgid "Undo"
 msgstr "元に戻す"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:52
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:110
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:178
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:161
 msgid "Unlock"
@@ -1649,6 +1703,10 @@ msgstr "ロック解除"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:44
 msgid "Unlocking a resume will allow you to make changes to it again."
 msgstr "履歴書のロックを解除すると、再び変更することができます。"
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:95
+msgid "Untitled Resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:192
 msgid "Unverified"
@@ -1662,9 +1720,13 @@ msgstr "既存のアイテムを更新"
 msgid "Update an existing resume"
 msgstr "既存の履歴書を更新"
 
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:100
+msgid "Updated {lastUpdated}"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:212
-msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
-msgstr "承認されたソースのいずれかからファイルをアップロードして、既存のデータをパースし、Reactive Resume にインポートして編集を容易にします。"
+msgid "Upload a file from one of the accepted sources to parse existing data and import it into Elevate for easier editing."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:73
 msgid "URL"
@@ -1691,13 +1753,13 @@ msgstr "バックアップコードを使用する"
 msgid "User does not have an associated 'secrets' record. Please report this issue on GitHub."
 msgstr "ユーザーには関連する「秘密」レコードがありません。GitHubでこの問題を報告してください。"
 
-#: apps/client/src/pages/auth/register/page.tsx:119
+#: apps/client/src/pages/auth/register/page.tsx:162
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:167
 msgid "Username"
 msgstr "ユーザー名"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:13
+#: apps/client/src/pages/home/sections/statistics/index.tsx:15
 msgid "Users Signed Up"
 msgstr "サインアップしたユーザー"
 
@@ -1709,7 +1771,7 @@ msgstr "Validate"
 msgid "Validated"
 msgstr "検証済み"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:97
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:101
 msgid "Value"
 msgstr "値"
 
@@ -1726,9 +1788,13 @@ msgstr "2段階認証が正しく設定されていることを確認してく�
 msgid "Verify your email address"
 msgstr "メールアドレスを確認してください"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "バージョン4"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:122
+msgid "View"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:116
+msgid "View {title} resume created with Elevate"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1738,9 +1804,17 @@ msgstr "ビュー"
 msgid "Visible"
 msgstr "表示"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:74
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
 msgstr "利用可能なアイコンのリストについては、<0>Phosphor Iconsを</0>ご覧ください。"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:32
+msgid "Volunteer"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
+msgid "We always love to hear from Elevate users with feedback or support. Here are some of the messages we've received. If you have any feedback, feel free to reach out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1760,9 +1834,13 @@ msgstr "パスワードを忘れた場合に備えて、パスワードリセッ
 msgid "Website"
 msgstr "Webサイト"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "最新バージョンの新機能"
+#: apps/client/src/pages/home/sections/hero/index.tsx:110
+msgid "Works Offline"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:29
+msgid "Works with governments and think tanks"
+msgstr ""
 
 #: apps/client/src/pages/public/error.tsx:26
 msgid "You are not authorized to access this page."
@@ -1775,7 +1853,7 @@ msgstr "このページのアクセスは許可されていません。"
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "複数のキーワードを追加するには、カンマで区切るか、Enterキーを押します。"
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:144
 msgid "You can also enter your username."
 msgstr "ユーザー名を入力することもできます。"
 
@@ -1795,17 +1873,21 @@ msgstr "OpenAI API、Azure OpenAI、Ollama を活用して、コンテンツの�
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
 msgstr "公開共有を有効にすることで、履歴書が受信した閲覧数や履歴書をダウンロードした人数を追跡できます。"
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:122
+msgid "You control your data"
+msgstr ""
+
 #: apps/client/src/pages/public/error.tsx:20
 msgid "You don't have permission to access this page."
 msgstr "このページにアクセスする権限はありません。"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
-msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
-msgstr "<0>あなた自身のOpenAI APIキー</0>を取得するオプションがあります。このキーは、あなたが適切にAPIを活用することを可能にします。 Reactive Resume で AI 機能を完全に無効にしたい場合は、設定からキーを削除することもできます。"
+msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Elevate altogether, you can simply remove the key from your settings."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:50
-msgid "You should have received an email from <0>Reactive Resume</0> with a link to verify your account."
-msgstr "あなたのアカウントを確認するためのリンクが記載された <0>リアクティブ再開</0>からメールを受け取っているはずです。"
+msgid "You should have received an email from <0>Elevate</0> with a link to verify your account."
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/forgot-password/page.tsx:54
@@ -1820,6 +1902,22 @@ msgstr "アカウントとすべてのデータが正常に削除されました
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "API キーはブラウザーのローカルストレージに安全に保存され、公式の SDK 経由で OpenAI へのリクエストを行う場合にのみ使用されます。 OpenAIのサービスと相互作用する場合を除き、キーが外部サーバーに送信されることはありませんのでご安心ください。"
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:67
+msgid "Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:54
+msgid "Your Data"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:100
+msgid "Your data stays local"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:34
+msgid "Your data, your device, your rules"
+msgstr ""
+
 #: apps/client/src/pages/auth/verify-email/page.tsx:28
 msgid "Your email address has been verified successfully."
 msgstr "メールアドレスの確認が完了しました。"
@@ -1832,6 +1930,27 @@ msgstr "OpenAI API キーがまだ設定されていません。OpenAI 統合を
 msgid "Your password has been updated successfully."
 msgstr "パスワードが正常に更新されました。"
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:65
+msgid "Your resume."
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:98
+#: apps/client/src/pages/home/page.tsx:25
+msgid "Your resume. Your story. Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:27
+msgid "Your resume. Your story. Your control. A privacy-first resume builder that puts you in control of your data and narrative."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+msgid "Your Resumes"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:66
+msgid "Your story."
+msgstr ""
+
 #: apps/client/src/pages/builder/_components/toolbar.tsx:112
 msgid "Zoom In"
 msgstr "拡大"
@@ -1839,4 +1958,3 @@ msgstr "拡大"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "ズームアウト"
-

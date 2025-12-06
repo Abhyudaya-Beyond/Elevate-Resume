@@ -1,7 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { XIcon } from "@phosphor-icons/react";
-import { defaultProject, projectSchema } from "@reactive-resume/schema";
+import { defaultProject, projectSchema } from "@elevate/schema";
 import {
   Badge,
   BadgeInput,
@@ -13,7 +13,7 @@ import {
   FormMessage,
   Input,
   RichInput,
-} from "@reactive-resume/ui";
+} from "@elevate/ui";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -114,7 +114,7 @@ export const ProjectsDialog = () => {
             <FormItem>
               <FormLabel>{t`Website`}</FormLabel>
               <FormControl>
-                <URLInput {...field} placeholder="https://rxresu.me" />
+                <URLInput {...field} placeholder="https://elevate.local" />
               </FormControl>
               <FormMessage />
             </FormItem>

@@ -1,5 +1,5 @@
 import { t } from "@lingui/macro";
-import { Button } from "@reactive-resume/ui";
+import { Button } from "@elevate/ui";
 import { Link, useRouteError } from "react-router";
 
 import { LocaleProvider } from "@/client/providers/locale";

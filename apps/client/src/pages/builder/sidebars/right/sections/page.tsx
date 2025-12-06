@@ -8,7 +8,7 @@ import {
   SelectValue,
   Slider,
   Switch,
-} from "@reactive-resume/ui";
+} from "@elevate/ui";
 
 import { useResumeStore } from "@/client/stores/resume";
 

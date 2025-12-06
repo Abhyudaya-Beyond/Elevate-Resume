@@ -1,15 +1,15 @@
 version: "3.8"
 
-# In this Docker Compose example, we use Docker Swarm to deploy Reactive Resume on multiple servers, with Traefik as the load balancer.
+# In this Docker Compose example, we use Docker Swarm to deploy Elevate on multiple servers, with Traefik as the load balancer.
 # Ensure that the overlay network is created before deploying this stack. You can do so by running the following command:
-# docker network create --driver=overlay --attachable reactive_resume_network
+# docker network create --driver=overlay --attachable elevate_network
 
 services:
   # Database (Postgres)
   postgres:
     image: postgres:16-alpine
     networks:
-      - reactive_resume_network
+      - elevate_network
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
@@ -31,7 +31,7 @@ services:
     image: minio/minio:latest
     command: server /data
     networks:
-      - reactive_resume_network
+      - elevate_network
     volumes:
       - minio_data:/data
     environment:
@@ -52,7 +52,7 @@ services:
   chrome:
     image: ghcr.io/browserless/chromium:latest
     networks:
-      - reactive_resume_network
+      - elevate_network
     environment:
       HEALTH: "true"
       TOKEN: chrome_token
@@ -71,9 +71,9 @@ services:
         - traefik.http.services.printer.loadbalancer.server.port=3000
 
   app:
-    image: amruthpillai/reactive-resume:latest
+    image: elevate/elevate:latest
     networks:
-      - reactive_resume_network
+      - elevate_network
     environment:
       # -- Environment Variables --
       PORT: 3000
@@ -154,7 +154,7 @@ services:
       - --providers.docker=true
       - --providers.docker.swarmMode=true
       - --providers.docker.exposedbydefault=false
-      - --providers.docker.network=reactive_resume_network
+      - --providers.docker.network=elevate_network
       - --entrypoints.web.address=:80
       - --entrypoints.websecure.address=:443
       - --certificatesresolvers.letsencrypt.acme.tlschallenge=true
@@ -172,7 +172,7 @@ services:
       - "443:443"
       - "8080:8080"
     networks:
-      - reactive_resume_network
+      - elevate_network
     volumes:
       - letsencrypt_data:/letsencrypt
       - /var/run/docker.sock:/var/run/docker.sock
@@ -186,5 +186,5 @@ volumes:
   letsencrypt_data:
 
 networks:
-  reactive_resume_network:
+  elevate_network:
     external: true

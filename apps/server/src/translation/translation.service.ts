@@ -1,7 +1,7 @@
 import { HttpService } from "@nestjs/axios";
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { Language, languages } from "@reactive-resume/utils";
+import { Language, languages } from "@elevate/utils";
 
 import { Config } from "../config/schema";
 

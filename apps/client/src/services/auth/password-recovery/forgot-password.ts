@@ -1,4 +1,4 @@
-import type { ForgotPasswordDto } from "@reactive-resume/dto";
+import type { ForgotPasswordDto } from "@elevate/dto";
 import { useMutation } from "@tanstack/react-query";
 import type { AxiosResponse } from "axios";
 

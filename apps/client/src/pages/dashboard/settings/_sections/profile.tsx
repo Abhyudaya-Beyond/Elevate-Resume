@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t, Trans } from "@lingui/macro";
-import { useTheme } from "@reactive-resume/hooks";
+import { useTheme } from "@elevate/hooks";
 import {
   Button,
   Combobox,
@@ -9,8 +9,8 @@ import {
   FormField,
   FormItem,
   FormLabel,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -109,7 +109,7 @@ export const ProfileSettings = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        href="https://translate.rxresu.me/"
+                        href="https://translate.elevate.local/"
                         className="font-medium underline underline-offset-2"
                       >
                         Help translate the app.

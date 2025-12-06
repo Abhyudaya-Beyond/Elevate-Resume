@@ -1,5 +1,6 @@
 import { t } from "@lingui/macro";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@elevate/utils";
+import { motion } from "framer-motion";
 import { useMemo } from "react";
 import { Link, matchRoutes, Outlet, useLocation } from "react-router";
 
@@ -23,57 +24,47 @@ export const AuthLayout = () => {
   const hideDivider = !providers.includes("email") || providers.length === 1;
 
   return (
-    <div className="flex h-screen w-screen">
-      <div className="relative flex w-full flex-col justify-center gap-y-8 px-12 sm:mx-auto sm:basis-[420px] sm:px-0 lg:basis-[480px] lg:px-12">
-        <div className="flex items-center justify-between">
-          <Link to="/" className="size-24">
-            <Logo className="-ml-3" size={96} />
-          </Link>
-
-          <div className="right-0 space-x-2 text-right lg:absolute lg:p-12 lg:text-center">
-            <LocaleSwitch />
-            <ThemeSwitch />
-          </div>
+    <div className="flex h-screen w-screen bg-background">
+      {/* Left Panel - Form Content (Cream Background) */}
+      <div className="relative flex w-full flex-col justify-center gap-y-8 px-gutter-sm sm:px-gutter lg:px-gutter-lg">
+        {/* Top Navigation - Locale & Theme Switches */}
+        <div className="absolute top-gutter right-gutter flex items-center gap-x-2 z-10">
+          <LocaleSwitch />
+          <ThemeSwitch />
         </div>
 
-        <Outlet />
+        {/* Centered Content */}
+        <div className="w-full max-w-[400px] mx-auto">
+          <Outlet />
 
-        {isAuthRoute && (
-          <>
-            <div className={cn("flex items-center gap-x-4", hideDivider && "hidden")}>
-              <hr className="flex-1" />
-              <span className="text-xs font-medium">
-                {t({
-                  message: "or continue with",
-                  context:
-                    "The user can either login with email/password, or continue with GitHub or Google.",
-                })}
-              </span>
-              <hr className="flex-1" />
-            </div>
+          {isAuthRoute && (
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.4, duration: 0.2 }}
+                className={cn("flex items-center gap-x-4 my-gutter", hideDivider && "hidden")}
+              >
+                <hr className="flex-1 border-border" />
+                <span className="text-xs font-medium text-foreground/60">
+                  {t({
+                    message: "or continue with",
+                    context:
+                      "The user can either login with email/password, or continue with GitHub or Google.",
+                  })}
+                </span>
+                <hr className="flex-1 border-border" />
+              </motion.div>
 
-            <SocialAuth />
-          </>
-        )}
-      </div>
-
-      <div className="relative hidden lg:block lg:flex-1">
-        <img
-          width={1920}
-          height={1080}
-          alt="Open books on a table"
-          className="h-screen w-full object-cover object-center"
-          src="/backgrounds/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
-        />
-
-        <div className="absolute bottom-5 right-5 z-10 bg-primary/30 px-4 py-2 text-xs font-medium text-primary-foreground backdrop-blur-sm">
-          <a
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            href="https://unsplash.com/photos/Oaqk7qqNh_c"
-          >
-            {t`Photograph by Patrick Tomasso`}
-          </a>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.45, duration: 0.2 }}
+              >
+                <SocialAuth />
+              </motion.div>
+            </>
+          )}
         </div>
       </div>
     </div>

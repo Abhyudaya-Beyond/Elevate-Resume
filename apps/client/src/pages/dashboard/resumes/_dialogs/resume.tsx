@@ -1,9 +1,9 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { CaretDownIcon, FlaskIcon, MagicWandIcon, PlusIcon } from "@phosphor-icons/react";
-import type { ResumeDto } from "@reactive-resume/dto";
-import { createResumeSchema } from "@reactive-resume/dto";
-import { idSchema, sampleResume } from "@reactive-resume/schema";
+import type { ResumeDto } from "@elevate/dto";
+import { createResumeSchema } from "@elevate/dto";
+import { idSchema, sampleResume } from "@elevate/schema";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -33,11 +33,12 @@ import {
   FormMessage,
   Input,
   Tooltip,
-} from "@reactive-resume/ui";
-import { cn, generateRandomName } from "@reactive-resume/utils";
+} from "@elevate/ui";
+import { cn, generateRandomName } from "@elevate/utils";
 import slugify from "@sindresorhus/slugify";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router";
 import { z } from "zod";
 
 import { useCreateResume, useDeleteResume, useUpdateResume } from "@/client/services/resume";
@@ -50,6 +51,7 @@ type FormValues = z.infer<typeof formSchema>;
 
 export const ResumeDialog = () => {
   const { isOpen, mode, payload, close } = useDialog<ResumeDto>("resume");
+  const navigate = useNavigate();
 
   const isCreate = mode === "create";
   const isUpdate = mode === "update";
@@ -79,7 +81,13 @@ export const ResumeDialog = () => {
 
   const onSubmit = async (values: FormValues) => {
     if (isCreate) {
-      await createResume({ slug: values.slug, title: values.title, visibility: "private" });
+      const newResume = await createResume({ slug: values.slug, title: values.title, visibility: "private" });
+      close();
+      // Navigate to builder after creating resume
+      if (newResume?.id) {
+        navigate(`/builder/${newResume.id}`);
+      }
+      return;
     }
 
     if (isUpdate) {
@@ -95,11 +103,17 @@ export const ResumeDialog = () => {
     if (isDuplicate) {
       if (!payload.item?.id) return;
 
-      await duplicateResume({
+      const duplicatedResume = await duplicateResume({
         title: values.title,
         slug: values.slug,
         data: payload.item.data,
       });
+      close();
+      // Navigate to builder after duplicating resume
+      if (duplicatedResume?.id) {
+        navigate(`/builder/${duplicatedResume.id}`);
+      }
+      return;
     }
 
     if (isDelete) {
@@ -130,13 +144,17 @@ export const ResumeDialog = () => {
   const onCreateSample = async () => {
     const randomName = generateRandomName();
 
-    await duplicateResume({
+    const sampleResumeData = await duplicateResume({
       title: randomName,
       slug: slugify(randomName),
       data: sampleResume,
     });
 
     close();
+    // Navigate to builder after creating sample resume
+    if (sampleResumeData?.id) {
+      navigate(`/builder/${sampleResumeData.id}`);
+    }
   };
 
   if (isDelete) {

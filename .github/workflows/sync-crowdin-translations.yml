@@ -7,14 +7,28 @@ on:
 
 jobs:
   sync:
-    if: github.repository == 'AmruthPillai/Reactive-Resume'
+    # Only run on the main repository, not on forks
+    if: github.repository == 'Abhyudaya-Beyond/Elevate-Resume'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4.1.1
 
+      - name: Check for Crowdin secrets
+        id: check_secrets
+        run: |
+          if [ -z "${{ secrets.CROWDIN_PROJECT_ID }}" ] || [ -z "${{ secrets.CROWDIN_PERSONAL_TOKEN }}" ]; then
+            echo "secrets_configured=false" >> "$GITHUB_OUTPUT"
+            echo "⚠️ Crowdin secrets not configured. Skipping translation sync."
+          else
+            echo "secrets_configured=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Crowdin secrets found. Proceeding with translation sync."
+          fi
+
       - name: Sync Translations
+        if: steps.check_secrets.outputs.secrets_configured == 'true'
+        continue-on-error: true
         uses: crowdin/github-action@v1.15.2
         with:
           upload_sources: true

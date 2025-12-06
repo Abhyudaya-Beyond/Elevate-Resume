@@ -1,4 +1,4 @@
-import type { ResumeDto } from "@reactive-resume/dto";
+import type { ResumeDto } from "@elevate/dto";
 
 import { axios } from "@/client/libs/axios";
 

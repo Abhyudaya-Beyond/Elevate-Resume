@@ -2,6 +2,9 @@ ARG NX_CLOUD_ACCESS_TOKEN
 
 # --- Base Image ---
 FROM node:lts-bullseye-slim AS base
+LABEL maintainer="Elevate Team"
+LABEL description="Elevate - Your resume. Your story. Your control."
+LABEL version="1.0.0"
 ARG NX_CLOUD_ACCESS_TOKEN
 
 ENV PNPM_HOME="/pnpm"

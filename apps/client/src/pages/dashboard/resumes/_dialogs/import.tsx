@@ -1,14 +1,14 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { CheckIcon, DownloadSimpleIcon } from "@phosphor-icons/react";
-import type { JsonResume, LinkedIn, ReactiveResumeV3 } from "@reactive-resume/parser";
+import type { JsonResume, LinkedIn, ElevateV3 } from "@elevate/parser";
 import {
   JsonResumeParser,
   LinkedInParser,
-  ReactiveResumeParser,
-  ReactiveResumeV3Parser,
-} from "@reactive-resume/parser";
-import type { ResumeData } from "@reactive-resume/schema";
+  ElevateParser,
+  ElevateV3Parser,
+} from "@elevate/parser";
+import type { ResumeData } from "@elevate/schema";
 import {
   Button,
   Dialog,
@@ -32,7 +32,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@reactive-resume/ui";
+} from "@elevate/ui";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
@@ -43,8 +43,8 @@ import { useImportResume } from "@/client/services/resume/import";
 import { useDialog } from "@/client/stores/dialog";
 
 enum ImportType {
-  "reactive-resume-json" = "reactive-resume-json",
-  "reactive-resume-v3-json" = "reactive-resume-v3-json",
+  "elevate-json" = "elevate-json",
+  "elevate-v3-json" = "elevate-v3-json",
   "json-resume-json" = "json-resume-json",
   "linkedin-data-export-zip" = "linkedin-data-export-zip",
 }
@@ -64,7 +64,7 @@ type ValidationResult =
   | {
       isValid: true;
       type: ImportType;
-      result: ResumeData | ReactiveResumeV3 | LinkedIn | JsonResume;
+      result: ResumeData | ElevateV3 | LinkedIn | JsonResume;
     };
 
 export const ImportDialog = () => {
@@ -76,7 +76,7 @@ export const ImportDialog = () => {
 
   const form = useForm<FormValues>({
     defaultValues: {
-      type: ImportType["reactive-resume-json"],
+      type: ImportType["elevate-json"],
     },
     resolver: zodResolver(formSchema),
   });
@@ -101,16 +101,16 @@ export const ImportDialog = () => {
     try {
       const { file, type } = formSchema.parse(form.getValues());
 
-      if (type === ImportType["reactive-resume-json"]) {
-        const parser = new ReactiveResumeParser();
+      if (type === ImportType["elevate-json"]) {
+        const parser = new ElevateParser();
         const data = await parser.readFile(file);
         const result = parser.validate(data);
 
         setValidationResult({ isValid: true, type, result });
       }
 
-      if (type === ImportType["reactive-resume-v3-json"]) {
-        const parser = new ReactiveResumeV3Parser();
+      if (type === ImportType["elevate-v3-json"]) {
+        const parser = new ElevateV3Parser();
         const data = await parser.readFile(file);
         const result = parser.validate(data);
 
@@ -153,16 +153,16 @@ export const ImportDialog = () => {
     if (!validationResult?.isValid || validationResult.type !== type) return;
 
     try {
-      if (type === ImportType["reactive-resume-json"]) {
-        const parser = new ReactiveResumeParser();
+      if (type === ImportType["elevate-json"]) {
+        const parser = new ElevateParser();
         const data = parser.convert(validationResult.result as ResumeData);
 
         await importResume({ data });
       }
 
-      if (type === ImportType["reactive-resume-v3-json"]) {
-        const parser = new ReactiveResumeV3Parser();
-        const data = parser.convert(validationResult.result as ReactiveResumeV3);
+      if (type === ImportType["elevate-v3-json"]) {
+        const parser = new ElevateV3Parser();
+        const data = parser.convert(validationResult.result as ElevateV3);
 
         await importResume({ data });
       }
@@ -209,7 +209,7 @@ export const ImportDialog = () => {
                 </div>
               </DialogTitle>
               <DialogDescription>
-                {t`Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing.`}
+                {t`Upload a file from one of the accepted sources to parse existing data and import it into Elevate for easier editing.`}
               </DialogDescription>
             </DialogHeader>
 
@@ -226,12 +226,12 @@ export const ImportDialog = () => {
                       </SelectTrigger>
                       <SelectContent>
                         {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-                        <SelectItem value="reactive-resume-json">
-                          Reactive Resume (.json)
+                        <SelectItem value="elevate-json">
+                          Elevate Format (.json)
                         </SelectItem>
                         {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
-                        <SelectItem value="reactive-resume-v3-json">
-                          Reactive Resume v3 (.json)
+                        <SelectItem value="elevate-v3-json">
+                          Elevate v3 Format (.json)
                         </SelectItem>
                         {/* eslint-disable-next-line lingui/no-unlocalized-strings */}
                         <SelectItem value="json-resume-json">JSON Resume (.json)</SelectItem>

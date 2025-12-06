@@ -1,4 +1,4 @@
-import { isLocalFont } from "@reactive-resume/utils";
+import { isLocalFont } from "@elevate/utils";
 import { useEffect, useMemo } from "react";
 import { Helmet } from "react-helmet-async";
 import { Outlet } from "react-router";
@@ -73,7 +73,7 @@ export const ArtboardPage = () => {
   return (
     <>
       <Helmet>
-        <title>{name} | Reactive Resume</title>
+        <title>{name} | Elevate</title>
         {metadata.css.visible && (
           <style id="custom-css" lang="css">
             {metadata.css.value}

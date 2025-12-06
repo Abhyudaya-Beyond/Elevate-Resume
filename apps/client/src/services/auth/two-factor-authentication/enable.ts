@@ -1,4 +1,4 @@
-import type { BackupCodesDto, TwoFactorDto } from "@reactive-resume/dto";
+import type { BackupCodesDto, TwoFactorDto } from "@elevate/dto";
 import { useMutation } from "@tanstack/react-query";
 import type { AxiosResponse } from "axios";
 

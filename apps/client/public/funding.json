@@ -2,29 +2,29 @@
   "$schema": "https://fundingjson.org/schema/v1.0.0/funding.schema.json",
   "version": "v1.0.0",
   "entity": {
-    "type": "individual",
+    "type": "organization",
     "role": "maintainer",
-    "name": "Amruth Pillai",
-    "email": "im.amruth@gmail.com",
-    "description": "Software Engineer",
+    "name": "Elevate Team",
+    "email": "support@elevate.local",
+    "description": "Privacy-first resume builder",
     "webpageUrl": {
-      "url": "https://rxresu.me/funding.json"
+      "url": "https://elevate.local/funding.json"
     }
   },
   "projects": [
     {
-      "guid": "reactive-resume",
-      "name": "Reactive Resume",
-      "description": "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
+      "guid": "elevate",
+      "name": "Elevate",
+      "description": "Your resume. Your story. Your control. A privacy-first resume builder that puts you in control of your data and narrative.",
       "webpageUrl": {
-        "url": "https://rxresu.me"
+        "url": "https://elevate.local"
       },
       "repositoryUrl": {
-        "url": "https://github.com/AmruthPillai/Reactive-Resume",
-        "wellKnown": "https://github.com/AmruthPillai/Reactive-Resume/blob/main/.github/.well-known/funding-manifest-urls"
+        "url": "https://github.com/your-org/elevate",
+        "wellKnown": "https://github.com/your-org/elevate/blob/main/.github/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:MIT"],
-      "tags": ["data", "design", "productivity", "resume-builder"]
+      "tags": ["data", "design", "productivity", "resume-builder", "privacy"]
     }
   ],
   "funding": {
@@ -55,13 +55,13 @@
         "guid": "github",
         "type": "payment-provider",
         "description": "GitHub Sponsors",
-        "address": "https://github.com/sponsors/AmruthPillai"
+        "address": "https://github.com/sponsors/your-org"
       },
       {
         "guid": "open-collective",
         "type": "payment-provider",
         "description": "Open Collective",
-        "address": "https://opencollective.com/reactive-resume"
+        "address": "https://opencollective.com/elevate"
       }
     ]
   }

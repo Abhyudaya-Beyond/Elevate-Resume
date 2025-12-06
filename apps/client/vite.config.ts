@@ -31,11 +31,16 @@ export default defineConfig({
   },
 
   optimizeDeps: {
+    exclude: ["sanitize-html"], // Exclude from client bundle
     esbuildOptions: {
       loader: {
         ".po": "text",
       },
     },
+  },
+  
+  ssr: {
+    noExternal: ["sanitize-html"], // Keep in SSR if needed
   },
 
   plugins: [
@@ -57,6 +62,15 @@ export default defineConfig({
   resolve: {
     alias: {
       "@/client/": `${searchForWorkspaceRoot(process.cwd())}/apps/client/src/`,
+      // Replace sanitize-html with browser-compatible stub
+      "sanitize-html": `${searchForWorkspaceRoot(process.cwd())}/apps/client/src/utils/sanitize-stub.ts`,
+      // Elevate package aliases
+      "@elevate/dto": `${searchForWorkspaceRoot(process.cwd())}/libs/dto/src/index.ts`,
+      "@elevate/hooks": `${searchForWorkspaceRoot(process.cwd())}/libs/hooks/src/index.ts`,
+      "@elevate/parser": `${searchForWorkspaceRoot(process.cwd())}/libs/parser/src/index.ts`,
+      "@elevate/schema": `${searchForWorkspaceRoot(process.cwd())}/libs/schema/src/index.ts`,
+      "@elevate/ui": `${searchForWorkspaceRoot(process.cwd())}/libs/ui/src/index.ts`,
+      "@elevate/utils": `${searchForWorkspaceRoot(process.cwd())}/libs/utils/src/index.ts`,
     },
   },
 });

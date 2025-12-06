@@ -11,8 +11,8 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'c6da80c0-7d65-4b93-9203-3b91c4f6b5dc'
-  imageRepository: 'reactiveresume'
-  containerRegistry: 'reactiveresume.azurecr.io'
+  imageRepository: 'elevate'
+  containerRegistry: 'elevate.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 

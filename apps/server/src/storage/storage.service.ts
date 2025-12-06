@@ -47,9 +47,7 @@ export class StorageService implements OnModuleInit {
   ) {}
 
   async onModuleInit() {
-    this.client = this.minioService.client;
     this.bucketName = this.configService.getOrThrow<string>("STORAGE_BUCKET");
-
     const skipBucketCheck = this.configService.getOrThrow<boolean>("STORAGE_SKIP_BUCKET_CHECK");
 
     if (skipBucketCheck) {
@@ -57,11 +55,20 @@ export class StorageService implements OnModuleInit {
       this.logger.warn(
         "Make sure that the following paths are publicly accessible: `/{pictures,previews,resumes}/*`",
       );
-
+      this.logger.warn("Storage operations will fail if Minio is not running.");
+      // Initialize client lazily when needed
+      try {
+        this.client = this.minioService.client;
+      } catch (error) {
+        this.logger.warn(
+          "Minio client not available. Storage operations will fail until Minio is running.",
+        );
+      }
       return;
     }
 
     try {
+      this.client = this.minioService.client;
       // Create a storage bucket if it doesn't exist
       // if it exists, log that we were able to connect to the storage service
       const bucketExists = await this.client.bucketExists(this.bucketName);
@@ -95,7 +102,18 @@ export class StorageService implements OnModuleInit {
         );
       }
     } catch (error) {
-      throw new InternalServerErrorException(error);
+      const errorMessage =
+        error instanceof Error
+          ? error.message
+          : typeof error === "string"
+            ? error
+            : JSON.stringify(error);
+      this.logger.error(
+        `Failed to initialize storage service: ${errorMessage || "Unknown error"}. Make sure Minio is running or set STORAGE_SKIP_BUCKET_CHECK=true`,
+      );
+      throw new InternalServerErrorException(
+        `Storage service initialization failed: ${errorMessage || "Unknown error"}. Set STORAGE_SKIP_BUCKET_CHECK=true to skip this check.`,
+      );
     }
   }
 

@@ -1,6 +1,6 @@
 import type { ExecutionContext } from "@nestjs/common";
 import { createParamDecorator } from "@nestjs/common";
-import type { ResumeDto } from "@reactive-resume/dto";
+import type { ResumeDto } from "@elevate/dto";
 
 export const Resume = createParamDecorator(
   (data: keyof ResumeDto | undefined, ctx: ExecutionContext) => {

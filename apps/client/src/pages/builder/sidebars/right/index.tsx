@@ -1,6 +1,6 @@
 import { t } from "@lingui/macro";
-import { ScrollArea, Separator } from "@reactive-resume/ui";
-import { useRef } from "react";
+import { ScrollArea, Separator } from "@elevate/ui";
+import { useEffect, useRef } from "react";
 
 import { Copyright } from "@/client/components/copyright";
 import { ThemeSwitch } from "@/client/components/theme-switch";
@@ -23,12 +23,14 @@ export const RightSidebar = () => {
 
   const scrollIntoView = (selector: string) => {
     const section = containterRef.current?.querySelector(selector);
-    section?.scrollIntoView({ behavior: "smooth" });
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
 
   return (
-    <div className="flex bg-secondary-accent/30">
-      <ScrollArea orientation="vertical" className="h-screen flex-1 pb-16 lg:pb-0">
+    <div className="flex h-full w-full bg-secondary-accent/30">
+      <ScrollArea orientation="vertical" className="h-full flex-1">
         <div ref={containterRef} className="grid gap-y-6 p-6 @container/right">
           <TemplateSection />
           <Separator />

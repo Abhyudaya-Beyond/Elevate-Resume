@@ -14,22 +14,22 @@ import {
   defaultResumeData,
   defaultSkill,
   defaultVolunteer,
-} from "@reactive-resume/schema";
-import type { Json } from "@reactive-resume/utils";
-import { isUrl } from "@reactive-resume/utils";
+} from "@elevate/schema";
+import type { Json } from "@elevate/utils";
+import { isUrl } from "@elevate/utils";
 import type { Schema } from "zod";
 
 import type { Parser } from "../interfaces/parser";
-import type { ReactiveResumeV3 } from "./schema";
-import { reactiveResumeV3Schema } from "./schema";
+import type { ElevateV3 } from "./schema";
+import { elevateV3Schema } from "./schema";
 
 export * from "./schema";
 
-export class ReactiveResumeV3Parser implements Parser<Json, ReactiveResumeV3> {
+export class ElevateV3Parser implements Parser<Json, ElevateV3> {
   schema: Schema;
 
   constructor() {
-    this.schema = reactiveResumeV3Schema;
+    this.schema = elevateV3Schema;
   }
 
   readFile(file: File): Promise<Json> {
@@ -57,10 +57,10 @@ export class ReactiveResumeV3Parser implements Parser<Json, ReactiveResumeV3> {
   }
 
   validate(data: Json) {
-    return this.schema.parse(data) as ReactiveResumeV3;
+    return this.schema.parse(data) as ElevateV3;
   }
 
-  convert(data: ReactiveResumeV3) {
+  convert(data: ElevateV3) {
     const result = JSON.parse(JSON.stringify(defaultResumeData));
 
     // Basics

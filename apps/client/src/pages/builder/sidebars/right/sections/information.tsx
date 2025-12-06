@@ -12,8 +12,8 @@ import {
   CardDescription,
   CardFooter,
   CardTitle,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@elevate/ui";
+import { cn } from "@elevate/utils";
 
 import { SectionIcon } from "../shared/section-icon";
 
@@ -24,8 +24,7 @@ const DonateCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            I built Reactive Resume mostly by myself during my spare time, with a lot of help from
-            other great open-source contributors.
+            Elevate is built with privacy-first principles, with help from great open-source contributors.
           </p>
           <p>
             If you like the app and want to support keeping it free forever, please donate whatever
@@ -36,13 +35,13 @@ const DonateCard = () => (
     </CardContent>
     <CardFooter>
       <a
-        href="https://opencollective.com/reactive-resume"
+        href="https://opencollective.com/elevate"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
       >
         <HandHeartIcon size={14} weight="bold" className="mr-2" />
-        <span className="line-clamp-1">{t`Donate to Reactive Resume`}</span>
+        <span className="line-clamp-1">{t`Donate to Elevate`}</span>
       </a>
     </CardFooter>
   </Card>
@@ -65,7 +64,7 @@ const IssuesCard = () => (
     </CardContent>
     <CardFooter className="space-x-4">
       <a
-        href="https://github.com/AmruthPillai/Reactive-Resume/issues/new/choose"
+        href="https://github.com/your-org/elevate/issues/new/choose"
         className={cn(buttonVariants({ size: "sm" }))}
         rel="noopener noreferrer nofollow"
         target="_blank"
@@ -74,9 +73,9 @@ const IssuesCard = () => (
         <span className="line-clamp-1">{t`Raise an issue`}</span>
       </a>
 
-      <a className={cn(buttonVariants({ size: "sm" }))} href="mailto:hello@amruthpillai.com">
+      <a className={cn(buttonVariants({ size: "sm" }))} href="mailto:support@elevate.local">
         <EnvelopeSimpleOpenIcon size={14} weight="bold" className="mr-2" />
-        <span className="line-clamp-1">{t`Send me a message`}</span>
+        <span className="line-clamp-1">{t`Send us a message`}</span>
       </a>
     </CardFooter>
   </Card>
@@ -89,8 +88,8 @@ const DocumentationCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            The community has spent a lot of time writing the documentation for Reactive Resume, and
-            I'm sure it will help you get started with the app.
+            The community has spent a lot of time writing the documentation for Elevate, and
+            we're sure it will help you get started with the app.
           </p>
           <p>
             There are also a lot of examples to help you get started, and features that you might
@@ -102,7 +101,7 @@ const DocumentationCard = () => (
     <CardFooter className="space-x-4">
       <a
         className={cn(buttonVariants({ size: "sm" }))}
-        href="https://docs.rxresu.me/"
+        href="https://docs.elevate.local/"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >

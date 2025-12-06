@@ -1,8 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { ArrowRightIcon } from "@phosphor-icons/react";
-import { twoFactorSchema } from "@reactive-resume/dto";
-import { usePasswordToggle } from "@reactive-resume/hooks";
+import { twoFactorSchema } from "@elevate/dto";
+import { usePasswordToggle } from "@elevate/hooks";
 import {
   Button,
   Form,
@@ -12,7 +12,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
+} from "@elevate/ui";
 import { useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -49,7 +49,7 @@ export const VerifyOtpPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Two-Factor Authentication`} - {t`Reactive Resume`}
+          {t`Two-Factor Authentication`} - {t`Elevate`}
         </title>
       </Helmet>
 

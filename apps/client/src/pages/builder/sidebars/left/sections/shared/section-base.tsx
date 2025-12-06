@@ -16,9 +16,9 @@ import {
 } from "@dnd-kit/sortable";
 import { t } from "@lingui/macro";
 import { CaretRightIcon, PlusIcon } from "@phosphor-icons/react";
-import type { SectionItem, SectionKey, SectionWithItem } from "@reactive-resume/schema";
-import { Button } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import type { SectionItem, SectionKey, SectionWithItem } from "@elevate/schema";
+import { Button } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import type { MotionProps } from "framer-motion";
 import { AnimatePresence, motion } from "framer-motion";
 import get from "lodash.get";
@@ -51,7 +51,7 @@ export const SectionBase = <T extends SectionItem>({ id, title, description }: P
 
   const setValue = useResumeStore((state) => state.setValue);
   const section = useResumeStore(
-    (state) => get(state.resume.data.sections, id) as SectionWithItem<T>,
+    (state) => get(state.resume?.data?.sections, id) as SectionWithItem<T> | undefined,
   );
 
   const sensors = useSensors(

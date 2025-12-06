@@ -1,22 +1,28 @@
 import { t } from "@lingui/macro";
-import { HouseSimpleIcon, LockIcon, SidebarSimpleIcon } from "@phosphor-icons/react";
-import { Button, Tooltip } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { GridFourIcon, HouseSimpleIcon, LockIcon, SidebarSimpleIcon } from "@phosphor-icons/react";
+import { Button, Tooltip } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { Link } from "react-router";
 
 import { useBuilderStore } from "@/client/stores/builder";
 import { useResumeStore } from "@/client/stores/resume";
 
+/**
+ * Builder Header - Top Bar
+ * 
+ * Neurobiological Design Principles:
+ * - Sticky header = prefrontal attention (clear navigation)
+ * - White background = clean, organized
+ * - Deep Slate text = institutional trust
+ */
 export const BuilderHeader = () => {
-  const title = useResumeStore((state) => state.resume.title);
-  const locked = useResumeStore((state) => state.resume.locked);
+  const title = useResumeStore((state) => state.resume?.title ?? "");
+  const locked = useResumeStore((state) => state.resume?.locked ?? false);
 
   const toggle = useBuilderStore((state) => state.toggle);
   const isDragging = useBuilderStore(
-    (state) => state.panel.left.handle.isDragging || state.panel.right.handle.isDragging,
+    (state) => state.panel.right.handle.isDragging,
   );
-  const leftPanelSize = useBuilderStore((state) => state.panel.left.size);
-  const rightPanelSize = useBuilderStore((state) => state.panel.right.size);
 
   const onToggle = (side: "left" | "right") => {
     toggle(side);
@@ -24,13 +30,13 @@ export const BuilderHeader = () => {
 
   return (
     <div
-      style={{ left: `${leftPanelSize}%`, right: `${rightPanelSize}%` }}
       className={cn(
-        "fixed inset-x-0 top-0 z-[60] h-16 bg-secondary-accent/50 backdrop-blur-lg lg:z-20",
-        !isDragging && "transition-[left,right]",
+        "sticky top-0 z-40 h-16 border-b border-border bg-background shadow-sm",
+        !isDragging && "transition-all",
       )}
     >
-      <div className="flex h-full items-center justify-between px-4">
+      <div className="flex h-full items-center justify-between px-gutter">
+        {/* Left: Navigation Toggle (Mobile) */}
         <Button
           size="icon"
           variant="ghost"
@@ -42,34 +48,52 @@ export const BuilderHeader = () => {
           <SidebarSimpleIcon />
         </Button>
 
-        <div className="flex items-center justify-center gap-x-1 lg:mx-auto">
+        {/* Center: Title */}
+        <div className="flex items-center justify-center gap-x-2">
           <Button asChild size="icon" variant="ghost">
             <Link to="/dashboard/resumes">
               <HouseSimpleIcon />
             </Link>
           </Button>
 
-          <span className="mr-2 text-xs opacity-40">{"/"}</span>
+          <span className="text-xs text-foreground/40">{"/"}</span>
 
-          <h1 className="font-medium">{title}</h1>
+          <h1 className="text-lg font-semibold text-primary">{title}</h1>
 
           {locked && (
             <Tooltip content={t`This resume is locked, please unlock to make further changes.`}>
-              <LockIcon size={14} className="ml-2 opacity-75" />
+              <LockIcon size={14} className="text-foreground/60" />
             </Tooltip>
           )}
         </div>
 
-        <Button
-          size="icon"
-          variant="ghost"
-          className="flex lg:hidden"
-          onClick={() => {
-            onToggle("right");
-          }}
-        >
-          <SidebarSimpleIcon className="-scale-x-100" />
-        </Button>
+        {/* Right: Template/Preview Toggle */}
+        <div className="flex items-center gap-x-2">
+          <Button
+            variant="ghost"
+            className="hidden lg:flex items-center gap-x-2"
+            onClick={() => {
+              // Scroll to template section in right sidebar
+              const templateSection = document.querySelector("#template");
+              if (templateSection) {
+                templateSection.scrollIntoView({ behavior: "smooth", block: "start" });
+              }
+            }}
+          >
+            <GridFourIcon size={18} />
+            <span className="text-sm font-medium text-primary">{t`Template`}</span>
+          </Button>
+          <Button
+            size="icon"
+            variant="ghost"
+            className="flex lg:hidden"
+            onClick={() => {
+              onToggle("right");
+            }}
+          >
+            <SidebarSimpleIcon className="-scale-x-100" />
+          </Button>
+        </div>
       </div>
     </div>
   );

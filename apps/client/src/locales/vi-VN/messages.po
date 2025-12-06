@@ -1,4 +1,4 @@
-msgid ""
+﻿msgid ""
 msgstr ""
 "POT-Creation-Date: 2023-11-10 13:15+0100\n"
 "MIME-Version: 1.0\n"
@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: vi\n"
-"Project-Id-Version: reactive-resume\n"
+"Project-Id-Version: elevate\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2025-11-04 14:22\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: reactive-resume\n"
+"X-Crowdin-Project: elevate\n"
 "X-Crowdin-Project-ID: 503410\n"
 "X-Crowdin-Language: vi\n"
 "X-Crowdin-File: messages.po\n"
@@ -22,29 +22,25 @@ msgstr ""
 msgid "You have enabled two-factor authentication successfully."
 msgstr "Bạn đã kích hoạt xác thực hai yếu tố thành công."
 
-#: apps/client/src/pages/home/sections/features/index.tsx:57
-msgid "{templatesCount} resume templates to choose from"
-msgstr "{templatesCount} mẫu sơ yếu lý lịch để lựa chọn"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:142
 msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, other {Cột}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:25
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>Tôi xây dựng Reactive Resume trong thời gian rảnh rỗi với sự trợ giúp tuyệt vời từ những cộng tác viên nguồn mở.</0> <1>Nếu bạn thích ứng dụng này và muốn hỗ trợ giữ miễn phí trọn đời, hãy quyên góp những gì bạn cảm thấy hài lòng.</1>"
+msgid "<0>Elevate is built with privacy-first principles, with help from great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:56
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:55
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Tôi chắc chắn rằng ứng dụng này không hoàn hảo nhưng tôi muốn nó như vậy.</0> <1>Nếu bạn gặp phải bất kỳ vấn đề nào khi tạo sơ yếu lý lịch của mình hoặc có ý tưởng có thể giúp bạn và những người dùng khác tạo sơ yếu lý lịch của bạn dễ dàng hơn, hãy gửi vấn đề đó vào kho lưu trữ hoặc gửi email cho tôi về vấn đề đó.</1>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:299
-msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
-msgstr "<0>Lưu ý:</0> Bằng cách sử dụng API OpenAI, bạn thừa nhận và chấp nhận <1>điều khoản sử dụng</1> và <2>chính sách quyền riêng tư</2> được phác thảo bởi OpenAI. Xin lưu ý rằng Reactive Resume không chịu trách nhiệm đối với bất kỳ việc sử dụng dịch vụ không đúng cách hoặc trái phép nào và mọi hậu quả hoặc trách nhiệm pháp lý phát sinh chỉ thuộc về người dùng."
+msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Elevate bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:90
-msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
-msgstr "<0>Cộng đồng đã dành rất nhiều thời gian để viết tài liệu về Reactive Resume, tôi chắc chắn tài liệu này sẽ giúp bạn mới bắt đầu sử dụng ứng dụng.</0> <1>Ngoài ra cũng còn có rất nhiều ví dụ khác giúp bạn sử dụng các tính năng mà bạn có thể chưa biết để có thể giúp bạn xây dựng sơ yếu lý lịch hoàn hảo của mình.</1>"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:89
+msgid "<0>The community has spent a lot of time writing the documentation for Elevate, and we're sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:140
 msgid "<0>Two-factor authentication is currently disabled.</0> You can enable it by adding an authenticator app to your account."
@@ -54,28 +50,18 @@ msgstr "<0>Xác thực hai yếu tố hiện bị tắt.</0> Bạn có thể kí
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>Chứng thực hai yếu tố được kích hoạt.</0> Bạn sẽ được yêu cầu nhập mã mỗi khi đăng nhập."
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "A free and open-source resume builder"
-msgstr "Công cụ xây dựng sơ yếu lý lịch miễn phí và mã nguồn mở"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
-msgstr "Trình tạo sơ yếu lý lịch mã nguồn mở và miễn phí giúp đơn giản hóa quá trình tạo, cập nhật và chia sẻ sơ yếu lý lịch của bạn."
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:59
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Liên kết đã được sao chép vào bộ nhớ tạm."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "Một dự án tâm huyết của <0>Amruth Pillai</0>"
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Liên kết đặt lại mật khẩu đã được gửi đến hộp thư đến của bạn, nếu tài khoản tồn tại với địa chỉ email bạn đã cung cấp."
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A privacy-first resume builder built with <0>open source</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -89,6 +75,10 @@ msgstr "Địa chỉ email hoặc tên người dùng này đã tồn tại."
 msgid "A4"
 msgstr "Khổ giấy A4"
 
+#: apps/client/src/pages/home/components/footer.tsx:56
+msgid "About"
+msgstr ""
+
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
 msgid "Accepts only {accept} files"
@@ -98,7 +88,7 @@ msgstr "Chỉ chấp nhận tệp {accept}"
 msgid "Account"
 msgstr "Tài khoản"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:179
 msgid "Add a custom field"
 msgstr "Thêm một trường tùy chỉnh"
 
@@ -125,7 +115,11 @@ msgstr "Thêm một trang mới"
 msgid "AI"
 msgstr "AI"
 
-#: apps/client/src/pages/auth/register/page.tsx:71
+#: apps/client/src/pages/home/sections/features/index.tsx:24
+msgid "AI-powered suggestions for impact"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:271
 msgid "Already have an account?"
 msgstr "Bạn đã có tài khoản?"
 
@@ -140,10 +134,6 @@ msgstr "Đã xảy ra lỗi máy chủ nội bộ."
 #: apps/client/src/pages/public/error.tsx:32
 msgid "An unexpected error occurred."
 msgstr "Đã xảy ra lỗi không mong muốn."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:134
-msgid "and many more..."
-msgstr "cùng nhiều nội dung khác nữa..."
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:57
 msgid "Anyone with the link can view and download the resume."
@@ -191,13 +181,13 @@ msgstr "Lĩnh vực học tập"
 msgid "Aspect Ratio"
 msgstr "Tỷ lệ khung hình"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:51
-msgid "Available in {languagesCount} languages"
-msgstr "Hỗ trợ {languagesCount} ngôn ngữ"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:53
 msgid "Awarder"
 msgstr "Bên trao giải"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:33
+msgid "Awards"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:258
 msgid "Azure API Version"
@@ -250,9 +240,13 @@ msgstr "Viền"
 msgid "Border Radius"
 msgstr "Bo viền"
 
-#: apps/client/src/pages/public/page.tsx:93
-msgid "Built with"
-msgstr "Xây dựng với"
+#: apps/client/src/pages/home/sections/hero/index.tsx:77
+msgid "Build and share a resume that truly represents you—without trackers, dark patterns, or data lock-in."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:111
+msgid "Built for 2G networks"
+msgstr ""
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
@@ -275,6 +269,10 @@ msgstr "Thông thường"
 msgid "Center Artboard"
 msgstr "Trung Tâm Bảng Vẽ"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:29
+msgid "Certifications"
+msgstr ""
+
 #: apps/client/src/components/locale-switch.tsx:17
 msgid "Change Language"
 msgstr "Thay đổi ngôn ngữ"
@@ -291,6 +289,10 @@ msgstr "Thay Đổi Tông"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Đã thay đổi ý kiến về tên? Đặt tên mới cho nó."
+
+#: apps/client/src/pages/public/page.tsx:86
+msgid "Check out my resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:70
 msgid "Check your email for the confirmation link to update your email address."
@@ -327,6 +329,7 @@ msgid "Columns"
 msgstr "Cột"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:39
+#: apps/client/src/pages/home/components/footer.tsx:48
 msgid "Company"
 msgstr "Công ty"
 
@@ -357,8 +360,7 @@ msgstr "Sao chép vào bộ nhớ tạm"
 msgid "Create"
 msgstr "Tạo"
 
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/register/page.tsx:69
+#: apps/client/src/pages/auth/register/page.tsx:82
 msgid "Create a new account"
 msgstr "Tạo tài khoản mới"
 
@@ -372,14 +374,33 @@ msgstr "Tạo mục mới"
 msgid "Create a new resume"
 msgstr "Tạo sơ yếu lý lịch mới"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
-msgctxt "This is a link to create a new account"
-msgid "Create one now"
-msgstr "Tạo ngay"
+#: apps/client/src/pages/auth/register/page.tsx:255
+msgid "Create account"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:259
 msgid "Create Sample Resume"
 msgstr "Tạo sơ yếu lý lịch mẫu"
+
+#: apps/client/src/pages/auth/register/page.tsx:104
+msgid "Create your Elevate account"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:64
+msgid "Create Your First Resume"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:54
+msgid "Create your first resume to get started. You have full control over your story."
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:188
+msgid "Created with"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:252
+msgid "Creating account..."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:82
 msgid "Current Password"
@@ -391,21 +412,9 @@ msgstr "Mật khẩu hiện tại"
 msgid "Custom CSS"
 msgstr "CSS tùy chỉnh"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:62
-msgid "Custom resume sections"
-msgstr "Phần sơ yếu lý lịch tùy chỉnh"
-
 #: apps/client/src/stores/resume.ts:53
 msgid "Custom Section"
 msgstr "Mục tùy chỉnh"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "Bảng màu tùy chỉnh"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "Bố cục tùy chỉnh"
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -414,6 +423,10 @@ msgstr "Vùng nguy hiểm"
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:87
 msgid "Dark"
 msgstr "Tối"
+
+#: apps/client/src/pages/home/components/header.tsx:43
+msgid "Dashboard"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:67
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:67
@@ -431,7 +444,6 @@ msgstr "Ngày hoặc Khoảng ngày"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:137
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:158
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
 msgid "Delete"
@@ -454,9 +466,9 @@ msgstr "Tên triển khai"
 msgid "Description"
 msgstr "Mô tả"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:58
-msgid "Design single/multi page resumes"
-msgstr "Thiết kế sơ yếu lý lịch một/nhiều trang"
+#: apps/client/src/pages/home/sections/features/index.tsx:48
+msgid "Designed for India's Policy Makers"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:139
 msgid "Disable"
@@ -473,15 +485,15 @@ msgstr "Tắt xác thực 2FA"
 msgid "Discard"
 msgstr "Hủy"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:110
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:109
 msgid "Documentation"
 msgstr "Tài liệu"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:225
 msgid "Don't have an account?"
 msgstr "Chưa có tài khoản?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "Không biết bắt đầu từ đâu? Hãy truy cập tài liệu!"
 
@@ -489,9 +501,13 @@ msgstr "Không biết bắt đầu từ đâu? Hãy truy cập tài liệu!"
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "Không thấy ngôn ngữ của bạn? <0>Giúp dịch ứng dụng.</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:45
-msgid "Donate to Reactive Resume"
-msgstr "Đóng góp cho Reactive Resume"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:44
+msgid "Donate to Elevate"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:147
+msgid "Download"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:56
 msgid "Download a JSON snapshot of your resume. This file can be used to import your resume in the future, or can even be shared with others to collaborate."
@@ -511,7 +527,7 @@ msgstr "Tải về"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:181
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:246
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:168
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
@@ -526,16 +542,54 @@ msgid "Duplicate an existing resume"
 msgstr "Sao chép sơ yếu lý lịch hiện có"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:97
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:112
 msgid "Edit"
 msgstr "Chỉnh sửa"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:26
+msgid "Education"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:169
 msgid "Effects"
 msgstr "Hiệu ứng"
 
+#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:62
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/components/footer.tsx:25
+#: apps/client/src/pages/home/page.tsx:25
+#: apps/client/src/pages/public/page.tsx:114
+#: apps/client/src/pages/public/page.tsx:190
+msgid "Elevate"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "Elevate has helped people land jobs at these great companies:"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Elevate is a privacy-first, open-source resume builder that puts you in control of your data and narrative. Your support helps us continue building a tool that respects your privacy and gives you complete ownership of your resume. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:50
+msgid "Elevate is built on a foundation of privacy-first principles and years of refinement. Every feature has been designed with your control and data ownership in mind, creating a resume builder that respects you as the owner of your professional narrative."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+msgid "Elevate thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features and the linguists whose translations have made it accessible to a broader audience."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:141
+#: apps/client/src/pages/auth/login/page.tsx:128
+#: apps/client/src/pages/auth/register/page.tsx:187
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:81
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
 msgid "Email"
@@ -553,7 +607,7 @@ msgstr "Nhập mật khẩu mới bên dưới và đảm bảo mật khẩu đ�
 msgid "Enter one of the 10 backup codes you saved when you enabled two-factor authentication."
 msgstr "Nhập một trong 10 mã dự phòng bạn đã lưu khi bật xác thực hai yếu tố."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:63
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:67
 msgid "Enter Phosphor Icon"
 msgstr "Nhập biểu tượng Phosphor"
 
@@ -577,9 +631,9 @@ msgstr "Lỗi {statusCode}"
 msgid "Errors"
 msgstr "Lỗi"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
-msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
-msgstr "Ngay cả khi bạn không có khả năng đóng góp tài chính, bạn vẫn có thể tạo ra sự khác biệt bằng cách gắn sao cho kho lưu trữ GitHub, truyền bá cho bạn bè hoặc gửi một tin nhắn nhanh để cho tôi biết Reactive Resume đã giúp bạn như thế nào. Phản hồi và hỗ trợ của bạn luôn được chào đón và đánh giá cao!"
+#: apps/client/src/pages/home/sections/support/index.tsx:26
+msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let us know how Elevate has helped you. Your feedback and support are always welcome and much appreciated!"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:271
 msgid "Expand All"
@@ -591,15 +645,28 @@ msgstr ""
 msgid "Expand section"
 msgstr ""
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:25
+msgid "Experience"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Reactive Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Khám phá các mẫu có sẵn trong Reactive Resume và xem các sơ yếu lý lịch được tạo bằng chúng. Các mẫu này là ý tưởng tuyệt vời giúp tạo sơ yếu lý lịch của bạn."
+msgid "Explore the templates available in Elevate and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:121
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:39
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:132
 msgid "Export"
 msgstr "Xuất"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:121
+msgid "Export Anytime"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:36
+msgid "Features"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:255
 msgid "File"
@@ -608,10 +675,6 @@ msgstr "Tệp"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:221
 msgid "Filetype"
 msgstr "Loại tệp"
-
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "Cuối cùng,"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -641,9 +704,9 @@ msgstr "Ví dụ: thông tin về công ty bạn đã gửi bản lý lịch nà
 msgid "Forget"
 msgstr "Quên"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
-msgid "Forgot Password?"
-msgstr "Quên mật khẩu?"
+#: apps/client/src/pages/auth/login/page.tsx:191
+msgid "Forgot password?"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:68
 msgid "Forgot your password?"
@@ -654,18 +717,18 @@ msgstr "Bạn quên mật khẩu?"
 msgid "Format"
 msgstr "Định dạng"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "Tìm thấy lỗi hoặc có ý tưởng tính năng mới?"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:46
-msgid "Free, forever"
-msgstr "Miễn phí mãi mãi"
 
 #: apps/client/src/components/ai-actions.tsx:125
 #: apps/client/src/components/ai-actions.tsx:128
 msgid "Friendly"
 msgstr "Thân thiện"
+
+#: apps/client/src/pages/auth/register/page.tsx:137
+msgid "Full name"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:56
 msgid "Full Name"
@@ -675,15 +738,19 @@ msgstr "Họ và tên"
 msgid "Generate a random title for your resume"
 msgstr "Tạo tiêu đề ngẫu nhiên cho sơ yếu lý lịch của bạn"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:32
+#: apps/client/src/pages/home/components/header.tsx:51
 msgid "Get Started"
 msgstr "Bắt đầu"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:18
+#: apps/client/src/pages/home/sections/cta/index.tsx:46
+msgid "Get Started Free"
+msgstr ""
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:23
 msgid "GitHub"
 msgstr "GitHub"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+#: apps/client/src/pages/home/sections/statistics/index.tsx:14
 msgid "GitHub Stars"
 msgstr "Sao GitHub"
 
@@ -692,6 +759,7 @@ msgid "Give your old resume a new name."
 msgstr "Đặt cho sơ yếu lý lịch cũ của bạn một cái tên mới."
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:67
+#: apps/client/src/pages/home/sections/cta/index.tsx:39
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:18
 msgid "Go to Dashboard"
 msgstr "Đi đến bảng điều khiển"
@@ -700,17 +768,13 @@ msgstr "Đi đến bảng điều khiển"
 msgid "Go to home"
 msgstr "Trở về trang chủ"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:31
+#: apps/client/src/pages/auth/_components/social-auth.tsx:37
 msgid "Google"
 msgstr "Google"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
 msgstr "Thang độ xám"
-
-#: apps/client/src/pages/dashboard/resumes/page.tsx:45
-msgid "Grid"
-msgstr "Lưới"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:70
 msgid "Headline"
@@ -738,8 +802,8 @@ msgstr "Ẩn đi"
 msgid "Hide Icons"
 msgstr "Ẩn biểu tượng"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
-#: apps/client/src/pages/auth/register/page.tsx:168
+#: apps/client/src/pages/auth/login/page.tsx:174
+#: apps/client/src/pages/auth/register/page.tsx:231
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "Giữ <0>Ctrl</0> để hiển thị mật khẩu của bạn tạm thời."
@@ -748,30 +812,22 @@ msgstr "Giữ <0>Ctrl</0> để hiển thị mật khẩu của bạn tạm th�
 msgid "Horizontal"
 msgstr "Theo chiều ngang"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:67
-msgid "Host your resume publicly"
-msgstr "Lưu trữ sơ yếu lý lịch của bạn một cách công khai"
-
-#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "Tôi luôn mong muốn nhận được phản hồi hoặc hỗ trợ từ người dùng Reactive Resume. Dưới đây là một số tin nhắn tôi đã nhận được. Nếu bạn có bất kỳ phản hồi nào, vui lòng gửi email cho tôi theo địa chỉ <0>{email}</0>."
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "Icon"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "Nếu ứng dụng này đã giúp bạn tìm việc, hãy cho tôi biết bằng cách liên hệ qua <0>biểu mẫu liên hệ này</0>."
+msgid "If Elevate has helped you with your job hunt, let us know by reaching out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Nếu bạn tắt xác thực hai yếu tố, bạn sẽ không còn phải nhập mã xác minh khi đăng nhập."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
-msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
-msgstr "Nếu bạn sử dụng được nhiều ngôn ngữ, chúng tôi mong nhận được sự trợ giúp của bạn trong việc đưa ứng dụng đến với nhiều ngôn ngữ và cộng đồng hơn. Đừng lo lắng nếu bạn không thấy ngôn ngữ của mình trong danh sách - chỉ cần gửi lời cảm ơn cho tôi trên GitHub và tôi chắc chắn sẽ đưa ngôn ngữ đó vào. Sẵn sàng để bắt đầu? Chuyển sang bản dịch tại Crowdin bằng cách nhấp vào liên kết bên dưới."
+#: apps/client/src/pages/home/sections/support/index.tsx:22
+msgid "If you're multilingual, we'd love your help in bringing Elevate to more languages and communities. Don't worry if you don't see your language on the list - reach out at support@elevate.local, and we'll make sure to include it."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:309
 msgid "Import"
@@ -800,14 +856,22 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "Trong phần này, bạn có thể xóa tài khoản của mình và tất cả dữ liệu được liên kết với người dùng của bạn, nhưng xin lưu ý rằng <0>hành động này không thể đảo ngược</0>."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:121
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:122
 msgid "Information"
 msgstr "Thông tin"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
 msgstr "Tổ chức"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:28
+msgid "Institutional Credibility"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:34
+msgid "Interests"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -841,21 +905,6 @@ msgstr "Có vẻ như mã thông báo đặt lại mà bạn cung cấp không h
 msgid "It looks like your email address has already been verified."
 msgstr "Có vẻ như địa chỉ email của bạn đã được xác minh trước đó."
 
-#: apps/client/src/pages/auth/register/page.tsx:101
-msgctxt "Localized version of a placeholder name. For example, Max Mustermann in German or Jan Kowalski in Polish."
-msgid "John Doe"
-msgstr "John Doe"
-
-#: apps/client/src/pages/auth/register/page.tsx:123
-msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
-msgid "john.doe"
-msgstr "john.doe"
-
-#: apps/client/src/pages/auth/register/page.tsx:145
-msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
-msgid "john.doe@example.com"
-msgstr "john.doe@example.com"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
 msgid "JSON"
 msgstr "JSON"
@@ -876,7 +925,10 @@ msgstr "Nhãn"
 msgid "Language"
 msgstr "Ngôn ngữ"
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:83
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:28
+msgid "Languages"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:139
 msgid "Last updated {lastUpdated}"
 msgstr "Cập nhật lần cuối {lastUpdated}"
@@ -887,7 +939,7 @@ msgstr "Cập nhật lần cuối {lastUpdated}"
 msgid "Layout"
 msgstr "Bố cục"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:40
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
@@ -908,22 +960,24 @@ msgstr "Được cấp phép theo <0>MIT</0>"
 msgid "Light"
 msgstr "Sáng"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:69
-msgid "Light or dark theme"
-msgstr "Chủ đề sáng hoặc tối"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:165
 msgid "Line Height"
 msgstr "Chiều cao giữa các dòng"
+
+#: apps/client/src/pages/public/page.tsx:93
+#: apps/client/src/pages/public/page.tsx:103
+msgid "Link copied to clipboard"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:22
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "LinkedIn, JSON Resume, hoặc tương tự."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:49
-msgid "List"
-msgstr "Danh sách"
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:69
+#: apps/client/src/pages/home/sections/hero/index.tsx:148
+msgid "Local"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
@@ -933,15 +987,15 @@ msgid "Location"
 msgstr "Vị trí"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:51
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:115
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:188
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:115
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:166
 msgid "Lock"
 msgstr "Khoá"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:64
-msgid "Lock a resume to prevent editing"
-msgstr "Khóa sơ yếu lý lịch để ngăn chỉnh sửa"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:87
+msgid "Locked"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:43
 msgid "Locking a resume will prevent any further changes to it. This is useful when you have already shared your resume with someone and you don't want to accidentally make any changes to it."
@@ -959,10 +1013,6 @@ msgstr "Bạn bị mất thiết bị?"
 #: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:252
 msgid "Main"
 msgstr "Chính"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:59
-msgid "Manage multiple resumes"
-msgstr "Quản lý các sơ yếu lý lịch"
 
 #. The month and year should be uniform across all languages.
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:71
@@ -986,15 +1036,10 @@ msgstr "Lề"
 msgid "Max Tokens"
 msgstr "Số lượng token tối đa"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:48
-msgid "MIT License"
-msgstr "Giấy phép MIT"
-
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:205
 msgid "Model"
 msgstr "Mô hình"
 
-#: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:36
@@ -1002,7 +1047,7 @@ msgstr "Mô hình"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:70
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:92
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:153
 msgid "Name"
 msgstr "Tên"
@@ -1012,6 +1057,10 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "Tên"
 
+#: apps/client/src/pages/home/sections/features/index.tsx:18
+msgid "Narrative Control"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "Mạng"
@@ -1020,13 +1069,17 @@ msgstr "Mạng"
 msgid "New Password"
 msgstr "Mật khẩu mới"
 
+#: apps/client/src/pages/dashboard/resumes/page.tsx:58
+msgid "New Resume"
+msgstr ""
+
 #: apps/client/src/components/locale-combobox.tsx:45
 msgid "No results found"
 msgstr "Không tìm thấy kết quả"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:49
-msgid "No user tracking or advertising"
-msgstr "Không theo dõi người dùng hoặc quảng cáo"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:49
+msgid "No resumes yet"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:133
 msgid "Note: This will make your account less secure."
@@ -1049,25 +1102,16 @@ msgstr "Mật khẩu sử dụng một lần"
 msgid "Oops, the server returned an error."
 msgstr "Rất tiếc, máy chủ đã trả về lỗi."
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:97
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:77
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:148
 msgid "Open"
 msgstr "Mở"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:47
-msgid "Open Source"
-msgstr "Mã nguồn mở"
 
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
 #: apps/client/src/services/openai/improve-writing.ts:33
 msgid "OpenAI did not return any choices for your text."
 msgstr "OpenAI không trả về bất kỳ phản hồi nào cho văn bản của bạn."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:52
-msgid "OpenAI Integration"
-msgstr "Tích hợp OpenAI"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:120
 msgid "OpenAI/Azure OpenAI/Ollama Integration"
@@ -1082,7 +1126,7 @@ msgstr "Khóa API OpenAI/Ollama"
 msgid "Options"
 msgstr "Tùy chọn"
 
-#: apps/client/src/pages/auth/layout.tsx:47
+#: apps/client/src/pages/auth/layout.tsx:50
 msgctxt "The user can either login with email/password, or continue with GitHub or Google."
 msgid "or continue with"
 msgstr "hoặc tiếp tục với"
@@ -1090,6 +1134,10 @@ msgstr "hoặc tiếp tục với"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:39
 msgid "Organization"
 msgstr "Tổ chức"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:22
+msgid "Overview"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:25
@@ -1101,8 +1149,8 @@ msgstr "Trang"
 msgid "Page {pageNumber}"
 msgstr "Trang {pageNumber}"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:163
+#: apps/client/src/pages/auth/login/page.tsx:157
+#: apps/client/src/pages/auth/register/page.tsx:214
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
 msgid "Password"
@@ -1112,21 +1160,9 @@ msgstr "Mật khẩu"
 msgid "PDF"
 msgstr "PDF"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:63
-msgid "Personal notes for each resume"
-msgstr "Ghi chú cá nhân cho mỗi sơ yếu lý lịch"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:108
 msgid "Phone"
 msgstr "Điện thoại"
-
-#: apps/client/src/pages/auth/layout.tsx:76
-msgid "Photograph by Patrick Tomasso"
-msgstr "Ảnh của Patrick Tomasso"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:66
-msgid "Pick any font from Google Fonts"
-msgstr "Tìm font trong Google Fonts"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:69
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:121
@@ -1158,21 +1194,34 @@ msgstr "Vị trí"
 msgid "Position"
 msgstr "Vị trí"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:96
-msgid "Powered by"
-msgstr "Chạy trên nền tảng"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "Được hỗ trợ bởi <0>Simple Icons</0>"
+
+#: apps/client/src/pages/home/components/footer.tsx:42
+msgid "Pricing"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:43
 msgid "Primary Color"
 msgstr "Màu chủ đạo"
 
-#: apps/client/src/pages/home/components/footer.tsx:47
+#: apps/client/src/pages/home/sections/features/index.tsx:33
+msgid "Privacy First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:50
 msgid "Privacy Policy"
 msgstr "Chính sách Bảo mật"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:50
+#: apps/client/src/pages/home/sections/hero/index.tsx:99
+msgid "Privacy-First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:34
+msgid "Product"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:113
 #: apps/client/src/components/ai-actions.tsx:116
@@ -1183,55 +1232,41 @@ msgstr "Chuyên nghiệp"
 msgid "Profile"
 msgstr "Hồ sơ"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:24
+msgid "Profiles"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:30
+msgid "Projects"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:55
 msgid "Public"
 msgstr "Công khai"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:31
+msgid "Publications"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:53
 msgid "Publisher"
 msgstr "Nhà xuất bản"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:73
 msgid "Raise an issue"
 msgstr "Đưa ra một vấn đề"
 
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:74
-#: apps/client/src/pages/public/page.tsx:95
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Reactive Resume has helped people land jobs at these great companies:"
-msgstr "Reactive Resume đã giúp mọi người có việc làm tại những công ty tuyệt vời này:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume là một dự án mã nguồn mở và miễn phí được tạo ra chủ yếu bởi tôi, và sự ủng hộ từ bạn. Nếu bạn có khả năng đóng góp, hãy xem xét việc quyên góp thông qua phương thức bất kỳ được liệt kê. Hơn nữa, các khoản quyên góp cho Reactive Resume qua Open Collective sẽ không chịu thuế vì dự án được chủ động tài chính bởi Open Collective Europe."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "Reactive Resume là một dự án tâm huyết của hơn 3 năm làm việc, các ý tưởng và tính năng được liên tục phát triển để xây dựng đến mức (gần) như hoàn hảo."
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "Reactive Resume phát triển mạnh nhờ cộng đồng sôi động. Dự án này có được sự tiến bộ nhờ có nhiều cá nhân đã cống hiến thời gian và kỹ năng của mình. Dưới đây, chúng tôi tôn vinh những lập trình viên đã cải tiến các tính năng của nó trên GitHub và những nhà ngôn ngữ học có bản dịch trên Crowdin đã giúp tiếp cận nhiều người hơn."
+#: apps/client/src/pages/home/sections/cta/index.tsx:31
+msgid "Ready to elevate your career?"
+msgstr ""
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:89
 msgid "Redo"
 msgstr "Làm lại"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:35
+msgid "References"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:157
@@ -1243,7 +1278,7 @@ msgid "Remove Page"
 msgstr "Xóa trang"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:111
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:101
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:159
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:86
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:152
 msgid "Rename"
@@ -1271,18 +1306,13 @@ msgid "Reset Zoom"
 msgstr "Đặt lại thu phóng"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/resumes/page.tsx:39
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
 msgid "Resumes"
 msgstr "Sơ yếu lý lịch"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:14
+#: apps/client/src/pages/home/sections/statistics/index.tsx:16
 msgid "Resumes Generated"
 msgstr "Sơ yếu lý lịch được tạo"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:105
-msgid "Rich in features, not in pricing."
-msgstr "Tính năng phong phú, không quan trọng giá cả."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
 msgid "Rounded"
@@ -1336,25 +1366,21 @@ msgstr "Tìm kiếm biến thể font"
 msgid "Search for a language"
 msgstr "Tìm kiếm ngôn ngữ"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:56
-msgid "Secure with two-factor authentication"
-msgstr "Bảo mật với xác thực hai yếu tố"
-
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:65
 msgid "Security"
 msgstr "Bảo mật"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:50
-msgid "Self-host with Docker"
-msgstr "Tự dựng với Docker"
+#: apps/client/src/pages/builder/_components/form-panel.tsx:44
+msgid "Select a section to edit"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:104
 msgid "Send Email"
 msgstr "Gửi Email"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:79
-msgid "Send me a message"
-msgstr "Gửi tin nhắn cho tôi"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:78
+msgid "Send us a message"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:97
 msgid "Separate Links"
@@ -1370,6 +1396,19 @@ msgstr "Cài đặt"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:159
 msgid "Setup two-factor authentication on your account"
 msgstr "Thiết lập xác thực hai yếu tố trên tài khoản của bạn"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:19
+msgid "Shape your story, multiple versions"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:157
+msgid "Share"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:94
+#: apps/client/src/pages/public/page.tsx:104
+msgid "Share this link with anyone to view your resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:38
@@ -1394,47 +1433,48 @@ msgid "Sidebar"
 msgstr "Thanh bên"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:209
+#: apps/client/src/pages/auth/register/page.tsx:278
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
+#: apps/client/src/pages/home/components/header.tsx:48
 msgid "Sign in"
 msgstr "Đăng nhập"
 
-#: apps/client/src/pages/auth/register/page.tsx:74
-msgid "Sign in now"
-msgstr "Đăng nhập ngay"
+#: apps/client/src/pages/auth/login/page.tsx:95
+msgid "Sign in to Elevate"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:73
 msgid "Sign in to your account"
 msgstr "Đăng nhập vào tài khoản của bạn"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:55
-msgid "Sign in with Email"
-msgstr "Đăng nhập bằng email"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:53
-msgid "Sign in with GitHub"
-msgstr "Đăng nhập bằng GitHub"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:54
-msgid "Sign in with Google"
-msgstr "Đăng nhập bằng Google"
-
-#: apps/client/src/pages/auth/register/page.tsx:179
+#: apps/client/src/pages/auth/login/page.tsx:232
 msgid "Sign up"
 msgstr "Đăng ký"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/home/sections/features/index.tsx:23
+msgid "Signal Strength"
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:111
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "Đăng nhập qua email hiện đang bị vô hiệu hóa bởi quản trị viên."
 
-#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/login/page.tsx:206
+msgid "Signing in..."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:120
 msgid "Signups are currently disabled by the administrator."
 msgstr "Đăng ký hiện đang bị vô hiệu hóa bởi quản trị viên."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:65
 msgid "Size (in px)"
 msgstr "Kích thước (tính bằng px)"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:27
+msgid "Skills"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:228
 msgid "Slug"
@@ -1457,6 +1497,10 @@ msgstr "Đã xảy ra lỗi khi xử lý sơ yếu lý lịch của bạn. Vui l
 msgid "Square"
 msgstr "Vuông"
 
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:33
+msgid "Start building"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:23
 msgid "Start building from scratch"
@@ -1465,6 +1509,14 @@ msgstr "Bắt đầu xây dựng từ đầu"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Start building your resume by giving it a name."
 msgstr "Bắt đầu xây dựng hồ sơ của bạn bằng cách đặt tên cho nó."
+
+#: apps/client/src/pages/home/sections/cta/index.tsx:34
+msgid "Start building your resume today. No credit card required."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:107
+msgid "Start building your story today."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:22
@@ -1480,6 +1532,7 @@ msgstr "Số liệu thống kê chỉ có sẵn cho sơ yếu lý lịch công k
 msgid "Store your backup codes securely"
 msgstr "Lưu trữ mã dự phòng của bạn một cách an toàn"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:23
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
@@ -1492,17 +1545,17 @@ msgstr "Lưu trữ mã dự phòng của bạn một cách an toàn"
 msgid "Summary"
 msgstr "Tóm tắt"
 
+#: apps/client/src/pages/home/sections/support/index.tsx:17
+msgid "Support options coming soon. For now, reach out at support@elevate.local"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:23
 msgid "Support the app by donating what you can!"
 msgstr "Hãy ủng hộ ứng dụng bằng cách quyên góp những gì bạn có thể!"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:9
-msgid "Supporting Reactive Resume"
-msgstr "Ủng hộ Reactive Resume"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:65
-msgid "Supports A4/Letter page formats"
-msgstr "Hỗ trợ định dạng trang A4/Letter"
+msgid "Supporting Elevate"
+msgstr ""
 
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
@@ -1522,9 +1575,14 @@ msgstr "Hệ thống"
 msgid "Template"
 msgstr "Mẫu"
 
+#: apps/client/src/pages/home/components/footer.tsx:39
 #: apps/client/src/pages/home/sections/templates/index.tsx:9
 msgid "Templates"
 msgstr "Các mẫu"
+
+#: apps/client/src/pages/home/components/footer.tsx:53
+msgid "Terms of Service"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:68
 msgid "Testimonials"
@@ -1569,7 +1627,7 @@ msgstr "Hành động này không thể được hoàn tác. Sơ yếu lý lịc
 msgid "This email address is associated with an OAuth account. Please sign in with your OAuth provider."
 msgstr "Địa chỉ email này được liên kết với tài khoản OAuth. Vui lòng đăng nhập bằng nhà cung cấp OAuth của bạn."
 
-#: apps/client/src/pages/builder/_components/header.tsx:57
+#: apps/client/src/pages/builder/_components/header.tsx:64
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "Sơ yếu lý lịch này đã bị khóa, vui lòng mở khóa để thực hiện thay đổi."
 
@@ -1597,10 +1655,6 @@ msgstr "Chuyển đổi dòng ngắt trang"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:150
 msgid "Toggle Page Numbers"
 msgstr "Chuyển đổi số trang"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:68
-msgid "Track views and downloads"
-msgstr "Theo dõi lượt xem và lượt tải xuống"
 
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/auth/verify-otp/page.tsx:57
@@ -1640,7 +1694,7 @@ msgid "Undo"
 msgstr "Hoàn tác"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:52
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:110
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:178
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:161
 msgid "Unlock"
@@ -1649,6 +1703,10 @@ msgstr "Mở khoá"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:44
 msgid "Unlocking a resume will allow you to make changes to it again."
 msgstr "Mở khóa sơ yếu lý lịch sẽ cho phép bạn điều chỉnh thay đổi."
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:95
+msgid "Untitled Resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:192
 msgid "Unverified"
@@ -1662,9 +1720,13 @@ msgstr "Cập nhật một mục hiện có"
 msgid "Update an existing resume"
 msgstr "Cập nhật sơ yếu lý lịch hiện có"
 
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:100
+msgid "Updated {lastUpdated}"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:212
-msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
-msgstr "Tải tệp lên từ một trong các nguồn được chấp nhận để phân tích dữ liệu hiện có và nhập tệp đó vào Reactive Resume để chỉnh sửa dễ dàng hơn."
+msgid "Upload a file from one of the accepted sources to parse existing data and import it into Elevate for easier editing."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:73
 msgid "URL"
@@ -1691,13 +1753,13 @@ msgstr "Sử dụng mã dự phòng của bạn"
 msgid "User does not have an associated 'secrets' record. Please report this issue on GitHub."
 msgstr "Người dùng không có bản ghi 'bí mật' liên quan. Vui lòng báo cáo vấn đề này trên GitHub."
 
-#: apps/client/src/pages/auth/register/page.tsx:119
+#: apps/client/src/pages/auth/register/page.tsx:162
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:167
 msgid "Username"
 msgstr "Tên Người Dùng"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:13
+#: apps/client/src/pages/home/sections/statistics/index.tsx:15
 msgid "Users Signed Up"
 msgstr "Người dùng đã đăng ký"
 
@@ -1709,7 +1771,7 @@ msgstr "Xác thực"
 msgid "Validated"
 msgstr "Đã xác thực"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:97
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:101
 msgid "Value"
 msgstr "Giá trị"
 
@@ -1726,9 +1788,13 @@ msgstr "Xác minh xác thực hai yếu tố đã được thiết lập chính 
 msgid "Verify your email address"
 msgstr "Xác nhận địa chỉ email"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "Phiên bản 4"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:122
+msgid "View"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:116
+msgid "View {title} resume created with Elevate"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1738,9 +1804,17 @@ msgstr "Lượt xem"
 msgid "Visible"
 msgstr "Hiện"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:74
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
 msgstr "Truy cập <0>Phosphor Icons</0> để xem danh sách các biểu tượng có sẵn."
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:32
+msgid "Volunteer"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
+msgid "We always love to hear from Elevate users with feedback or support. Here are some of the messages we've received. If you have any feedback, feel free to reach out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1760,9 +1834,13 @@ msgstr "Chúng tôi chỉ xác minh địa chỉ email của bạn để đảm 
 msgid "Website"
 msgstr "Trang web"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "Có gì mới trong phiên bản mới nhất"
+#: apps/client/src/pages/home/sections/hero/index.tsx:110
+msgid "Works Offline"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:29
+msgid "Works with governments and think tanks"
+msgstr ""
 
 #: apps/client/src/pages/public/error.tsx:26
 msgid "You are not authorized to access this page."
@@ -1775,7 +1853,7 @@ msgstr "Bạn không được phép truy cập trang này."
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Bạn có thể thêm nhiều từ khóa bằng cách phân tách chúng bằng dấu phẩy hoặc nhấn enter."
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:144
 msgid "You can also enter your username."
 msgstr "Bạn cũng có thể nhập tên người dùng của bạn."
 
@@ -1795,17 +1873,21 @@ msgstr "Bạn có thể sử dụng API OpenAI, Azure OpenAI hoặc Ollama để
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
 msgstr "Bạn có thể theo dõi số lượt xem sơ yếu lý lịch của bạn hoặc số người đã tải xuống bằng cách bật chia sẻ công khai."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:122
+msgid "You control your data"
+msgstr ""
+
 #: apps/client/src/pages/public/error.tsx:20
 msgid "You don't have permission to access this page."
 msgstr "Bạn không có quyền truy cập vào trang này."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
-msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
-msgstr "Bạn có tùy chọn <0>lấy Key API OpenAI của bạn</0>. Key này cho phép bạn tận dụng API phù hợp với bạn. Ngoài ra, nếu bạn muốn tắt hoàn toàn các tính năng AI trong Reactive Resume, bạn chỉ cần xóa Key khỏi cài đặt của mình."
+msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Elevate altogether, you can simply remove the key from your settings."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:50
-msgid "You should have received an email from <0>Reactive Resume</0> with a link to verify your account."
-msgstr "Bạn hẳn đã nhận được email từ <0>Reactive Resume</0> với một liên kết để xác minh tài khoản của bạn."
+msgid "You should have received an email from <0>Elevate</0> with a link to verify your account."
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/forgot-password/page.tsx:54
@@ -1820,6 +1902,22 @@ msgstr "Tài khoản của bạn và tất cả dữ liệu của bạn đã đ�
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Key API của bạn được lưu trữ an toàn trong bộ nhớ cục bộ của trình duyệt và chỉ được sử dụng khi gửi yêu cầu tới OpenAI thông qua SDK chính thức của họ. Hãy yên tâm rằng Key của bạn không được truyền đến bất kỳ máy chủ bên ngoài nào ngoại trừ khi tương tác với các dịch vụ của OpenAI."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:67
+msgid "Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:54
+msgid "Your Data"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:100
+msgid "Your data stays local"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:34
+msgid "Your data, your device, your rules"
+msgstr ""
+
 #: apps/client/src/pages/auth/verify-email/page.tsx:28
 msgid "Your email address has been verified successfully."
 msgstr "Địa chỉ email của bạn đã được xác minh thành công."
@@ -1832,6 +1930,27 @@ msgstr "Key API OpenAI của bạn chưa được đặt. Vui lòng đi tới c�
 msgid "Your password has been updated successfully."
 msgstr "Mật khẩu của bạn đã được cập nhật thành công."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:65
+msgid "Your resume."
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:98
+#: apps/client/src/pages/home/page.tsx:25
+msgid "Your resume. Your story. Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:27
+msgid "Your resume. Your story. Your control. A privacy-first resume builder that puts you in control of your data and narrative."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+msgid "Your Resumes"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:66
+msgid "Your story."
+msgstr ""
+
 #: apps/client/src/pages/builder/_components/toolbar.tsx:112
 msgid "Zoom In"
 msgstr "Phóng to"
@@ -1839,4 +1958,3 @@ msgstr "Phóng to"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Thu nhỏ"
-

@@ -1,18 +1,17 @@
 {
-  "name": "@reactive-resume/source",
-  "description": "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
-  "version": "4.5.5",
-  "license": "MIT",
+  "name": "@elevate/source",
+  "description": "Your resume. Your story. Your control. A privacy-first resume builder that puts you in control of your data and narrative.",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.20.0",
   "author": {
-    "name": "Amruth Pillai",
-    "url": "https://amruthpillai.com",
-    "email": "hello@amruthpillai.com"
+    "name": "Elevate Team",
+    "url": "https://elevate.local",
+    "email": "support@elevate.local"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AmruthPillai/Reactive-Resume.git"
+    "url": "https://github.com/Abhyudaya-Beyond/Elevate-Resume.git"
   },
   "scripts": {
     "dev": "nx run-many -t serve",

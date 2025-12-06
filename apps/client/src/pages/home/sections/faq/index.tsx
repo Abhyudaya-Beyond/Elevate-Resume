@@ -1,148 +1,123 @@
 /* eslint-disable lingui/text-restrictions */
 /* eslint-disable lingui/no-unlocalized-strings */
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 
 import { useLanguages } from "@/client/services/resume/translation";
 
-// Who are you, and why did you build Reactive Resume?
+// What is Elevate, and why was it built?
 const Question1 = () => (
   <AccordionItem value="1">
     <AccordionTrigger className="text-left leading-relaxed">
-      Who are you, and why did you build Reactive Resume?
+      What is Elevate, and why was it built?
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
-        I'm Amruth Pillai, just another run-off-the-mill developer working at Elara Digital GmbH in
-        Berlin, Germany. I'm married to my beautiful and insanely supportive wife who has helped me
-        in more ways than one in seeing this project to it's fruition. I am originally from
-        Bengaluru, India where I was a developer at Postman for a short while.
+        Elevate is a privacy-first resume builder that puts you in complete control of your data and narrative. 
+        Elevate was created to address the growing need for tools that respect user privacy and provide complete data ownership.
       </p>
 
       <p>
-        Back in my university days, I designed a really cool dark mode resume (link on my website)
-        using Figma and I had a line of friends and strangers asking me to design their resume for
-        them.
+        Most resume builders treat your data as fuel for their algorithms, tracking your usage, selling your 
+        information, or locking you into their platform. Elevate flips that model: your data stays under your 
+        control, and your resume stays about your story—not our metrics.
       </p>
 
       <p>
-        While I could have charged everyone a hefty sum and retired even before I began, I decided
-        to build the first version of Reactive Resume in 2019. Since then, it's gone through
-        multiple iterations as I've learned a lot of better coding practices over the years.
+        Elevate is built on the principle that you should own your professional narrative end-to-end. 
+        Whether you're a student preparing for your first job, a professional switching careers, or a 
+        freelancer building your portfolio, Elevate gives you the tools to create a resume that truly 
+        represents you—without trackers, dark patterns, or data lock-in.
       </p>
 
       <p>
-        At the time of writing, Reactive Resume is probably one of the only handful of resume
-        builders out there available to the world for free and without an annoying paywall at the
-        end. While being free is often associated with software that's not of good quality, I strive
-        to prove them wrong and build a product that people love using and are benefitted by it.
-      </p>
-
-      <p>
-        My dream has always been to build something that at least a handful people use on a daily
-        basis, and I'm extremely proud to say that Reactive Resume, over it's years of development,
-        has <strong>helped over half a million people build their resume</strong>, and I hope it
-        only increases from here and reaches more people who are in need of a good resume to
-        kickstart their career.
+        Our mission is to help people build resumes they fully own, with complete privacy and control. 
+        We believe that your career data is yours, and you should be able to take it with you wherever you go.
       </p>
     </AccordionContent>
   </AccordionItem>
 );
 
-// How much does it cost to run Reactive Resume?
+// How much does it cost to use Elevate?
 const Question2 = () => (
   <AccordionItem value="2">
     <AccordionTrigger className="text-left leading-relaxed">
-      How much does it cost to run Reactive Resume?
+      How much does it cost to use Elevate?
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
-        It's not much honestly. <a href="https://m.do.co/c/ceae1fff245e">DigitalOcean</a> has
-        graciously sponsored their infrastructure to allow me to host Reactive Resume on their
-        platform. There's only the fee I pay to dependent services to send emails, renew the domain,
-        etc.
+        Elevate is completely free to use. We believe that everyone should have access to tools that 
+        help them build their career narrative without financial barriers.
       </p>
 
       <p>
-        I've spent countless hours and sleepless nights building the application though, and I
-        honestly do not expect anything in return but to hear from you on how the app has helped you
-        with your career.
+        We've built Elevate with privacy and user control as core principles. Your data stays yours, 
+        and you can export it at any time. There are no hidden fees, no premium tiers, and no data 
+        lock-in.
       </p>
 
       <p>
-        But if you do feel like supporting the developer and the future development of Reactive
-        Resume, please donate (<em>only if you have some extra money lying around</em>) on my{" "}
-        <a href="https://github.com/sponsors/AmruthPillai/">GitHub Sponsors page</a>. You can choose
-        to donate one-time or sponsor a recurring donation.
-      </p>
-
-      <p>
-        Alternatively, if you are in the US, or you are a part of a large educational institution or
-        corporate organization, you can{" "}
-        <a href="https://opencollective.com/reactive-resume">
-          support the project through Open Collective
-        </a>
-        . We are fiscally hosted through Open Collective Europe, which means your donations and
-        sponsorships could also be made tax-deductible.
+        If you find Elevate helpful and want to support its development, we'd love to hear from you. 
+        Your feedback and support help us continue building a tool that respects your privacy and gives 
+        you complete ownership of your resume.
       </p>
     </AccordionContent>
   </AccordionItem>
 );
 
-// Other than donating, how can I support you?
+// How can I support Elevate?
 const Question3 = () => (
   <AccordionItem value="3">
     <AccordionTrigger className="text-left leading-relaxed">
-      Other than donating, how can I support you?
+      How can I support Elevate?
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
-        <strong>If you speak a language other than English</strong>, sign up to be a translator on{" "}
-        <a href="https://translate.rxresu.me/" target="_blank" rel="noreferrer">
-          Crowdin
-        </a>
-        , our translation management service. You can help translate the product to your language
-        and share it among your community. Even if the language is already translated, it helps to
-        sign up as you would be notified when there are new phrases to be translated.
+        <strong>If you speak a language other than English</strong>, help us translate Elevate to 
+        your language. You can contribute translations through our translation platform and help 
+        bring Elevate to more communities around the world.
       </p>
 
       <p>
         <strong>If you work in the media, are an influencer or have lots of friends</strong>, share
-        the app with your circles and let them know so it can reach the people who need it the most.
-        I'm also <a href="mailto:hello@amruthpillai.com">open to giving tech talks</a>, although
-        that's wishful thinking. But if you do mention Reactive Resume on your blog, let me know so
-        that I can link back to you here.
+        Elevate with your circles and let them know about a privacy-first alternative to traditional 
+        resume builders. If you mention Elevate on your blog or social media, we'd love to hear about it.
       </p>
 
       <p>
         <strong>If you found a bug or have an idea for a feature</strong>, raise an issue on{" "}
         <a
-          href="https://github.com/AmruthPillai/Reactive-Resume/issues/new/choose"
+          href="https://github.com/your-org/elevate/issues/new/choose"
           target="_blank"
           rel="noreferrer"
         >
           GitHub
         </a>{" "}
-        or shoot me a message and let me know what you'd like to see. I can't promise that it'll be
-        done soon, but juggling work, life and open-source, I'll definitely get to it when I can.
+        or reach out to us at <a href="mailto:support@elevate.local">support@elevate.local</a>. 
+        We can't promise that it'll be done soon, but we'll definitely consider it.
+      </p>
+
+      <p>
+        <strong>Most importantly</strong>, use Elevate and let us know how it helps you. Your feedback 
+        and stories help us understand what matters most to users and guide our development priorities.
       </p>
     </AccordionContent>
   </AccordionItem>
 );
 
-// What languages are supported on Reactive Resume?
+// What languages are supported on Elevate?
 const Question4 = () => {
   const { languages } = useLanguages();
 
   return (
     <AccordionItem value="4">
       <AccordionTrigger className="text-left leading-relaxed">
-        What languages are supported on Reactive Resume?
+        What languages are supported on Elevate?
       </AccordionTrigger>
       <AccordionContent className="prose max-w-none dark:prose-invert">
         <p>
-          Here are the languages currently supported by Reactive Resume, along with their respective
+          Here are the languages currently supported by Elevate, along with their respective
           completion percentages.
         </p>
 
@@ -151,7 +126,7 @@ const Question4 = () => {
             <a
               key={language.id}
               className="no-underline"
-              href={`https://crowdin.com/translate/reactive-resume/all/en-${language.editorCode}`}
+              href={`https://crowdin.com/translate/elevate/all/en-${language.editorCode}`}
               target="_blank"
               rel="noreferrer"
             >
@@ -176,7 +151,7 @@ const Question4 = () => {
 
         <p>
           If you'd like to improve the translations for your language, please{" "}
-          <a href="https://crowdin.com/project/reactive-resume" rel="noreferrer" target="_blank">
+          <a href="https://crowdin.com/project/elevate" rel="noreferrer" target="_blank">
             sign up as a translator on Crowdin
           </a>{" "}
           and join the project. You can also choose to be notified of any new phrases that get added
@@ -185,7 +160,7 @@ const Question4 = () => {
 
         <p>
           If a language is missing from this list, please raise an issue on GitHub requesting its
-          inclusion, and I will make sure to add it as soon as possible.
+          inclusion, and we will make sure to add it as soon as possible.
         </p>
       </AccordionContent>
     </AccordionItem>
@@ -200,25 +175,21 @@ const Question5 = () => (
     </AccordionTrigger>
     <AccordionContent className="prose max-w-none dark:prose-invert">
       <p>
-        OpenAI has been a game-changer for all of us. I cannot tell you how much ChatGPT has helped
-        me in my everyday work and with the development of Reactive Resume. It only makes sense that
-        you leverage what AI has to offer and let it help you build the perfect resume.
+        OpenAI integration allows you to leverage AI to help you build the perfect resume. You can 
+        choose to enter your own OpenAI API key on the Settings page (under OpenAI Integration).
       </p>
 
       <p>
-        While most applications out there charge you a fee to use their AI services (rightfully so,
-        because it isn't cheap), you can choose to enter your own OpenAI API key on the Settings
-        page (under OpenAI Integration).{" "}
         <strong>The key is stored in your browser's local storage</strong>, which means that if you
         uninstall your browser, or even clear your data, the key is gone with it. All requests made
-        to OpenAI are also sent directly to their service and does not hit the app servers at all.
+        to OpenAI are sent directly to their service and do not hit the app servers at all. Your 
+        API key never leaves your browser.
       </p>
 
       <p>
-        You are free to turn off all AI features (and not be aware of it's existence) simply by not
-        adding a key in the Settings page and still make use of all the useful features that
-        Reactive Resume has to offer. I would even suggest you to take the extra step of using
-        ChatGPT to write your content, and simply copy it over to Reactive Resume.
+        You are free to turn off all AI features simply by not adding a key in the Settings page 
+        and still make use of all the useful features that Elevate has to offer. You can also use
+        ChatGPT or other AI tools to write your content, and simply copy it over to Elevate.
       </p>
     </AccordionContent>
   </AccordionItem>
@@ -231,7 +202,7 @@ export const FAQSection = () => (
         <h2 className="text-4xl font-bold">Frequently Asked Questions</h2>
 
         <p className="text-base leading-loose">
-          Here are some questions I often get asked about Reactive Resume.
+          Here are some questions we often get asked about Elevate.
         </p>
 
         <p className="text-sm leading-loose">

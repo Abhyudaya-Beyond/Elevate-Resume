@@ -1,4 +1,4 @@
-msgid ""
+﻿msgid ""
 msgstr ""
 "POT-Creation-Date: 2023-11-10 13:15+0100\n"
 "MIME-Version: 1.0\n"
@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hu\n"
-"Project-Id-Version: reactive-resume\n"
+"Project-Id-Version: elevate\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2025-11-04 14:22\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: reactive-resume\n"
+"X-Crowdin-Project: elevate\n"
 "X-Crowdin-Project-ID: 503410\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: messages.po\n"
@@ -22,29 +22,25 @@ msgstr ""
 msgid "You have enabled two-factor authentication successfully."
 msgstr "Sikeresen engedélyezte a kétfaktoros hitelesítést."
 
-#: apps/client/src/pages/home/sections/features/index.tsx:57
-msgid "{templatesCount} resume templates to choose from"
-msgstr "{templatesCount} önéletrajz sablon közül választhat"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:142
 msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {Column} other {Columns}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:25
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>A Reactive Resumet nagyrészt egyedül építettem a szabadidőmben, sok segítséget kaptam más nagyszerű nyílt forráskódú közreműködőktől.</0><1>Ha tetszik az alkalmazás, és támogatni szeretnéd, hogy örökre ingyenes maradjon, kérlek, adományozz, amennyit csak tudsz.</1>"
+msgid "<0>Elevate is built with privacy-first principles, with help from great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:56
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:55
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>Biztos vagyok benne, hogy az alkalmazás nem tökéletes, de szeretném, ha az lenne.</0><1>Ha bármilyen problémával szembesültél az önéletrajzod elkészítése során, vagy van egy ötleted, ami segítene neked és más felhasználóknak az önéletrajzod könnyebb elkészítésében, írj egy problémát az adattárba, vagy küldj nekem egy e-mailt róla.</1>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:299
-msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
-msgstr "<0>Megjegyzés: </0>Az OpenAI API használatával Ön tudomásul veszi és elfogadja az OpenAI által meghatározott <1>felhasználási feltételeket</1> és <2>adatvédelmi szabályzatot</2>. Felhívjuk figyelmét, hogy a Reactive Resume nem vállal felelősséget a szolgáltatás nem megfelelő vagy jogosulatlan használatáért, és az ebből eredő következmények vagy felelősségek kizárólag a felhasználót terhelik."
+msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Elevate bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:90
-msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
-msgstr "<0>A közösség rengeteg időt töltött a Reactive Resume dokumentációjának megírásával, és biztos vagyok benne, hogy ez segíteni fog az alkalmazás használatának megkezdésében.</0><1>Rengeteg példát is találsz a kezdéshez, és olyan funkciókat, amelyekről talán nem is tudsz, és amelyek segíthetnek a tökéletes önéletrajz elkészítésében.</1>"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:89
+msgid "<0>The community has spent a lot of time writing the documentation for Elevate, and we're sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:140
 msgid "<0>Two-factor authentication is currently disabled.</0> You can enable it by adding an authenticator app to your account."
@@ -54,28 +50,18 @@ msgstr "<0>A kétfaktoros hitelesítés jelenleg ki van kapcsolva.</0> A hiteles
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>A kétfaktoros hitelesítés engedélyezve van.</0> Minden bejelentkezéskor meg kell adnia egy kódot."
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "A free and open-source resume builder"
-msgstr "Ingyenes és nyílt forráskódú önéletrajzkészítő program"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
-msgstr "Ingyenes és nyílt forráskódú önéletrajz készítő, amely leegyszerűsíti az önéletrajz készítésének, frissítésének és megosztásának folyamatát."
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:59
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Egy linket másoltunk a vágólapra."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "<0>Amruth Pillai</0> szenvedélyes projektje"
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "Egy jelszó-visszaállítási linket kellett volna küldeni a postaládájába, ha a megadott e-mail címen létezett fiók."
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A privacy-first resume builder built with <0>open source</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -89,6 +75,10 @@ msgstr "Ezzel az e-mail címmel és/vagy felhasználónévvel már létezik egy 
 msgid "A4"
 msgstr "A4"
 
+#: apps/client/src/pages/home/components/footer.tsx:56
+msgid "About"
+msgstr ""
+
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
 msgid "Accepts only {accept} files"
@@ -98,7 +88,7 @@ msgstr "Csak a következő fájlokat fogadja el: {accept}"
 msgid "Account"
 msgstr "Fiók"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:179
 msgid "Add a custom field"
 msgstr "Egyéni mező hozzáadása"
 
@@ -125,7 +115,11 @@ msgstr "Új oldal hozzáadása"
 msgid "AI"
 msgstr "AI"
 
-#: apps/client/src/pages/auth/register/page.tsx:71
+#: apps/client/src/pages/home/sections/features/index.tsx:24
+msgid "AI-powered suggestions for impact"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:271
 msgid "Already have an account?"
 msgstr "Van már fiókod?"
 
@@ -140,10 +134,6 @@ msgstr "Belső szerverhiba történt."
 #: apps/client/src/pages/public/error.tsx:32
 msgid "An unexpected error occurred."
 msgstr "Váratlan hiba történt."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:134
-msgid "and many more..."
-msgstr "- És még sok más..."
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:57
 msgid "Anyone with the link can view and download the resume."
@@ -191,13 +181,13 @@ msgstr "Tanulmányok"
 msgid "Aspect Ratio"
 msgstr "Méretarány"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:51
-msgid "Available in {languagesCount} languages"
-msgstr "{languagesCount} nyelven érhető el"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:53
 msgid "Awarder"
 msgstr "Díjak"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:33
+msgid "Awards"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:258
 msgid "Azure API Version"
@@ -250,9 +240,13 @@ msgstr "Szegély"
 msgid "Border Radius"
 msgstr "Szegély sugár"
 
-#: apps/client/src/pages/public/page.tsx:93
-msgid "Built with"
-msgstr "Készült"
+#: apps/client/src/pages/home/sections/hero/index.tsx:77
+msgid "Build and share a resume that truly represents you—without trackers, dark patterns, or data lock-in."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:111
+msgid "Built for 2G networks"
+msgstr ""
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
@@ -275,6 +269,10 @@ msgstr "Alkalmi"
 msgid "Center Artboard"
 msgstr "Vászon középre igazítása"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:29
+msgid "Certifications"
+msgstr ""
+
 #: apps/client/src/components/locale-switch.tsx:17
 msgid "Change Language"
 msgstr "Nyelvváltás"
@@ -291,6 +289,10 @@ msgstr "Hangszínváltás"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "Meggondoltad magad a névvel kapcsolatban? Adj neki egy újat."
+
+#: apps/client/src/pages/public/page.tsx:86
+msgid "Check out my resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:70
 msgid "Check your email for the confirmation link to update your email address."
@@ -327,6 +329,7 @@ msgid "Columns"
 msgstr "Oszlopok"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:39
+#: apps/client/src/pages/home/components/footer.tsx:48
 msgid "Company"
 msgstr "Cég"
 
@@ -357,8 +360,7 @@ msgstr "Másolás a vágólapra"
 msgid "Create"
 msgstr "Létrehozás"
 
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/register/page.tsx:69
+#: apps/client/src/pages/auth/register/page.tsx:82
 msgid "Create a new account"
 msgstr "Új fiók létrehozása"
 
@@ -372,14 +374,33 @@ msgstr "Új elem létrehozása"
 msgid "Create a new resume"
 msgstr "Új önéletrajz létrehozása"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
-msgctxt "This is a link to create a new account"
-msgid "Create one now"
-msgstr "Létrehozás most"
+#: apps/client/src/pages/auth/register/page.tsx:255
+msgid "Create account"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:259
 msgid "Create Sample Resume"
 msgstr "Minta önéletrajz létrehozása"
+
+#: apps/client/src/pages/auth/register/page.tsx:104
+msgid "Create your Elevate account"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:64
+msgid "Create Your First Resume"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:54
+msgid "Create your first resume to get started. You have full control over your story."
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:188
+msgid "Created with"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:252
+msgid "Creating account..."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:82
 msgid "Current Password"
@@ -391,21 +412,9 @@ msgstr "Jelenlegi jelszó"
 msgid "Custom CSS"
 msgstr "Egyéni CSS"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:62
-msgid "Custom resume sections"
-msgstr "Egyéni önéletrajz szakaszok"
-
 #: apps/client/src/stores/resume.ts:53
 msgid "Custom Section"
 msgstr "Egyéni szekció"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "Testreszabható színpaletták"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "Testreszabható elrendezések"
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -414,6 +423,10 @@ msgstr "Veszélyes terület"
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:87
 msgid "Dark"
 msgstr "Sötét"
+
+#: apps/client/src/pages/home/components/header.tsx:43
+msgid "Dashboard"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:67
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:67
@@ -431,7 +444,6 @@ msgstr "Dátum vagy dátumtartomány"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:137
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:158
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
 msgid "Delete"
@@ -454,9 +466,9 @@ msgstr "Telepítés neve"
 msgid "Description"
 msgstr "Leírás"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:58
-msgid "Design single/multi page resumes"
-msgstr "Egy/több oldalas önéletrajzok tervezése"
+#: apps/client/src/pages/home/sections/features/index.tsx:48
+msgid "Designed for India's Policy Makers"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:139
 msgid "Disable"
@@ -473,15 +485,15 @@ msgstr "2FA Kikapcsolása"
 msgid "Discard"
 msgstr "Elvetés"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:110
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:109
 msgid "Documentation"
 msgstr "Dokumentáció"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:225
 msgid "Don't have an account?"
 msgstr "Nincs fiókod?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "Nem tudod, hol kezd? Nézd meg a dokumentációt!"
 
@@ -489,9 +501,13 @@ msgstr "Nem tudod, hol kezd? Nézd meg a dokumentációt!"
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "Nem találod a saját nyelved? <0>Segíts az alkalmazás lefordításában.</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:45
-msgid "Donate to Reactive Resume"
-msgstr "Adományozás a Reactive Resumenak"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:44
+msgid "Donate to Elevate"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:147
+msgid "Download"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:56
 msgid "Download a JSON snapshot of your resume. This file can be used to import your resume in the future, or can even be shared with others to collaborate."
@@ -511,7 +527,7 @@ msgstr "Letöltések"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:181
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:246
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:168
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
@@ -526,16 +542,54 @@ msgid "Duplicate an existing resume"
 msgstr "Meglévő önéletrajz duplikálása"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:97
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:112
 msgid "Edit"
 msgstr "Szerkesztés"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:26
+msgid "Education"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:169
 msgid "Effects"
 msgstr "Effektek"
 
+#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:62
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/components/footer.tsx:25
+#: apps/client/src/pages/home/page.tsx:25
+#: apps/client/src/pages/public/page.tsx:114
+#: apps/client/src/pages/public/page.tsx:190
+msgid "Elevate"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "Elevate has helped people land jobs at these great companies:"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Elevate is a privacy-first, open-source resume builder that puts you in control of your data and narrative. Your support helps us continue building a tool that respects your privacy and gives you complete ownership of your resume. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:50
+msgid "Elevate is built on a foundation of privacy-first principles and years of refinement. Every feature has been designed with your control and data ownership in mind, creating a resume builder that respects you as the owner of your professional narrative."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+msgid "Elevate thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features and the linguists whose translations have made it accessible to a broader audience."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:141
+#: apps/client/src/pages/auth/login/page.tsx:128
+#: apps/client/src/pages/auth/register/page.tsx:187
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:81
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
 msgid "Email"
@@ -553,7 +607,7 @@ msgstr "Írjon be egy új jelszót alább, és győződjön meg arról, hogy biz
 msgid "Enter one of the 10 backup codes you saved when you enabled two-factor authentication."
 msgstr "Adja meg a kétfaktoros hitelesítés engedélyezésekor elmentett 10 biztonsági kód egyikét."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:63
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:67
 msgid "Enter Phosphor Icon"
 msgstr "Írja be egy Phosphor-ikon nevét"
 
@@ -577,9 +631,9 @@ msgstr "Hiba {statusCode}"
 msgid "Errors"
 msgstr "Hibák"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
-msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
-msgstr "Még ha nem is vagy abban a helyzetben, hogy anyagilag hozzájárulj, akkor is tehetsz valamit, ha csillagot adsz a GitHub tárolónak, továbbítod a hírt barátaidnak, vagy küldesz egy gyors üzenetet, hogy tudasd velem, hogyan segített neked a Reactive Resume. Visszajelzéseiteket és támogatásotokat mindig szívesen fogadjuk és nagyra értékeljük!"
+#: apps/client/src/pages/home/sections/support/index.tsx:26
+msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let us know how Elevate has helped you. Your feedback and support are always welcome and much appreciated!"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:271
 msgid "Expand All"
@@ -591,15 +645,28 @@ msgstr ""
 msgid "Expand section"
 msgstr ""
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:25
+msgid "Experience"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Reactive Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Fedezze fel a Reaktív önéletrajzban elérhető sablonokat, és tekintse meg a velük készített önéletrajzokat. Ezek példaként is szolgálhatnak a következő önéletrajzának elkészítéséhez."
+msgid "Explore the templates available in Elevate and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:121
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:39
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:132
 msgid "Export"
 msgstr "Exportálás"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:121
+msgid "Export Anytime"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:36
+msgid "Features"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:255
 msgid "File"
@@ -608,10 +675,6 @@ msgstr "Fájl"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:221
 msgid "Filetype"
 msgstr "Fájltípus"
-
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "Végül,"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -641,9 +704,9 @@ msgstr "Itt például fel lehet jegyezni, hogy mely cégeknek küldte el az ön�
 msgid "Forget"
 msgstr "Elfelejt"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
-msgid "Forgot Password?"
-msgstr "Elfelejtette jelszavát?"
+#: apps/client/src/pages/auth/login/page.tsx:191
+msgid "Forgot password?"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:68
 msgid "Forgot your password?"
@@ -654,18 +717,18 @@ msgstr "Elfelejtette a jelszavát?"
 msgid "Format"
 msgstr "Formázás"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "Találtál egy hibát, vagy van egy új funkcióra vonatkozó ötleted?"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:46
-msgid "Free, forever"
-msgstr "Mindig ingyenes"
 
 #: apps/client/src/components/ai-actions.tsx:125
 #: apps/client/src/components/ai-actions.tsx:128
 msgid "Friendly"
 msgstr "Barátságos"
+
+#: apps/client/src/pages/auth/register/page.tsx:137
+msgid "Full name"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:56
 msgid "Full Name"
@@ -675,15 +738,19 @@ msgstr "Teljes név"
 msgid "Generate a random title for your resume"
 msgstr "Hozzon létre egy véletlenszerű címet az önéletrajzához"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:32
+#: apps/client/src/pages/home/components/header.tsx:51
 msgid "Get Started"
 msgstr "Kezdjünk bele"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:18
+#: apps/client/src/pages/home/sections/cta/index.tsx:46
+msgid "Get Started Free"
+msgstr ""
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:23
 msgid "GitHub"
 msgstr "GitHub"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+#: apps/client/src/pages/home/sections/statistics/index.tsx:14
 msgid "GitHub Stars"
 msgstr "GitHub csillagok"
 
@@ -692,6 +759,7 @@ msgid "Give your old resume a new name."
 msgstr "Adjon új nevet a régi önéletrajzának."
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:67
+#: apps/client/src/pages/home/sections/cta/index.tsx:39
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:18
 msgid "Go to Dashboard"
 msgstr "Tovább az Irányítópultra"
@@ -700,17 +768,13 @@ msgstr "Tovább az Irányítópultra"
 msgid "Go to home"
 msgstr "Menj haza"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:31
+#: apps/client/src/pages/auth/_components/social-auth.tsx:37
 msgid "Google"
 msgstr "Google"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
 msgstr "Szürkeárnyalatos"
-
-#: apps/client/src/pages/dashboard/resumes/page.tsx:45
-msgid "Grid"
-msgstr "Rács"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:70
 msgid "Headline"
@@ -738,8 +802,8 @@ msgstr "Elrejtés"
 msgid "Hide Icons"
 msgstr "Ikonok elrejtése"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
-#: apps/client/src/pages/auth/register/page.tsx:168
+#: apps/client/src/pages/auth/login/page.tsx:174
+#: apps/client/src/pages/auth/register/page.tsx:231
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "Tartsa lenyomva a <0>Ctrl</0> billentyűt jelszavának ideiglenes megjelenítéséhez."
@@ -748,30 +812,22 @@ msgstr "Tartsa lenyomva a <0>Ctrl</0> billentyűt jelszavának ideiglenes megjel
 msgid "Horizontal"
 msgstr "Vízszintes"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:67
-msgid "Host your resume publicly"
-msgstr "Önéletrajzának nyilvános eltárolása"
-
-#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "Mindig szívesen hallok visszajelzést vagy támogatást a Reactive Resume felhasználóitól. Íme néhány üzenet, amit kaptam. Ha bármilyen visszajelzése van, nyugodtan írjon nekem egy e-mailt a következő címre <0>{email}</0>."
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "Ikon"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "Ha ez az alkalmazás segített neked az álláskeresésben, tudasd velem, ha kapcsolatba lépsz velem <0>ezen a kapcsolatfelvételi űrlapon</0> keresztül."
+msgid "If Elevate has helped you with your job hunt, let us know by reaching out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "Ha kikapcsolja a kétfaktoros hitelesítést, a bejelentkezéskor nem kell többé ellenőrző kódot megadnia."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
-msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
-msgstr "Ha többnyelvű vagy, örülnénk, ha segítenél abban, hogy az alkalmazást még több nyelvre és közösségbe eljuttassuk. Ne aggódj, ha nem látod a nyelvedet a listán - csak szólj nekem a GitHubon, és gondoskodom róla, hogy felvegyük. Készen állsz az indulásra? Ugorj bele a fordításba a Crowdinon az alábbi linkre kattintva."
+#: apps/client/src/pages/home/sections/support/index.tsx:22
+msgid "If you're multilingual, we'd love your help in bringing Elevate to more languages and communities. Don't worry if you don't see your language on the list - reach out at support@elevate.local, and we'll make sure to include it."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:309
 msgid "Import"
@@ -800,14 +856,22 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "Ebben a szakaszban törölheti fiókját és a felhasználóhoz kapcsolódó összes adatot, de ne feledje, hogy <0>ez a művelet visszafordíthatatlan</0>."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:121
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:122
 msgid "Information"
 msgstr "Információ"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
 msgstr "Intézmény"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:28
+msgid "Institutional Credibility"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:34
+msgid "Interests"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -841,21 +905,6 @@ msgstr "Úgy tűnik, hogy az Ön által megadott ellenőrző jelszó érvénytel
 msgid "It looks like your email address has already been verified."
 msgstr "Úgy tűnik, hogy az e-mail címét már ellenőrizték."
 
-#: apps/client/src/pages/auth/register/page.tsx:101
-msgctxt "Localized version of a placeholder name. For example, Max Mustermann in German or Jan Kowalski in Polish."
-msgid "John Doe"
-msgstr "Gipsz Jakab"
-
-#: apps/client/src/pages/auth/register/page.tsx:123
-msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
-msgid "john.doe"
-msgstr "gipsz.jakab"
-
-#: apps/client/src/pages/auth/register/page.tsx:145
-msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
-msgid "john.doe@example.com"
-msgstr "gipsz.jakab@example.com"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
 msgid "JSON"
 msgstr "JSON"
@@ -876,7 +925,10 @@ msgstr "Címke"
 msgid "Language"
 msgstr "Nyelv"
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:83
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:28
+msgid "Languages"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:139
 msgid "Last updated {lastUpdated}"
 msgstr "Utoljára frissítve {lastUpdated}"
@@ -887,7 +939,7 @@ msgstr "Utoljára frissítve {lastUpdated}"
 msgid "Layout"
 msgstr "Elrendezés"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:40
 msgid "Learn more"
 msgstr "Tudjon meg többet"
 
@@ -908,22 +960,24 @@ msgstr "Licencelve <0>MIT</0> alatt"
 msgid "Light"
 msgstr "Fény"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:69
-msgid "Light or dark theme"
-msgstr "Világos vagy sötét téma"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:165
 msgid "Line Height"
 msgstr "Vonalmagasság"
+
+#: apps/client/src/pages/public/page.tsx:93
+#: apps/client/src/pages/public/page.tsx:103
+msgid "Link copied to clipboard"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:22
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "LinkedIn, JSON önéletrajz stb."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:49
-msgid "List"
-msgstr "Lista"
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:69
+#: apps/client/src/pages/home/sections/hero/index.tsx:148
+msgid "Local"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
@@ -933,15 +987,15 @@ msgid "Location"
 msgstr "Helyszín"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:51
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:115
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:188
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:115
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:166
 msgid "Lock"
 msgstr "Zárolás"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:64
-msgid "Lock a resume to prevent editing"
-msgstr "Zárolja az önéletrajzot a szerkesztés megakadályozásához"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:87
+msgid "Locked"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:43
 msgid "Locking a resume will prevent any further changes to it. This is useful when you have already shared your resume with someone and you don't want to accidentally make any changes to it."
@@ -959,10 +1013,6 @@ msgstr "Elvesztette a készülékét?"
 #: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:252
 msgid "Main"
 msgstr "Fő"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:59
-msgid "Manage multiple resumes"
-msgstr "Több önéletrajz kezelése"
 
 #. The month and year should be uniform across all languages.
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:71
@@ -986,15 +1036,10 @@ msgstr "Margó"
 msgid "Max Tokens"
 msgstr "Max zsetonok"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:48
-msgid "MIT License"
-msgstr "MIT Licenc"
-
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:205
 msgid "Model"
 msgstr "Modell"
 
-#: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:36
@@ -1002,7 +1047,7 @@ msgstr "Modell"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:70
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:92
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:153
 msgid "Name"
 msgstr "Név"
@@ -1012,6 +1057,10 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "Név"
 
+#: apps/client/src/pages/home/sections/features/index.tsx:18
+msgid "Narrative Control"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "Honlap"
@@ -1020,13 +1069,17 @@ msgstr "Honlap"
 msgid "New Password"
 msgstr "Új Jelszó"
 
+#: apps/client/src/pages/dashboard/resumes/page.tsx:58
+msgid "New Resume"
+msgstr ""
+
 #: apps/client/src/components/locale-combobox.tsx:45
 msgid "No results found"
 msgstr "Nincs találat"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:49
-msgid "No user tracking or advertising"
-msgstr "Nincs felhasználói nyomkövetés vagy reklám"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:49
+msgid "No resumes yet"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:133
 msgid "Note: This will make your account less secure."
@@ -1049,25 +1102,16 @@ msgstr "Egyszer használható jelszó"
 msgid "Oops, the server returned an error."
 msgstr "Hoppá, a szerver hibát jelzett."
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:97
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:77
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:148
 msgid "Open"
 msgstr "Megnyitás"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:47
-msgid "Open Source"
-msgstr "Nyílt forráskódú"
 
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
 #: apps/client/src/services/openai/improve-writing.ts:33
 msgid "OpenAI did not return any choices for your text."
 msgstr "Az OpenAI nem adott vissza semmilyen választási lehetőséget a szövegedre."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:52
-msgid "OpenAI Integration"
-msgstr "OpenAI integráció"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:120
 msgid "OpenAI/Azure OpenAI/Ollama Integration"
@@ -1082,7 +1126,7 @@ msgstr "OpenAI/Ollama API kulcs"
 msgid "Options"
 msgstr "Opciók"
 
-#: apps/client/src/pages/auth/layout.tsx:47
+#: apps/client/src/pages/auth/layout.tsx:50
 msgctxt "The user can either login with email/password, or continue with GitHub or Google."
 msgid "or continue with"
 msgstr "vagy folytassa ezzel"
@@ -1090,6 +1134,10 @@ msgstr "vagy folytassa ezzel"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:39
 msgid "Organization"
 msgstr "Szervezet"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:22
+msgid "Overview"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:25
@@ -1101,8 +1149,8 @@ msgstr "Oldal"
 msgid "Page {pageNumber}"
 msgstr "Oldal {pageNumber}"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:163
+#: apps/client/src/pages/auth/login/page.tsx:157
+#: apps/client/src/pages/auth/register/page.tsx:214
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
 msgid "Password"
@@ -1112,21 +1160,9 @@ msgstr "Jelszó"
 msgid "PDF"
 msgstr "PDF"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:63
-msgid "Personal notes for each resume"
-msgstr "Személyes megjegyzések minden önéletrajzhoz"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:108
 msgid "Phone"
 msgstr "Telefonszám"
-
-#: apps/client/src/pages/auth/layout.tsx:76
-msgid "Photograph by Patrick Tomasso"
-msgstr "Patrick Tomasso fotója"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:66
-msgid "Pick any font from Google Fonts"
-msgstr "Válasszon bármilyen betűtípust a Google Fontsból"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:69
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:121
@@ -1158,21 +1194,34 @@ msgstr "Pozíció"
 msgid "Position"
 msgstr "Pozíció"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:96
-msgid "Powered by"
-msgstr "Powered by"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "Készítette: <0>Simple Icons</0>"
+
+#: apps/client/src/pages/home/components/footer.tsx:42
+msgid "Pricing"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:43
 msgid "Primary Color"
 msgstr "Elsődleges szín"
 
-#: apps/client/src/pages/home/components/footer.tsx:47
+#: apps/client/src/pages/home/sections/features/index.tsx:33
+msgid "Privacy First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:50
 msgid "Privacy Policy"
 msgstr "Adatvédelmi irányelvek"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:50
+#: apps/client/src/pages/home/sections/hero/index.tsx:99
+msgid "Privacy-First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:34
+msgid "Product"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:113
 #: apps/client/src/components/ai-actions.tsx:116
@@ -1183,55 +1232,41 @@ msgstr "Professzionális"
 msgid "Profile"
 msgstr "Profil"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:24
+msgid "Profiles"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:30
+msgid "Projects"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:55
 msgid "Public"
 msgstr "Nyilvános"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:31
+msgid "Publications"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:53
 msgid "Publisher"
 msgstr "Kiadó"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:73
 msgid "Raise an issue"
 msgstr "Kérdés felvetése"
 
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:74
-#: apps/client/src/pages/public/page.tsx:95
-msgid "Reactive Resume"
-msgstr "Reaktív önéletrajz"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Reactive Resume has helped people land jobs at these great companies:"
-msgstr "A Reactive Resume segített már embereknek munkát találni ezeknél a nagyszerű vállalatoknál:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "A Reactive Resume egy ingyenes és nyílt forráskódú projekt, amelyet főként én készítettem, és nagyra értékelném a támogatásodat. Ha hajlandó vagy hozzájárulni, és csak akkor, ha megengedheted magadnak, fontold meg az adományozást a felsorolt platformok bármelyikén keresztül. Továbbá, a Reactive Resume-nak az Open Collective-n keresztül történő adományozás adómentes, mivel a projektet az Open Collective Europe tartja fenn."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "A Reactive Resume egy több mint 3 évnyi kemény munka szenvedélyes projektje, és ezzel együtt számos újra megismételt ötlet és funkció, amelyeket (majdnem) tökéletességig építettünk."
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "A Reactive Resume élénk közösségének köszönhetően virágzik. Ez a projekt számos olyan személynek köszönheti fejlődését, akik időt és készségeket áldoztak rá. Az alábbiakban azokat a programozókat ünnepeljük, akik a GitHubon továbbfejlesztették a funkciókat, és azokat a nyelvészeket, akiknek a Crowdinon található fordításai a szélesebb közönség számára is elérhetővé tették a szolgáltatást."
+#: apps/client/src/pages/home/sections/cta/index.tsx:31
+msgid "Ready to elevate your career?"
+msgstr ""
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:89
 msgid "Redo"
 msgstr "Redo"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:35
+msgid "References"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:157
@@ -1243,7 +1278,7 @@ msgid "Remove Page"
 msgstr "Oldal eltávolítása"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:111
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:101
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:159
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:86
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:152
 msgid "Rename"
@@ -1271,18 +1306,13 @@ msgid "Reset Zoom"
 msgstr "Zoom visszaállítása"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/resumes/page.tsx:39
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
 msgid "Resumes"
 msgstr "Önéletrajzok"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:14
+#: apps/client/src/pages/home/sections/statistics/index.tsx:16
 msgid "Resumes Generated"
 msgstr "Generált önéletrajzok"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:105
-msgid "Rich in features, not in pricing."
-msgstr "Gazdag funkciókban, de nem az árképzésben."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
 msgid "Rounded"
@@ -1336,25 +1366,21 @@ msgstr "Betűtípus-változat keresése"
 msgid "Search for a language"
 msgstr "Nyelv keresése"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:56
-msgid "Secure with two-factor authentication"
-msgstr "Biztonságos kétfaktoros hitelesítéssel"
-
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:65
 msgid "Security"
 msgstr "Biztonság"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:50
-msgid "Self-host with Docker"
-msgstr "Self-host Dockerrel"
+#: apps/client/src/pages/builder/_components/form-panel.tsx:44
+msgid "Select a section to edit"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:104
 msgid "Send Email"
 msgstr "E-mail küldése"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:79
-msgid "Send me a message"
-msgstr "Küldjön üzenetet"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:78
+msgid "Send us a message"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:97
 msgid "Separate Links"
@@ -1370,6 +1396,19 @@ msgstr "Beállítások"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:159
 msgid "Setup two-factor authentication on your account"
 msgstr "Kétfaktoros hitelesítés beállítása a fiókjában"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:19
+msgid "Shape your story, multiple versions"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:157
+msgid "Share"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:94
+#: apps/client/src/pages/public/page.tsx:104
+msgid "Share this link with anyone to view your resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:38
@@ -1394,47 +1433,48 @@ msgid "Sidebar"
 msgstr "Oldalsáv"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:209
+#: apps/client/src/pages/auth/register/page.tsx:278
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
+#: apps/client/src/pages/home/components/header.tsx:48
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
-#: apps/client/src/pages/auth/register/page.tsx:74
-msgid "Sign in now"
-msgstr "Jelentkezzen be most"
+#: apps/client/src/pages/auth/login/page.tsx:95
+msgid "Sign in to Elevate"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:73
 msgid "Sign in to your account"
 msgstr "Jelentkezzen be fiókjába"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:55
-msgid "Sign in with Email"
-msgstr "Jelentkezzen be e-mailben"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:53
-msgid "Sign in with GitHub"
-msgstr "Bejelentkezés a GitHub segítségével"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:54
-msgid "Sign in with Google"
-msgstr "Bejelentkezés a Google segítségével"
-
-#: apps/client/src/pages/auth/register/page.tsx:179
+#: apps/client/src/pages/auth/login/page.tsx:232
 msgid "Sign up"
 msgstr "Feliratkozás"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/home/sections/features/index.tsx:23
+msgid "Signal Strength"
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:111
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "Az e-mail címmel történő bejelentkezés jelenleg le van tiltva a rendszergazda által."
 
-#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/login/page.tsx:206
+msgid "Signing in..."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:120
 msgid "Signups are currently disabled by the administrator."
 msgstr "A regisztrációkat jelenleg a rendszergazda letiltotta."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:65
 msgid "Size (in px)"
 msgstr "Méret (px-ben)"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:27
+msgid "Skills"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:228
 msgid "Slug"
@@ -1457,6 +1497,10 @@ msgstr "Valami hiba történt a kérés feldolgozása során. Kérjük, próbál
 msgid "Square"
 msgstr "Négyzet"
 
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:33
+msgid "Start building"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:23
 msgid "Start building from scratch"
@@ -1465,6 +1509,14 @@ msgstr "Kezdje az építkezést a semmiből"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Start building your resume by giving it a name."
 msgstr "Kezdje el az önéletrajz felépítését azzal, hogy nevet ad neki."
+
+#: apps/client/src/pages/home/sections/cta/index.tsx:34
+msgid "Start building your resume today. No credit card required."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:107
+msgid "Start building your story today."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:22
@@ -1480,6 +1532,7 @@ msgstr "A statisztikák csak a nyilvános önéletrajzok esetében állnak rende
 msgid "Store your backup codes securely"
 msgstr "Tárolja biztonságosan a biztonsági kódokat"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:23
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
@@ -1492,17 +1545,17 @@ msgstr "Tárolja biztonságosan a biztonsági kódokat"
 msgid "Summary"
 msgstr "Összefoglaló"
 
+#: apps/client/src/pages/home/sections/support/index.tsx:17
+msgid "Support options coming soon. For now, reach out at support@elevate.local"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:23
 msgid "Support the app by donating what you can!"
 msgstr "Támogasd az alkalmazást azzal, hogy adományozol, amit tudsz!"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:9
-msgid "Supporting Reactive Resume"
-msgstr "Reaktív önéletrajz támogatása"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:65
-msgid "Supports A4/Letter page formats"
-msgstr "Támogatja az A4/Letter oldalformátumokat"
+msgid "Supporting Elevate"
+msgstr ""
 
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
@@ -1522,9 +1575,14 @@ msgstr "Rendszer"
 msgid "Template"
 msgstr "Sablon"
 
+#: apps/client/src/pages/home/components/footer.tsx:39
 #: apps/client/src/pages/home/sections/templates/index.tsx:9
 msgid "Templates"
 msgstr "Sablonok"
+
+#: apps/client/src/pages/home/components/footer.tsx:53
+msgid "Terms of Service"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:68
 msgid "Testimonials"
@@ -1569,7 +1627,7 @@ msgstr "Ezt a műveletet nem lehet visszacsinálni. Ez véglegesen törli az ön
 msgid "This email address is associated with an OAuth account. Please sign in with your OAuth provider."
 msgstr "Ez az e-mail cím egy OAuth-fiókhoz kapcsolódik. Kérjük, jelentkezzen be az OAuth-szolgáltatójával."
 
-#: apps/client/src/pages/builder/_components/header.tsx:57
+#: apps/client/src/pages/builder/_components/header.tsx:64
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "Ez az önéletrajz zárolt, kérjük, oldja fel a zárolást a további módosításokhoz."
 
@@ -1597,10 +1655,6 @@ msgstr "Oldaltörés sor váltása"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:150
 msgid "Toggle Page Numbers"
 msgstr "Oldalszámok váltása"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:68
-msgid "Track views and downloads"
-msgstr "Nézettség és letöltések nyomon követése"
 
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/auth/verify-otp/page.tsx:57
@@ -1640,7 +1694,7 @@ msgid "Undo"
 msgstr "Undo"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:52
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:110
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:178
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:161
 msgid "Unlock"
@@ -1649,6 +1703,10 @@ msgstr "Feloldja a"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:44
 msgid "Unlocking a resume will allow you to make changes to it again."
 msgstr "Az önéletrajz feloldása lehetővé teszi, hogy ismét változtatásokat hajtson végre rajta."
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:95
+msgid "Untitled Resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:192
 msgid "Unverified"
@@ -1662,9 +1720,13 @@ msgstr "Meglévő elem frissítése"
 msgid "Update an existing resume"
 msgstr "Meglévő önéletrajz frissítése"
 
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:100
+msgid "Updated {lastUpdated}"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:212
-msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
-msgstr "Töltsön fel egy fájlt az egyik elfogadott forrásból a meglévő adatok elemzésére és importálására a Reactive Resume alkalmazásba a könnyebb szerkesztés érdekében."
+msgid "Upload a file from one of the accepted sources to parse existing data and import it into Elevate for easier editing."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:73
 msgid "URL"
@@ -1691,13 +1753,13 @@ msgstr "Használja a biztonsági kódot"
 msgid "User does not have an associated 'secrets' record. Please report this issue on GitHub."
 msgstr "A felhasználónak nincs kapcsolódó \"titkok\" rekordja. Kérjük, jelentse ezt a problémát a GitHubon."
 
-#: apps/client/src/pages/auth/register/page.tsx:119
+#: apps/client/src/pages/auth/register/page.tsx:162
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:167
 msgid "Username"
 msgstr "Felhasználónév"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:13
+#: apps/client/src/pages/home/sections/statistics/index.tsx:15
 msgid "Users Signed Up"
 msgstr "Regisztrált felhasználók"
 
@@ -1709,7 +1771,7 @@ msgstr "Érvényesítse a  címet."
 msgid "Validated"
 msgstr "Érvényesített"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:97
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:101
 msgid "Value"
 msgstr "Érték"
 
@@ -1726,9 +1788,13 @@ msgstr "Ellenőrizze, hogy a kétfaktoros hitelesítés helyesen lett-e beállí
 msgid "Verify your email address"
 msgstr "Ellenőrizze az e-mail címét"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "4. verzió"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:122
+msgid "View"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:116
+msgid "View {title} resume created with Elevate"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1738,9 +1804,17 @@ msgstr "Nézettség"
 msgid "Visible"
 msgstr "Látható"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:74
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
 msgstr "Látogasson el a <0>Foszfor ikonok</0> oldalra a rendelkezésre álló ikonok listájáért."
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:32
+msgid "Volunteer"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
+msgid "We always love to hear from Elevate users with feedback or support. Here are some of the messages we've received. If you have any feedback, feel free to reach out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1760,9 +1834,13 @@ msgstr "Csak azért ellenőrizzük az e-mail címét, hogy küldhessünk Önnek 
 msgid "Website"
 msgstr "Honlap"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "Újdonságok a legújabb verzióban"
+#: apps/client/src/pages/home/sections/hero/index.tsx:110
+msgid "Works Offline"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:29
+msgid "Works with governments and think tanks"
+msgstr ""
 
 #: apps/client/src/pages/public/error.tsx:26
 msgid "You are not authorized to access this page."
@@ -1775,7 +1853,7 @@ msgstr "Ön nem jogosult az oldal elérésére."
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "Több kulcsszót is hozzáadhat, ha vesszővel választja el őket, vagy megnyomja az enter billentyűt."
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:144
 msgid "You can also enter your username."
 msgstr "Megadhatja a felhasználónevét is."
 
@@ -1795,17 +1873,21 @@ msgstr "Az OpenAI API-t, az Azure OpenAI-t vagy az Ollama-t használhatja a tart
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
 msgstr "A nyilvános megosztás engedélyezésével nyomon követheti, hogy hányan tekintették meg önéletrajzát, vagy hányan töltötték le azt."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:122
+msgid "You control your data"
+msgstr ""
+
 #: apps/client/src/pages/public/error.tsx:20
 msgid "You don't have permission to access this page."
 msgstr "Nincs jogosultsága az oldal eléréséhez."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
-msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
-msgstr "Lehetősége van <0>saját OpenAI API-kulcsot szerezni</0>. Ez a kulcs lehetővé teszi, hogy az API-t saját belátása szerint használhassa. Alternatív megoldásként, ha teljesen le szeretné tiltani a Reactive Resume AI funkcióit, egyszerűen eltávolíthatja a kulcsot a beállításai közül."
+msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Elevate altogether, you can simply remove the key from your settings."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:50
-msgid "You should have received an email from <0>Reactive Resume</0> with a link to verify your account."
-msgstr "A <0>Reactive Resume</0> küldött Önnek egy e-mailt, amelyben egy link található a fiókja ellenőrzéséhez."
+msgid "You should have received an email from <0>Elevate</0> with a link to verify your account."
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/forgot-password/page.tsx:54
@@ -1820,6 +1902,22 @@ msgstr "A fiókja és minden adata sikeresen törlődött. Viszontlátásra!"
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "Az API-kulcs biztonságosan tárolódik a böngésző helyi tárolójában, és csak akkor kerül felhasználásra, amikor a hivatalos SDK-n keresztül kéréseket intéz az OpenAI-hoz. Biztos lehet benne, hogy a kulcsa nem kerül továbbításra semmilyen külső szerverre, kivéve, amikor az OpenAI szolgáltatásaival lép kapcsolatba."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:67
+msgid "Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:54
+msgid "Your Data"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:100
+msgid "Your data stays local"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:34
+msgid "Your data, your device, your rules"
+msgstr ""
+
 #: apps/client/src/pages/auth/verify-email/page.tsx:28
 msgid "Your email address has been verified successfully."
 msgstr "Az e-mail címét sikeresen ellenőriztük."
@@ -1832,6 +1930,27 @@ msgstr "Az OpenAI API kulcsa még nem lett beállítva. Kérjük, lépjen be a f
 msgid "Your password has been updated successfully."
 msgstr "Jelszavát sikeresen frissítettük."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:65
+msgid "Your resume."
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:98
+#: apps/client/src/pages/home/page.tsx:25
+msgid "Your resume. Your story. Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:27
+msgid "Your resume. Your story. Your control. A privacy-first resume builder that puts you in control of your data and narrative."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+msgid "Your Resumes"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:66
+msgid "Your story."
+msgstr ""
+
 #: apps/client/src/pages/builder/_components/toolbar.tsx:112
 msgid "Zoom In"
 msgstr "Nagyítás"
@@ -1839,4 +1958,3 @@ msgstr "Nagyítás"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Kicsinyítés"
-

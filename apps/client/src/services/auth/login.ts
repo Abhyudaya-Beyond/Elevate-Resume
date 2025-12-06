@@ -1,4 +1,4 @@
-import type { AuthResponseDto, LoginDto } from "@reactive-resume/dto";
+import type { AuthResponseDto, LoginDto } from "@elevate/dto";
 import { useMutation } from "@tanstack/react-query";
 import type { AxiosResponse } from "axios";
 import { useNavigate } from "react-router";

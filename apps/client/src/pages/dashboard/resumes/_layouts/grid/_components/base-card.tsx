@@ -1,5 +1,5 @@
-import { Card } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { Card } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { forwardRef } from "react";
 import Tilt from "react-parallax-tilt";
 

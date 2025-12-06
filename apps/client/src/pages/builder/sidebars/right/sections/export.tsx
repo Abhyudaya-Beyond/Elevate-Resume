@@ -1,7 +1,7 @@
 import { t } from "@lingui/macro";
 import { CircleNotchIcon, FileJsIcon, FilePdfIcon } from "@phosphor-icons/react";
-import { buttonVariants, Card, CardContent, CardDescription, CardTitle } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { buttonVariants, Card, CardContent, CardDescription, CardTitle } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { saveAs } from "file-saver";
 
 import { usePrintResume } from "@/client/services/resume/print";
@@ -11,7 +11,7 @@ import { SectionIcon } from "../shared/section-icon";
 
 const onJsonExport = () => {
   const { resume } = useResumeStore.getState();
-  const filename = `reactive_resume-${resume.id}.json`;
+  const filename = `elevate-${resume.id}.json`;
   const resumeJSON = JSON.stringify(resume.data, null, 2);
 
   saveAs(new Blob([resumeJSON], { type: "application/json" }), filename);

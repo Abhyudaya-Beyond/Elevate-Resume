@@ -1,5 +1,5 @@
-import { useTheme } from "@reactive-resume/hooks";
-import { cn } from "@reactive-resume/utils";
+import { useTheme } from "@elevate/hooks";
+import { cn } from "@elevate/utils";
 
 type Props = {
   size?: number;
@@ -27,7 +27,7 @@ export const Logo = ({ size = 32, className }: Props) => {
       src={src}
       width={size}
       height={size}
-      alt="Reactive Resume"
+      alt="Elevate"
       className={cn("rounded-sm", className)}
     />
   );

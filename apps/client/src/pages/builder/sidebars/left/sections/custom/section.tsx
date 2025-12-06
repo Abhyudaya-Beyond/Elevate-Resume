@@ -1,7 +1,7 @@
 import { t, Trans } from "@lingui/macro";
 import { createId } from "@paralleldrive/cuid2";
 import { DotsSixVerticalIcon, EnvelopeIcon, PlusIcon, XIcon } from "@phosphor-icons/react";
-import type { CustomField as ICustomField } from "@reactive-resume/schema";
+import type { CustomField as ICustomField } from "@elevate/schema";
 import {
   Button,
   Input,
@@ -9,8 +9,8 @@ import {
   PopoverContent,
   PopoverTrigger,
   Tooltip,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { AnimatePresence, Reorder, useDragControls } from "framer-motion";
 
 import { useResumeStore } from "@/client/stores/resume";

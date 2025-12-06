@@ -1,69 +1,95 @@
-/* Color Palettes */
+/* Elevate Color System - Consciousness-First Design */
 @layer base {
   :root {
-    /* Zinc - Primary/Secondary */
-    --zinc-50: 0 0% 98%;
-    --zinc-100: 240 4.8% 95.9%;
-    --zinc-200: 240 5.9% 90%;
-    --zinc-300: 240 4.9% 83.9%;
-    --zinc-400: 240 5% 64.9%;
-    --zinc-500: 240 3.8% 46.1%;
-    --zinc-600: 240 5.2% 33.9%;
-    --zinc-700: 240 5.3% 26.1%;
-    --zinc-800: 240 3.7% 15.9%;
-    --zinc-900: 240 5.9% 10%;
-    --zinc-950: 240 10% 3.9%;
+    /* Deep Slate Blue - Primary (Prefrontal Trust) #1B3A57 */
+    --slate-blue-50: 210 40% 98%;
+    --slate-blue-100: 210 35% 95%;
+    --slate-blue-200: 210 30% 90%;
+    --slate-blue-300: 210 25% 80%;
+    --slate-blue-400: 210 20% 65%;
+    --slate-blue-500: 210 35% 40%; /* #1B3A57 - Primary */
+    --slate-blue-600: 210 40% 30%;
+    --slate-blue-700: 210 45% 22%; /* #1B3A57 - Darker */
+    --slate-blue-800: 210 50% 15%; /* #0F2540 - Dark mode bg */
+    --slate-blue-900: 210 55% 10%;
+    --slate-blue-950: 210 60% 5%;
 
-    /* Amber - Warning */
-    --amber-50: 48 100% 96.1%;
-    --amber-100: 48 96.5% 88.8%;
-    --amber-200: 48 96.6% 76.7%;
-    --amber-300: 45.9 96.7% 64.5%;
-    --amber-400: 43.3 96.4% 56.3%;
-    --amber-500: 37.7 92.1% 50.2%;
-    --amber-600: 32.1 94.6% 43.7%;
-    --amber-700: 26 90.5% 37.1%;
-    --amber-800: 22.7 82.5% 31.4%;
-    --amber-900: 21.7 77.8% 26.5%;
-    --amber-950: 20.9 91.7% 14.1%;
+    /* Warm Gold - Accent (Dopamine Trigger) #F6B756 */
+    --gold-50: 38 100% 98%;
+    --gold-100: 38 95% 95%;
+    --gold-200: 38 90% 90%;
+    --gold-300: 38 85% 85%;
+    --gold-400: 38 80% 75%;
+    --gold-500: 38 88% 70%; /* #F6B756 - Accent */
+    --gold-600: 38 85% 60%;
+    --gold-700: 38 80% 50%;
+    --gold-800: 38 75% 40%;
+    --gold-900: 38 70% 30%;
+    --gold-950: 38 65% 20%;
 
-    /* Emerald - Success */
-    --emerald-50: 151.8 81% 95.9%;
-    --emerald-100: 149.3 80.4% 90%;
-    --emerald-200: 152.4 76% 80.4%;
-    --emerald-300: 156.2 71.6% 66.9%;
-    --emerald-400: 158.1 64.4% 51.6%;
-    --emerald-500: 160.1 84.1% 39.4%;
-    --emerald-600: 161.4 93.5% 30.4%;
-    --emerald-700: 162.9 93.5% 24.3%;
-    --emerald-800: 163.1 88.1% 19.8%;
-    --emerald-900: 164.2 85.7% 16.5%;
-    --emerald-950: 165.7 91.3% 9%;
+    /* Teal - Safe/Trust (Limbic Safety) #2B8A8A */
+    --teal-50: 180 30% 98%;
+    --teal-100: 180 25% 95%;
+    --teal-200: 180 20% 90%;
+    --teal-300: 180 18% 80%;
+    --teal-400: 180 15% 65%;
+    --teal-500: 180 45% 50%; /* #2B8A8A - Safe/Trust */
+    --teal-600: 180 50% 40%;
+    --teal-700: 180 55% 32%;
+    --teal-800: 180 60% 25%;
+    --teal-900: 180 65% 18%;
+    --teal-950: 180 70% 12%;
 
-    /* Sky - Info */
-    --sky-50: 204 100% 97.1%;
-    --sky-100: 204 93.8% 93.7%;
-    --sky-200: 200.6 94.4% 86.1%;
-    --sky-300: 199.4 95.5% 73.9%;
-    --sky-400: 198.4 93.2% 59.6%;
-    --sky-500: 198.6 88.7% 48.4%;
-    --sky-600: 200.4 98% 39.4%;
-    --sky-700: 201.3 96.3% 32.2%;
-    --sky-800: 201 90% 27.5%;
-    --sky-900: 202 80.3% 23.9%;
-    --sky-950: 204 80.2% 15.9%;
+    /* Coral - Alert/Caution (Threat Detection) #E74C3C */
+    --coral-50: 6 90% 98%;
+    --coral-100: 6 85% 95%;
+    --coral-200: 6 80% 90%;
+    --coral-300: 6 75% 85%;
+    --coral-400: 6 70% 75%;
+    --coral-500: 6 78% 60%; /* #E74C3C - Alert */
+    --coral-600: 6 80% 50%;
+    --coral-700: 6 82% 42%;
+    --coral-800: 6 85% 35%;
+    --coral-900: 6 88% 28%;
+    --coral-950: 6 90% 20%;
 
-    /* Rose - Error */
-    --rose-50: 355.7 100% 97.3%;
-    --rose-100: 355.6 100% 94.7%;
-    --rose-200: 352.7 96.1% 90%;
-    --rose-300: 352.6 95.7% 81.8%;
-    --rose-400: 351.3 94.5% 71.4%;
-    --rose-500: 349.7 89.2% 60.2%;
-    --rose-600: 346.8 77.2% 49.8%;
-    --rose-700: 345.3 82.7% 40.8%;
-    --rose-800: 343.4 79.7% 34.7%;
-    --rose-900: 341.5 75.5% 30.4%;
-    --rose-950: 343.1 87.7% 15.9%;
+    /* Sage Green - Verified/Success (Verification) #5D9E60 */
+    --sage-50: 123 25% 98%;
+    --sage-100: 123 22% 95%;
+    --sage-200: 123 20% 90%;
+    --sage-300: 123 18% 80%;
+    --sage-400: 123 15% 65%;
+    --sage-500: 123 35% 50%; /* #5D9E60 - Success */
+    --sage-600: 123 40% 40%;
+    --sage-700: 123 45% 32%;
+    --sage-800: 123 50% 25%;
+    --sage-900: 123 55% 18%;
+    --sage-950: 123 60% 12%;
+
+    /* Neutrals - Background & Text */
+    --neutral-50: 30 10% 98%; /* #F5F3F0 - Light bg */
+    --neutral-100: 30 8% 95%;
+    --neutral-200: 30 6% 90%;
+    --neutral-300: 30 5% 80%;
+    --neutral-400: 30 4% 65%;
+    --neutral-500: 30 3% 50%;
+    --neutral-600: 30 2% 40%;
+    --neutral-700: 0 0% 30%; /* #2C2C2C - Text primary */
+    --neutral-800: 0 0% 25%;
+    --neutral-900: 0 0% 20%;
+    --neutral-950: 0 0% 15%;
+
+    /* Legacy support (mapped to new system) */
+    --zinc-50: var(--neutral-50);
+    --zinc-100: var(--neutral-100);
+    --zinc-200: var(--neutral-200);
+    --zinc-300: var(--neutral-300);
+    --zinc-400: var(--neutral-400);
+    --zinc-500: var(--neutral-500);
+    --zinc-600: var(--neutral-600);
+    --zinc-700: var(--neutral-700);
+    --zinc-800: var(--neutral-800);
+    --zinc-900: var(--neutral-900);
+    --zinc-950: var(--neutral-950);
   }
 }

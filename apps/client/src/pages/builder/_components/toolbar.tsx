@@ -14,7 +14,7 @@ import {
   MagnifyingGlassMinusIcon,
   MagnifyingGlassPlusIcon,
 } from "@phosphor-icons/react";
-import { Button, Separator, Toggle, Tooltip } from "@reactive-resume/ui";
+import { Button, Separator, Toggle, Tooltip } from "@elevate/ui";
 import { motion } from "framer-motion";
 import { useState } from "react";
 

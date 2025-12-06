@@ -23,10 +23,10 @@ import {
   PlusIcon,
   TrashSimpleIcon,
 } from "@phosphor-icons/react";
-import { defaultMetadata } from "@reactive-resume/schema";
-import { Button, Portal, Tooltip } from "@reactive-resume/ui";
-import type { LayoutLocator, SortablePayload } from "@reactive-resume/utils";
-import { cn, moveItemInLayout, parseLayoutLocator } from "@reactive-resume/utils";
+import { defaultMetadata } from "@elevate/schema";
+import { Button, Portal, Tooltip } from "@elevate/ui";
+import type { LayoutLocator, SortablePayload } from "@elevate/utils";
+import { cn, moveItemInLayout, parseLayoutLocator } from "@elevate/utils";
 import get from "lodash.get";
 import { useState } from "react";
 

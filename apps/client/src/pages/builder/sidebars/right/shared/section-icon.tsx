@@ -13,8 +13,8 @@ import {
   TranslateIcon,
   TrendUpIcon,
 } from "@phosphor-icons/react";
-import type { ButtonProps } from "@reactive-resume/ui";
-import { Button, Tooltip } from "@reactive-resume/ui";
+import type { ButtonProps } from "@elevate/ui";
+import { Button, Tooltip } from "@elevate/ui";
 
 type MetadataKey =
   | "template"

@@ -7,7 +7,9 @@ import { RavenInterceptor, RavenModule } from "nest-raven";
 import { ZodValidationPipe } from "nestjs-zod";
 
 import { AuthModule } from "./auth/auth.module";
+import appConfig from "./config/app.config";
 import { ConfigModule } from "./config/config.module";
+import mailConfig from "./config/mail.config";
 import { ContributorsModule } from "./contributors/contributors.module";
 import { DatabaseModule } from "./database/database.module";
 import { FeatureModule } from "./feature/feature.module";

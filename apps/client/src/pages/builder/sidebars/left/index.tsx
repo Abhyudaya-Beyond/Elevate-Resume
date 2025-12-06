@@ -14,9 +14,9 @@ import type {
   Reference,
   Skill,
   Volunteer,
-} from "@reactive-resume/schema";
-import { Button, ScrollArea, Separator } from "@reactive-resume/ui";
-import { Fragment, useRef } from "react";
+} from "@elevate/schema";
+import { Button, ScrollArea, Separator } from "@elevate/ui";
+import { Fragment, useEffect, useRef } from "react";
 import { Link } from "react-router";
 
 import { Icon } from "@/client/components/icon";
@@ -33,7 +33,7 @@ export const LeftSidebar = () => {
   const containterRef = useRef<HTMLDivElement | null>(null);
 
   const addSection = useResumeStore((state) => state.addSection);
-  const customSections = useResumeStore((state) => state.resume.data.sections.custom);
+  const customSections = useResumeStore((state) => state.resume?.data?.sections?.custom ?? {});
 
   const expandAllSections = useResumeStore((state) => state.expandAllSections);
   const collapseAllSections = useResumeStore((state) => state.collapseAllSections);
@@ -43,9 +43,15 @@ export const LeftSidebar = () => {
     section?.scrollIntoView({ behavior: "smooth" });
   };
 
+  // Auto-expand all sections on mount so user can see all form fields
+  useEffect(() => {
+    expandAllSections();
+  }, [expandAllSections]);
+
   return (
-    <div className="flex bg-secondary-accent/30">
-      <div className="hidden basis-12 flex-col items-center justify-between bg-secondary-accent/30 py-4 sm:flex">
+    <div className="flex h-full w-full bg-secondary-accent/30">
+      {/* Vertical Toolbar - Section Navigation */}
+      <div className="flex basis-12 flex-col items-center justify-between bg-secondary-accent/30 py-4">
         <Button asChild size="icon" variant="ghost" className="size-8 rounded-full">
           <Link to="/dashboard">
             <Icon size={14} />
@@ -163,7 +169,7 @@ export const LeftSidebar = () => {
         </UserOptions>
       </div>
 
-      <ScrollArea orientation="vertical" className="h-screen flex-1 pb-16 lg:pb-0">
+      <ScrollArea orientation="vertical" className="h-full w-full flex-1 pb-16 lg:pb-0">
         <div ref={containterRef} className="grid gap-y-10 p-6 @container/left">
           <BasicsSection />
           <Separator />

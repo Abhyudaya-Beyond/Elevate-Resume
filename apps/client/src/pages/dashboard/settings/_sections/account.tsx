@@ -1,8 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t } from "@lingui/macro";
 import { CheckIcon, UploadSimpleIcon, WarningIcon } from "@phosphor-icons/react";
-import type { UpdateUserDto } from "@reactive-resume/dto";
-import { updateUserSchema } from "@reactive-resume/dto";
+import type { UpdateUserDto } from "@elevate/dto";
+import { updateUserSchema } from "@elevate/dto";
 import {
   Button,
   buttonVariants,
@@ -14,8 +14,8 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+} from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
@@ -166,7 +166,7 @@ export const AccountSettings = () => {
               <FormItem>
                 <FormLabel>{t`Username`}</FormLabel>
                 <FormControl>
-                  <Input autoComplete="username" className="lowercase" {...field} />
+                  <Input autoComplete="off" className="lowercase" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>

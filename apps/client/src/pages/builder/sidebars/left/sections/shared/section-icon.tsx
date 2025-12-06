@@ -15,10 +15,10 @@ import {
   UserIcon,
   UsersIcon,
 } from "@phosphor-icons/react";
-import type { SectionKey, SectionWithItem } from "@reactive-resume/schema";
-import { defaultSection } from "@reactive-resume/schema";
-import type { ButtonProps } from "@reactive-resume/ui";
-import { Button, Tooltip } from "@reactive-resume/ui";
+import type { SectionKey, SectionWithItem } from "@elevate/schema";
+import { defaultSection } from "@elevate/schema";
+import type { ButtonProps } from "@elevate/ui";
+import { Button, Tooltip } from "@elevate/ui";
 import get from "lodash.get";
 
 import { useResumeStore } from "@/client/stores/resume";

@@ -1,29 +1,31 @@
 import { t } from "@lingui/macro";
 import {
   CopySimpleIcon,
-  FolderOpenIcon,
+  DownloadSimpleIcon,
   LockIcon,
-  LockOpenIcon,
   PencilSimpleIcon,
   TrashSimpleIcon,
+  EyeIcon,
 } from "@phosphor-icons/react";
-import type { ResumeDto } from "@reactive-resume/dto";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import type { ResumeDto } from "@elevate/dto";
+import { Button } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import dayjs from "dayjs";
 import { AnimatePresence, motion } from "framer-motion";
 import { useNavigate } from "react-router";
 
 import { useDialog } from "@/client/stores/dialog";
+import { usePrintResume } from "@/client/services/resume/print";
 
-import { BaseCard } from "./base-card";
-
+/**
+ * Resume Card - Consciousness-First Design
+ *
+ * Neurobiological Design Principles:
+ * - Title first = immediate recognition (prefrontal clarity)
+ * - Clear action buttons = logical flow (prefrontal decision-making)
+ * - Hover effect = motion feedback loop (dopamine)
+ * - Gold Export button = reward signal
+ */
 type Props = {
   resume: ResumeDto;
 };
@@ -32,15 +34,30 @@ export const ResumeCard = ({ resume }: Props) => {
   const navigate = useNavigate();
   const { open } = useDialog<ResumeDto>("resume");
   const { open: lockOpen } = useDialog<ResumeDto>("lock");
+  const { printResume, loading: exportLoading } = usePrintResume();
 
-  const template = resume.data.metadata.template;
-  const lastUpdated = dayjs().to(resume.updatedAt);
+  const lastUpdated = dayjs(resume.updatedAt).format("MMM D, YYYY");
 
-  const onOpen = () => {
+  const onEdit = () => {
     void navigate(`/builder/${resume.id}`);
   };
 
-  const onUpdate = () => {
+  const onView = () => {
+    void navigate(`/resume/${resume.user.username}/${resume.slug}`);
+  };
+
+  const onExport = async () => {
+    // Export PDF directly from dashboard (same as builder export)
+    try {
+      const { url } = await printResume({ id: resume.id });
+      const win = window.open(url, "_blank");
+      if (win) win.focus();
+    } catch (error) {
+      // Error handling is done by the hook
+    }
+  };
+
+  const onRename = () => {
     open("update", { id: "resume", item: resume });
   };
 
@@ -57,70 +74,132 @@ export const ResumeCard = ({ resume }: Props) => {
   };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger className="text-left">
-        <BaseCard className="cursor-context-menu space-y-0">
-          <AnimatePresence>
-            {resume.locked && (
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                className="absolute inset-0 flex items-center justify-center bg-background/75 backdrop-blur-sm"
-              >
-                <LockIcon size={42} />
-              </motion.div>
-            )}
-          </AnimatePresence>
+    <motion.div
+      whileHover={{ y: -2 }}
+      transition={{ duration: 0.25, ease: [0.4, 0, 0.6, 1] }}
+      className="group relative"
+    >
+      {/* Card - White, Clean, Organized */}
+      <div className="rounded-base border border-border bg-background p-gutter-sm shadow-sm transition-all duration-smooth hover:shadow-md">
+        {/* Locked Indicator */}
+        <AnimatePresence>
+          {resume.locked && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute right-gutter-sm top-gutter-sm z-10"
+            >
+              <div className="flex items-center gap-gutter-xs rounded-base bg-secondary/50 px-gutter-xs py-1">
+                <LockIcon size={14} className="text-foreground/60" weight="bold" />
+                <span className="text-xs font-medium text-foreground/60">{t`Locked`}</span>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
 
-          <div
-            className={cn(
-              "absolute inset-x-0 bottom-0 z-10 flex flex-col justify-end space-y-0.5 p-4 pt-12",
-              "bg-gradient-to-t from-background/80 to-transparent",
-            )}
+        {/* Title - Immediate Recognition */}
+        <h3 className="mb-gutter-xs line-clamp-2 text-lg font-bold text-primary">
+          {resume.title || t`Untitled Resume`}
+        </h3>
+
+        {/* Meta Row - Last Updated */}
+        <p className="mb-gutter text-sm text-foreground/60">
+          {t`Updated ${lastUpdated}`}
+        </p>
+
+        {/* Button Row - Logical Action Flow */}
+        <div className="flex flex-wrap gap-gutter-xs">
+          <Button
+            onClick={onEdit}
+            variant="primary"
+            size="sm"
+            className="h-9 flex-1 min-w-[80px] transition-all duration-perceptible"
           >
-            <h4 className="line-clamp-2 font-medium">{resume.title}</h4>
-            <p className="line-clamp-1 text-xs opacity-75">{t`Last updated ${lastUpdated}`}</p>
+            <PencilSimpleIcon className="mr-1.5" size={14} weight="bold" />
+            {t`Edit`}
+          </Button>
+
+          <Button
+            onClick={onView}
+            variant="secondary"
+            size="sm"
+            className="h-9 flex-1 min-w-[80px] transition-all duration-perceptible"
+          >
+            <EyeIcon className="mr-1.5" size={14} weight="bold" />
+            {t`View`}
+          </Button>
+
+          <Button
+            onClick={onExport}
+            variant="accent"
+            size="sm"
+            disabled={exportLoading}
+            className="h-9 flex-1 min-w-[80px] transition-all duration-perceptible"
+          >
+            <DownloadSimpleIcon className="mr-1.5" size={14} weight="bold" />
+            {exportLoading ? t`Exporting...` : t`Export`}
+          </Button>
+
+          <Button
+            onClick={onDelete}
+            variant="danger"
+            size="sm"
+            className="h-9 px-3 transition-all duration-perceptible"
+          >
+            <TrashSimpleIcon size={14} weight="bold" />
+          </Button>
+        </div>
+
+        {/* Additional Actions (Hidden by default, shown on hover) */}
+        <motion.div
+          initial={{ opacity: 0, height: 0 }}
+          whileHover={{ opacity: 1, height: "auto" }}
+          className="mt-gutter-xs overflow-hidden"
+        >
+          <div className="flex gap-gutter-xs border-t border-border pt-gutter-xs">
+            <Button
+              onClick={onRename}
+              variant="ghost"
+              size="sm"
+              className="h-8 flex-1 text-xs"
+            >
+              <PencilSimpleIcon className="mr-1" size={12} />
+              {t`Rename`}
+            </Button>
+            <Button
+              onClick={onDuplicate}
+              variant="ghost"
+              size="sm"
+              className="h-8 flex-1 text-xs"
+            >
+              <CopySimpleIcon className="mr-1" size={12} />
+              {t`Duplicate`}
+            </Button>
+            {resume.locked ? (
+              <Button
+                onClick={onLockChange}
+                variant="ghost"
+                size="sm"
+                className="h-8 flex-1 text-xs"
+              >
+                <LockIcon className="mr-1" size={12} />
+                {t`Unlock`}
+              </Button>
+            ) : (
+              <Button
+                onClick={onLockChange}
+                variant="ghost"
+                size="sm"
+                className="h-8 flex-1 text-xs"
+              >
+                <LockIcon className="mr-1" size={12} />
+                {t`Lock`}
+              </Button>
+            )}
           </div>
-
-          <img
-            src={`/templates/jpg/${template}.jpg`}
-            alt={template}
-            className="rounded-sm opacity-80"
-          />
-        </BaseCard>
-      </DropdownMenuTrigger>
-
-      <DropdownMenuContent>
-        <DropdownMenuItem onClick={onOpen}>
-          <FolderOpenIcon size={14} className="mr-2" />
-          {t`Open`}
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={onUpdate}>
-          <PencilSimpleIcon size={14} className="mr-2" />
-          {t`Rename`}
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={onDuplicate}>
-          <CopySimpleIcon size={14} className="mr-2" />
-          {t`Duplicate`}
-        </DropdownMenuItem>
-        {resume.locked ? (
-          <DropdownMenuItem onClick={onLockChange}>
-            <LockOpenIcon size={14} className="mr-2" />
-            {t`Unlock`}
-          </DropdownMenuItem>
-        ) : (
-          <DropdownMenuItem onClick={onLockChange}>
-            <LockIcon size={14} className="mr-2" />
-            {t`Lock`}
-          </DropdownMenuItem>
-        )}
-        <DropdownMenuSeparator />
-        <DropdownMenuItem className="text-error" onClick={onDelete}>
-          <TrashSimpleIcon size={14} className="mr-2" />
-          {t`Delete`}
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+        </motion.div>
+      </div>
+    </motion.div>
   );
 };

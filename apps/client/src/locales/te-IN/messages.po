@@ -1,4 +1,4 @@
-msgid ""
+﻿msgid ""
 msgstr ""
 "POT-Creation-Date: 2023-11-10 13:15+0100\n"
 "MIME-Version: 1.0\n"
@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: te\n"
-"Project-Id-Version: reactive-resume\n"
+"Project-Id-Version: elevate\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2025-11-04 14:22\n"
 "Last-Translator: \n"
 "Language-Team: Telugu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: reactive-resume\n"
+"X-Crowdin-Project: elevate\n"
 "X-Crowdin-Project-ID: 503410\n"
 "X-Crowdin-Language: te\n"
 "X-Crowdin-File: messages.po\n"
@@ -22,29 +22,25 @@ msgstr ""
 msgid "You have enabled two-factor authentication successfully."
 msgstr "మీరు రెండు-దశల ధృవీకరణను విజయవంతంగా ప్రారంభించారు."
 
-#: apps/client/src/pages/home/sections/features/index.tsx:57
-msgid "{templatesCount} resume templates to choose from"
-msgstr "ఎంచుకోవడానికి {templatesCount} రిజ్యూమ్ టెంప్లేట్లు ఉన్నాయి"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:142
 msgid "{value, plural, one {Column} other {Columns}}"
 msgstr "{value, plural, one {కళమ్} other {కళమ్స్}}"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:25
-msgid "<0>I built Reactive Resume mostly by myself during my spare time, with a lot of help from other great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
-msgstr "<0>నా ఖాళీ సమయంలో, ఇతర గొప్ప ఓపెన్ సోర్స్ సహకారుల సహాయంతో, ఈ రియాక్టివ్ రెజ్యూమ్‌ను ఎక్కువ శాతం నేనే తయారు చేసాను.</0><1>మీరు యాప్‌ను ఇష్టపడి, దానిని ఎప్పటికీ ఉచితంగా ఉంచడంలో సహాయపడాలనుకుంటే, దయచేసి మీరు ఇవ్వగలిగినంత విరాళం ఇవ్వండి.</1>"
+msgid "<0>Elevate is built with privacy-first principles, with help from great open-source contributors.</0><1>If you like the app and want to support keeping it free forever, please donate whatever you can afford to give.</1>"
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:56
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:55
 msgid "<0>I'm sure the app is not perfect, but I'd like for it to be.</0><1>If you faced any issues while creating your resume, or have an idea that would help you and other users in creating your resume more easily, drop an issue on the repository or send me an email about it.</1>"
 msgstr "<0>ఈ యాప్ పర్ఫెక్ట్‌గా లేదని నాకు తెలుసు, కానీ అలా చేయాలని నేను కోరుకుంటున్నాను.</0><1>మీరు మీ రిజ్యూమ్ సృష్టించే సమయంలో ఏదైనా సమస్యలను ఎదుర్కొంటే లేదా మీకు మరియు ఇతర వినియోగదారులకు ఇది సులభం చేసే ఏదైనా ఆలోచన ఉంటే, దయచేసి రిపోజిటరీలో ఒక ఇష్యూ రాయండి లేదా నాకు ఇమెయిల్ పంపండి.</1>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:299
-msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Reactive Resume bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
-msgstr "<0>గమనిక:</0> OpenAI API ని ఉపయోగించడం ద్వారా, మీరు <1> ఉపయోగ నిబంధనలను గుర్తించి అంగీకరిస్తున్నారు</1> మరియు<2> గోప్యతా విధానం</2> OpenAI ద్వారా వివరించబడింది. సేవ యొక్క ఏదైనా అక్రమ లేదా అనధికార వినియోగానికి రియాక్టివ్ రెజ్యూమ్ ఎటువంటి బాధ్యత వహించదని మరియు దాని ఫలితంగా కలిగే ఏవైనా పరిణామాలు లేదా బాధ్యతలు వినియోగదారుడిపై మాత్రమే ఆధారపడి ఉంటాయని దయచేసి గమనించండి."
+msgid "<0>Note: </0>By utilizing the OpenAI API, you acknowledge and accept the <1>terms of use</1> and <2>privacy policy</2> outlined by OpenAI. Please note that Elevate bears no responsibility for any improper or unauthorized utilization of the service, and any resulting repercussions or liabilities solely rest on the user."
+msgstr ""
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:90
-msgid "<0>The community has spent a lot of time writing the documentation for Reactive Resume, and I'm sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
-msgstr "<0>రియాక్టివ్ రెజ్యూమ్ కోసం కమ్యూనిటీ డాక్యుమెంటేషన్ రాయడానికి చాలా సమయం వెచ్చించింది, మరియు అది యాప్‌ను ప్రారంభించడంలో మీకు సహాయపడుతుందని నాకు నమ్మకం ఉంది.</0><1>మీరు ప్రారంభించడానికి సహాయపడే అనేక ఉదాహరణలు ఉన్నాయి, అలాగే మీరు ఇంకా తెలియని కొన్ని ఫీచర్లు కూడా ఉన్నాయి, అవి మీ పర్ఫెక్ట్ రిజ్యూమ్ తయారీలో ఉపయోగపడతాయి.</1>"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:89
+msgid "<0>The community has spent a lot of time writing the documentation for Elevate, and we're sure it will help you get started with the app.</0><1>There are also a lot of examples to help you get started, and features that you might not know about which could help you build your perfect resume.</1>"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:140
 msgid "<0>Two-factor authentication is currently disabled.</0> You can enable it by adding an authenticator app to your account."
@@ -54,28 +50,18 @@ msgstr "<0>రెండు-దశల ధృవీకరణ ప్రస్తు
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>రెండు-దశల ధృవీకరణ ప్రారంభించబడింది.</0> మీరు ప్రతిసారి సైన్ ఇన్ చేసినప్పుడు కోడ్‌ను నమోదు చేయమని అడుగబడుతుంది."
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "A free and open-source resume builder"
-msgstr "ఉచిత మరియు ఓపెన్-సోర్స్ రిజ్యూమ్ బిల్డర్"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
-msgstr "మీ రిజ్యూమ్‌ను సృష్టించడం, నవీకరించడం మరియు పంచుకోవడం వంటి ప్రక్రియను సులభతరం చేసే ఉచిత మరియు ఓపెన్-సోర్స్ రిజ్యూమ్ బిల్డర్."
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:59
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "లింక్ మీ క్లిప్‌బోర్డ్‌కి కాపీ చేయబడింది."
 
-#: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "<0>అమృత్ పిల్లై</0> రూపొందించిన ఒక అభిరుచి ప్రాజెక్ట్"
-
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
 msgstr "మీరు ఇచ్చిన ఇమెయిల్‌తో ఖాతా ఉన్నట్లయితే, పాస్వర్డ్ రీసెట్ లింక్ మీ ఇన్‌బాక్స్‌కి పంపబడింది."
+
+#: apps/client/src/components/copyright.tsx:29
+msgid "A privacy-first resume builder built with <0>open source</0>"
+msgstr ""
 
 #: apps/client/src/services/errors/translate-error.ts:43
 msgid "A resume with this slug already exists, please pick a different unique identifier."
@@ -89,6 +75,10 @@ msgstr "ఈ ఇమెయిల్ చిరునామా మరియు/ల�
 msgid "A4"
 msgstr "ఎ4"
 
+#: apps/client/src/pages/home/components/footer.tsx:56
+msgid "About"
+msgstr ""
+
 #. Helper text to let the user know what filetypes are accepted. {accept} can be .pdf or .json.
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:270
 msgid "Accepts only {accept} files"
@@ -98,7 +88,7 @@ msgstr "కేవలం {accept} ఫైళ్లను మాత్రమే స
 msgid "Account"
 msgstr "ఖాతా"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:175
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:179
 msgid "Add a custom field"
 msgstr "కస్టమ్ ఫీల్డ్ జోడించండి"
 
@@ -125,7 +115,11 @@ msgstr "కొత్త పేజీని జోడించండి"
 msgid "AI"
 msgstr "AI"
 
-#: apps/client/src/pages/auth/register/page.tsx:71
+#: apps/client/src/pages/home/sections/features/index.tsx:24
+msgid "AI-powered suggestions for impact"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:271
 msgid "Already have an account?"
 msgstr "ఇప్పటికే ఖాతా ఉందా?"
 
@@ -140,10 +134,6 @@ msgstr "సర్వర్ లోపం సంభవించింది."
 #: apps/client/src/pages/public/error.tsx:32
 msgid "An unexpected error occurred."
 msgstr "ఊహించని లోపం సంభవించింది."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:134
-msgid "and many more..."
-msgstr "మరియు మరెన్నో..."
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:57
 msgid "Anyone with the link can view and download the resume."
@@ -191,13 +181,13 @@ msgstr "అధ్యయన విభాగం"
 msgid "Aspect Ratio"
 msgstr "కారక నిష్పత్తి"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:51
-msgid "Available in {languagesCount} languages"
-msgstr "{languagesCount} భాషల్లో అందుబాటులో ఉంది"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:53
 msgid "Awarder"
 msgstr "పురస్కార దాత"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:33
+msgid "Awards"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:258
 msgid "Azure API Version"
@@ -250,9 +240,13 @@ msgstr "బోర్డర్"
 msgid "Border Radius"
 msgstr "సరిహద్దు వ్యాసార్థం"
 
-#: apps/client/src/pages/public/page.tsx:93
-msgid "Built with"
-msgstr "తో నిర్మించబడింది"
+#: apps/client/src/pages/home/sections/hero/index.tsx:77
+msgid "Build and share a resume that truly represents you—without trackers, dark patterns, or data lock-in."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:111
+msgid "Built for 2G networks"
+msgstr ""
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
@@ -275,6 +269,10 @@ msgstr "సాధారణం"
 msgid "Center Artboard"
 msgstr "సెంటర్ ఆర్ట్‌బోర్డ్"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:29
+msgid "Certifications"
+msgstr ""
+
 #: apps/client/src/components/locale-switch.tsx:17
 msgid "Change Language"
 msgstr "భాష మార్చండి"
@@ -291,6 +289,10 @@ msgstr "టోన్ మార్చండి"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:186
 msgid "Changed your mind about the name? Give it a new one."
 msgstr "పేరుపై మీ మనసు మార్చుకున్నారా? దానికి కొత్త పేరు ఇవ్వండి."
+
+#: apps/client/src/pages/public/page.tsx:86
+msgid "Check out my resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:70
 msgid "Check your email for the confirmation link to update your email address."
@@ -327,6 +329,7 @@ msgid "Columns"
 msgstr "నిలువు వరుసలు"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:39
+#: apps/client/src/pages/home/components/footer.tsx:48
 msgid "Company"
 msgstr "కంపెనీ"
 
@@ -357,8 +360,7 @@ msgstr "క్లిప్‌బోర్డ్‌కి కాపీ చేయ�
 msgid "Create"
 msgstr "సృష్టించండి"
 
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/register/page.tsx:69
+#: apps/client/src/pages/auth/register/page.tsx:82
 msgid "Create a new account"
 msgstr "క్రొత్త ఖాతాను సృష్టించండి"
 
@@ -372,14 +374,33 @@ msgstr "క్రొత్త అంశాన్ని సృష్టించ�
 msgid "Create a new resume"
 msgstr "కొత్త రిజ్యూమ్ సృష్టించండి"
 
-#: apps/client/src/pages/auth/login/page.tsx:65
-msgctxt "This is a link to create a new account"
-msgid "Create one now"
-msgstr "ఇప్పుడు ఒకదాన్ని సృష్టించండి"
+#: apps/client/src/pages/auth/register/page.tsx:255
+msgid "Create account"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:259
 msgid "Create Sample Resume"
 msgstr "నమూనా రిజ్యూమ్ సృష్టించండి"
+
+#: apps/client/src/pages/auth/register/page.tsx:104
+msgid "Create your Elevate account"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:64
+msgid "Create Your First Resume"
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:54
+msgid "Create your first resume to get started. You have full control over your story."
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:188
+msgid "Created with"
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:252
+msgid "Creating account..."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:82
 msgid "Current Password"
@@ -391,21 +412,9 @@ msgstr "ప్రస్తుత పాస్‌వర్డ్"
 msgid "Custom CSS"
 msgstr "కస్టమ్ CSS"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:62
-msgid "Custom resume sections"
-msgstr "కస్టమ్ రిజ్యూమ్ విభాగాలు"
-
 #: apps/client/src/stores/resume.ts:53
 msgid "Custom Section"
 msgstr "కస్టమ్ విభాగం"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:60
-msgid "Customisable colour palettes"
-msgstr "కస్టమైజ్ చేయదగిన కలర్ ప్యాలెట్లు"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:61
-msgid "Customisable layouts"
-msgstr "కస్టమైజ్ చేయదగిన లేఅవుట్లు"
 
 #: apps/client/src/pages/dashboard/settings/_sections/danger.tsx:62
 msgid "Danger Zone"
@@ -414,6 +423,10 @@ msgstr "డేంజర్ జోన్"
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:87
 msgid "Dark"
 msgstr "చీకటి"
+
+#: apps/client/src/pages/home/components/header.tsx:43
+msgid "Dashboard"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:67
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:67
@@ -431,7 +444,6 @@ msgstr "తేదీ లేదా తేదీ పరిధి"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:137
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:158
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:121
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:127
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:172
 msgid "Delete"
@@ -454,9 +466,9 @@ msgstr "డిప్లాయ్‌మెంట్ పేరు"
 msgid "Description"
 msgstr "వివరణ"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:58
-msgid "Design single/multi page resumes"
-msgstr "ఒక పేజీ/బహు పేజీ రిజ్యూమ్‌లను డిజైన్ చేయండి"
+#: apps/client/src/pages/home/sections/features/index.tsx:48
+msgid "Designed for India's Policy Makers"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:139
 msgid "Disable"
@@ -473,15 +485,15 @@ msgstr "2FA ని నిలిపివేయండి"
 msgid "Discard"
 msgstr "రద్దు చేయండి"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:110
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:109
 msgid "Documentation"
 msgstr "డాక్యుమెంటేషన్"
 
-#: apps/client/src/pages/auth/login/page.tsx:62
+#: apps/client/src/pages/auth/login/page.tsx:225
 msgid "Don't have an account?"
 msgstr "ఖాతా లేదా?"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:88
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:87
 msgid "Don't know where to begin? Hit the docs!"
 msgstr "ఎక్కడి నుండి ప్రారంభించాలో తెలియకపోతే? డాక్స్‌ను చూడండి!"
 
@@ -489,9 +501,13 @@ msgstr "ఎక్కడి నుండి ప్రారంభించాల�
 msgid "Don't see your language? <0>Help translate the app.</0>"
 msgstr "మీ భాష కనిపించట్లేదా? <0>యాప్‌ను అనువదించడంలో సహాయం చేయండి.</0>"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:45
-msgid "Donate to Reactive Resume"
-msgstr "Reactive Resume కు దానం చేయండి"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:44
+msgid "Donate to Elevate"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:147
+msgid "Download"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:56
 msgid "Download a JSON snapshot of your resume. This file can be used to import your resume in the future, or can even be shared with others to collaborate."
@@ -511,7 +527,7 @@ msgstr "డౌన్‌లోడ్‌లు"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:181
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:246
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:105
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:168
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:95
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:156
 msgid "Duplicate"
@@ -526,16 +542,54 @@ msgid "Duplicate an existing resume"
 msgstr "ఇప్పటికే ఉన్న రిజ్యూమ్‌ను నకిలీ చేయండి"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:97
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:112
 msgid "Edit"
 msgstr "సవరించు"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:26
+msgid "Education"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:169
 msgid "Effects"
 msgstr "ప్రభావాలు"
 
+#: apps/client/src/components/copyright.tsx:36
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:62
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/components/footer.tsx:25
+#: apps/client/src/pages/home/page.tsx:25
+#: apps/client/src/pages/public/page.tsx:114
+#: apps/client/src/pages/public/page.tsx:190
+msgid "Elevate"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "Elevate has helped people land jobs at these great companies:"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Elevate is a privacy-first, open-source resume builder that puts you in control of your data and narrative. Your support helps us continue building a tool that respects your privacy and gives you complete ownership of your resume. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:50
+msgid "Elevate is built on a foundation of privacy-first principles and years of refinement. Every feature has been designed with your control and data ownership in mind, creating a resume builder that respects you as the owner of your professional narrative."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+msgid "Elevate thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features and the linguists whose translations have made it accessible to a broader audience."
+msgstr ""
+
 #: apps/client/src/pages/auth/forgot-password/page.tsx:82
-#: apps/client/src/pages/auth/login/page.tsx:90
-#: apps/client/src/pages/auth/register/page.tsx:141
+#: apps/client/src/pages/auth/login/page.tsx:128
+#: apps/client/src/pages/auth/register/page.tsx:187
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:81
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:181
 msgid "Email"
@@ -553,7 +607,7 @@ msgstr "క్రింద కొత్త పాస్వర్డ్‌ను 
 msgid "Enter one of the 10 backup codes you saved when you enabled two-factor authentication."
 msgstr "రెండు-దశల ధృవీకరణను ప్రారంభించినప్పుడు మీరు సేవ్ చేసిన 10 బ్యాకప్ కోడ్‌లలో ఒకదాన్ని నమోదు చేయండి."
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:63
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:67
 msgid "Enter Phosphor Icon"
 msgstr "ఫాస్ఫర్ ఐకాన్‌ను నమోదు చేయండి"
 
@@ -577,9 +631,9 @@ msgstr "లోపం {statusCode}"
 msgid "Errors"
 msgstr "లోపాలు"
 
-#: apps/client/src/pages/home/sections/support/index.tsx:78
-msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let me know how Reactive Resume has helped you. Your feedback and support are always welcome and much appreciated!"
-msgstr "మీరు ఆర్థికంగా సహాయం చేయలేకపోయినా, GitHub రిపోజిటరీకి “స్టార్” ఇచ్చే విధంగా, మీ స్నేహితులకు ఈ ప్రాజెక్ట్ గురించి చెప్పడం, లేదా Reactive Resume మీకు ఎలా సహాయపడిందో ఒక చిన్న సందేశం ద్వారా చెప్పడం ద్వారా మీరు మార్పు సృష్టించవచ్చు. మీ అభిప్రాయం మరియు మద్దతు ఎల్లప్పుడూ స్వాగతార్హం మరియు చాలా అభినందనీయంగా ఉంది!"
+#: apps/client/src/pages/home/sections/support/index.tsx:26
+msgid "Even if you're not in a position to contribute financially, you can still make a difference by giving the GitHub repository a star, spreading the word to your friends, or dropping a quick message to let us know how Elevate has helped you. Your feedback and support are always welcome and much appreciated!"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/index.tsx:271
 msgid "Expand All"
@@ -591,15 +645,28 @@ msgstr ""
 msgid "Expand section"
 msgstr ""
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:25
+msgid "Experience"
+msgstr ""
+
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Reactive Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Reactive Resume లో అందుబాటులో ఉన్న టెంప్లేట్లను పరిశీలించండి మరియు వాటితో రూపొందించిన రిజ్యూమ్‌లను చూడండి. ఇవి మీ తదుపరి రిజ్యూమ్ రూపొందింపుకు మార్గదర్శకంగా కూడా ఉపయోగపడవచ్చు."
+msgid "Explore the templates available in Elevate and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:121
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:39
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:132
 msgid "Export"
 msgstr "ఎగుమతి"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:121
+msgid "Export Anytime"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:36
+msgid "Features"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:255
 msgid "File"
@@ -608,10 +675,6 @@ msgstr "ఫైల్"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:221
 msgid "Filetype"
 msgstr "ఫైల్ రకం"
-
-#: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "చివరగా,"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -641,9 +704,9 @@ msgstr "ఇక్కడ మీరు ఈ రిజ్యూమ్ పంపి�
 msgid "Forget"
 msgstr "మర్చిపో"
 
-#: apps/client/src/pages/auth/login/page.tsx:131
-msgid "Forgot Password?"
-msgstr "పాస్‌వర్డ్ మర్చిపోయారా?"
+#: apps/client/src/pages/auth/login/page.tsx:191
+msgid "Forgot password?"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:68
 msgid "Forgot your password?"
@@ -654,18 +717,18 @@ msgstr "మీ పాస్‌వర్డ్ మర్చిపోయారా?
 msgid "Format"
 msgstr "ఫార్మాట్"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:54
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:53
 msgid "Found a bug, or have an idea for a new feature?"
 msgstr "బగ్ చూసారా, లేక కొత్త ఫీచర్ ఐడియా ఉందా?"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:46
-msgid "Free, forever"
-msgstr "ఎప్పటికీ ఫ్రీ"
 
 #: apps/client/src/components/ai-actions.tsx:125
 #: apps/client/src/components/ai-actions.tsx:128
 msgid "Friendly"
 msgstr "ఫ్రెండ్లీ"
+
+#: apps/client/src/pages/auth/register/page.tsx:137
+msgid "Full name"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:56
 msgid "Full Name"
@@ -675,15 +738,19 @@ msgstr "ఫుల్ నేమ్"
 msgid "Generate a random title for your resume"
 msgstr "మీ రిజ్యూమ్ కోసం ర్యాండమ్ టైటిల్ జెనరేట్ చేయండి"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:32
+#: apps/client/src/pages/home/components/header.tsx:51
 msgid "Get Started"
 msgstr "స్టార్ట్ చేయండి"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:18
+#: apps/client/src/pages/home/sections/cta/index.tsx:46
+msgid "Get Started Free"
+msgstr ""
+
+#: apps/client/src/pages/auth/_components/social-auth.tsx:23
 msgid "GitHub"
 msgstr "గిట్‌హబ్"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+#: apps/client/src/pages/home/sections/statistics/index.tsx:14
 msgid "GitHub Stars"
 msgstr "గిట్‌హబ్ స్టార్స్"
 
@@ -692,6 +759,7 @@ msgid "Give your old resume a new name."
 msgstr "మీ పాత రిజ్యూమ్‌కి కొత్త పేరు ఇవ్వండి."
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:67
+#: apps/client/src/pages/home/sections/cta/index.tsx:39
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:18
 msgid "Go to Dashboard"
 msgstr "డాష్‌బోర్డ్ కి వెళ్లండి"
@@ -700,17 +768,13 @@ msgstr "డాష్‌బోర్డ్ కి వెళ్లండి"
 msgid "Go to home"
 msgstr "హోమ్‌పేజీకి వెళ్లండి"
 
-#: apps/client/src/pages/auth/_components/social-auth.tsx:31
+#: apps/client/src/pages/auth/_components/social-auth.tsx:37
 msgid "Google"
 msgstr "గూగుల్"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:202
 msgid "Grayscale"
 msgstr "గ్రేస్‌కేల్"
-
-#: apps/client/src/pages/dashboard/resumes/page.tsx:45
-msgid "Grid"
-msgstr "గ్రిడ్"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:70
 msgid "Headline"
@@ -738,8 +802,8 @@ msgstr "హైడ్"
 msgid "Hide Icons"
 msgstr "ఐకాన్లు హైడ్ చేయండి"
 
-#: apps/client/src/pages/auth/login/page.tsx:115
-#: apps/client/src/pages/auth/register/page.tsx:168
+#: apps/client/src/pages/auth/login/page.tsx:174
+#: apps/client/src/pages/auth/register/page.tsx:231
 #: apps/client/src/pages/auth/reset-password/page.tsx:88
 msgid "Hold <0>Ctrl</0> to display your password temporarily."
 msgstr "తాత్కాలికంగా మీ పాస్‌వర్డ్ చూపించడానికి <0>Ctrl</0> ని హోల్డ్ చేయండి."
@@ -748,30 +812,22 @@ msgstr "తాత్కాలికంగా మీ పాస్‌వర్డ�
 msgid "Horizontal"
 msgstr "హారిజాంటల్"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:67
-msgid "Host your resume publicly"
-msgstr "మీ రిజ్యూమ్‌ని పబ్లిక్‌గా హోస్ట్ చేయండి"
-
-#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
-msgid "I always love to hear from the users of Reactive Resume with feedback or support. Here are some of the messages I've received. If you have any feedback, feel free to drop me an email at <0>{email}</0>."
-msgstr "నేను ఎప్పుడూ Reactive Resume యూజర్ల నుండి ఫీడ్‌బ్యాక్ లేదా సపోర్ట్ గురించి వినడానికి ఇష్టపడతాను. ఇక్కడ నాకు వచ్చిన కొన్ని సందేశాలు ఉన్నాయి. మీకు ఏమైనా ఫీడ్‌బ్యాక్ ఉంటే, <0>{email}</0> కు ఒక ఇమెయిల్ పంపండి."
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:83
 #: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:53
 msgid "Icon"
 msgstr "ఐకాన్"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "ఈ యాప్ మీ జాబ్ హంట్‌లో సహాయపడితే, <0>ఈ కాంటాక్ట్ ఫారం</0> ద్వారా నన్ను సంప్రదించండి."
+msgid "If Elevate has helped you with your job hunt, let us know by reaching out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
 msgstr "మీరు two-factor authentication డిసేబుల్ చేస్తే, లాగిన్ చేసేటప్పుడు వెరిఫికేషన్ కోడ్ ఎంటర్ చేయాల్సిన అవసరం ఉండదు."
 
-#: apps/client/src/pages/home/sections/support/index.tsx:59
-msgid "If you're multilingual, we'd love your help in bringing the app to more languages and communities. Don't worry if you don't see your language on the list - just give me a shout-out on GitHub, and I'll make sure to include it. Ready to get started? Jump into translation over at Crowdin by clicking the link below."
-msgstr "మీకు బహుభాషా నైపుణ్యం ఉంటే, యాప్‌ని మరిన్ని భాషలు మరియు కమ్యూనిటీలకు తీసుకెళ్ళడానికి మీ సాయం మాకు చాలా అవసరం. లిస్ట్‌లో మీ భాష కనిపించకపోతే కూడా చింతించకండి – GitHub లో నాకు ఒక షౌట్-అవుట్ ఇవ్వండి, నేను దాన్ని జోడిస్తాను. మొదలుపెట్టడానికి రెడీనా? కింద ఇచ్చిన లింక్‌ ద్వారా Crowdin లోకి దూకండి మరియు ట్రాన్స్‌లేషన్ ప్రారంభించండి."
+#: apps/client/src/pages/home/sections/support/index.tsx:22
+msgid "If you're multilingual, we'd love your help in bringing Elevate to more languages and communities. Don't worry if you don't see your language on the list - reach out at support@elevate.local, and we'll make sure to include it."
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:309
 msgid "Import"
@@ -800,14 +856,22 @@ msgid "In this section, you can delete your account and all the data associated 
 msgstr "ఈ సెక్షన్‌లో, మీరు మీ అకౌంట్ మరియు యూజర్‌కు సంబంధించిన అన్ని డేటాను డిలీట్ చేయవచ్చు, కానీ <0>ఈ యాక్షన్ రివర్ట్ చేయలేనిది</0> అని గమనించండి."
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:135
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:120
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:121
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:122
 msgid "Information"
 msgstr "ఇన్ఫర్మేషన్"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
 msgstr "ఇన్స్టిట్యూషన్"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:28
+msgid "Institutional Credibility"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:34
+msgid "Interests"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:53
 msgid "Issuer"
@@ -841,21 +905,6 @@ msgstr "మీరు అందించిన ధ్రువీకరణ టో
 msgid "It looks like your email address has already been verified."
 msgstr "మీ ఇమెయిల్ చిరునామా ఇప్పటికే ధ్రువీకరించబడిందనిపిస్తోంది."
 
-#: apps/client/src/pages/auth/register/page.tsx:101
-msgctxt "Localized version of a placeholder name. For example, Max Mustermann in German or Jan Kowalski in Polish."
-msgid "John Doe"
-msgstr "జాన్ డో"
-
-#: apps/client/src/pages/auth/register/page.tsx:123
-msgctxt "Localized version of a placeholder username. For example, max.mustermann in German or jan.kowalski in Polish."
-msgid "john.doe"
-msgstr "జాన్.డో"
-
-#: apps/client/src/pages/auth/register/page.tsx:145
-msgctxt "Localized version of a placeholder email. For example, max.mustermann@example.de in German or jan.kowalski@example.pl in Polish."
-msgid "john.doe@example.com"
-msgstr "జాన్.డో@ఎగ్జాంపుల్.కామ్"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:54
 msgid "JSON"
 msgstr "JSON"
@@ -876,7 +925,10 @@ msgstr "లేబుల్"
 msgid "Language"
 msgstr "భాష"
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:83
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:28
+msgid "Languages"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:139
 msgid "Last updated {lastUpdated}"
 msgstr "చివరిగా నవీకరించబడింది {lastUpdated}"
@@ -887,7 +939,7 @@ msgstr "చివరిగా నవీకరించబడింది {lastUp
 msgid "Layout"
 msgstr "విన్యాసం"
 
-#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:40
 msgid "Learn more"
 msgstr "మరింత తెలుసుకోండి"
 
@@ -908,22 +960,24 @@ msgstr "లైసెన్సు పొందినది <0>MIT</0>"
 msgid "Light"
 msgstr "లైట్"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:69
-msgid "Light or dark theme"
-msgstr "లైటు లేదా డార్క్ థీమ్"
-
 #: apps/client/src/pages/builder/sidebars/right/sections/typography.tsx:165
 msgid "Line Height"
 msgstr "లైన్ హైట్"
+
+#: apps/client/src/pages/public/page.tsx:93
+#: apps/client/src/pages/public/page.tsx:103
+msgid "Link copied to clipboard"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx:22
 msgid "LinkedIn, JSON Resume, etc."
 msgstr "లింక్డిన్, జెస్‌ఎస్‌ఏన్ రెజ్యూమే, etc."
 
-#: apps/client/src/pages/dashboard/resumes/page.tsx:49
-msgid "List"
-msgstr "List"
+#: apps/client/src/pages/builder/_components/preview-panel.tsx:69
+#: apps/client/src/pages/home/sections/hero/index.tsx:148
+msgid "Local"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:123
 #: apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx:86
@@ -933,15 +987,15 @@ msgid "Location"
 msgstr "స్థలం"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:51
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:115
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:188
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:115
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:166
 msgid "Lock"
 msgstr "తాళం"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:64
-msgid "Lock a resume to prevent editing"
-msgstr "రెజ్యూమ్‌ని ఎడిటింగ్‌ని నివారించడానికి తాళం పెట్టండి"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:87
+msgid "Locked"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:43
 msgid "Locking a resume will prevent any further changes to it. This is useful when you have already shared your resume with someone and you don't want to accidentally make any changes to it."
@@ -959,10 +1013,6 @@ msgstr "మీ పరికరం కోల్పోయారా?"
 #: apps/client/src/pages/builder/sidebars/right/sections/layout.tsx:252
 msgid "Main"
 msgstr "ప్రధాన"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:59
-msgid "Manage multiple resumes"
-msgstr "బహుళ రిజ్యూమ్‌లను నిర్వహించండి"
 
 #. The month and year should be uniform across all languages.
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:71
@@ -986,15 +1036,10 @@ msgstr "మార్జిన్"
 msgid "Max Tokens"
 msgstr "గరిష్ట టోకెన్లు"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:48
-msgid "MIT License"
-msgstr "MIT లైసెన్స్"
-
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:205
 msgid "Model"
 msgstr "మోడల్"
 
-#: apps/client/src/pages/auth/register/page.tsx:98
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:69
 #: apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx:36
@@ -1002,7 +1047,7 @@ msgstr "మోడల్"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:39
 #: apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx:70
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:88
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:92
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:153
 msgid "Name"
 msgstr "పేరు"
@@ -1012,6 +1057,10 @@ msgctxt "Name of the Certification"
 msgid "Name"
 msgstr "పేరు"
 
+#: apps/client/src/pages/home/sections/features/index.tsx:18
+msgid "Narrative Control"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:40
 msgid "Network"
 msgstr "నెట్‌వర్క్"
@@ -1020,13 +1069,17 @@ msgstr "నెట్‌వర్క్"
 msgid "New Password"
 msgstr "న్యూ పాస్‌వర్డ్"
 
+#: apps/client/src/pages/dashboard/resumes/page.tsx:58
+msgid "New Resume"
+msgstr ""
+
 #: apps/client/src/components/locale-combobox.tsx:45
 msgid "No results found"
 msgstr "ఏ ఫలితాలు లభించలేదు"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:49
-msgid "No user tracking or advertising"
-msgstr "యూజర్ ట్రాకింగ్ లేదా అడ్వర్టైజ్ లేదు"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx:49
+msgid "No resumes yet"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:133
 msgid "Note: This will make your account less secure."
@@ -1049,25 +1102,16 @@ msgstr "ఓన్-టైమ్ పాస్‌వర్డ్"
 msgid "Oops, the server returned an error."
 msgstr "అయ్యో, సర్వర్ లో ఒక ఎర్రర్ వచ్చింది."
 
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:97
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:77
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:148
 msgid "Open"
 msgstr "ఓపెన్"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:47
-msgid "Open Source"
-msgstr "ఓపెన్ సోర్స్"
 
 #: apps/client/src/services/openai/change-tone.ts:35
 #: apps/client/src/services/openai/fix-grammar.ts:33
 #: apps/client/src/services/openai/improve-writing.ts:33
 msgid "OpenAI did not return any choices for your text."
 msgstr "OpenAI మీ టెక్స్ట్ కోసం ఏ రకాల చాయిస్‌లు ఇవ్వలేదు."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:52
-msgid "OpenAI Integration"
-msgstr "OpenAI ఇంటిగ్రేషన్"
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:120
 msgid "OpenAI/Azure OpenAI/Ollama Integration"
@@ -1082,7 +1126,7 @@ msgstr "OpenAI / Ollama API కీ"
 msgid "Options"
 msgstr "ఆప్షన్స్"
 
-#: apps/client/src/pages/auth/layout.tsx:47
+#: apps/client/src/pages/auth/layout.tsx:50
 msgctxt "The user can either login with email/password, or continue with GitHub or Google."
 msgid "or continue with"
 msgstr "లేదా తో కొనసాగించండి"
@@ -1090,6 +1134,10 @@ msgstr "లేదా తో కొనసాగించండి"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:39
 msgid "Organization"
 msgstr "ఆర్గనైజేషన్"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:22
+msgid "Overview"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:100
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:25
@@ -1101,8 +1149,8 @@ msgstr "పేజ్"
 msgid "Page {pageNumber}"
 msgstr "పేజ్ {pageNumber}"
 
-#: apps/client/src/pages/auth/login/page.tsx:110
-#: apps/client/src/pages/auth/register/page.tsx:163
+#: apps/client/src/pages/auth/login/page.tsx:157
+#: apps/client/src/pages/auth/register/page.tsx:214
 #: apps/client/src/pages/auth/reset-password/page.tsx:83
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:73
 msgid "Password"
@@ -1112,21 +1160,9 @@ msgstr "పాస్‌వర్డ్"
 msgid "PDF"
 msgstr "PDF"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:63
-msgid "Personal notes for each resume"
-msgstr "ప్రతి రిజ్యూమ్ కోసం వ్యక్తిగత నోట్స్"
-
 #: apps/client/src/pages/builder/sidebars/left/sections/basics.tsx:108
 msgid "Phone"
 msgstr "ఫోన్"
-
-#: apps/client/src/pages/auth/layout.tsx:76
-msgid "Photograph by Patrick Tomasso"
-msgstr "ఫోటో: Patrick Tomasso చేత తీసినది"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:66
-msgid "Pick any font from Google Fonts"
-msgstr "Google Fonts నుండి ఏదైనా ఫాంట్ ఎంచుకోండి"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx:69
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:121
@@ -1158,21 +1194,34 @@ msgstr "పాజిషన్"
 msgid "Position"
 msgstr "పాజిషన్"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:96
-msgid "Powered by"
-msgstr "పవర్‌డ్ బై"
-
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:94
 msgid "Powered by <0>Simple Icons</0>"
 msgstr "పవర్‌డ్ బై <0>Simple Icons</0>"
+
+#: apps/client/src/pages/home/components/footer.tsx:42
+msgid "Pricing"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/theme.tsx:43
 msgid "Primary Color"
 msgstr "ప్రాథమిక రంగు"
 
-#: apps/client/src/pages/home/components/footer.tsx:47
+#: apps/client/src/pages/home/sections/features/index.tsx:33
+msgid "Privacy First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:50
 msgid "Privacy Policy"
 msgstr "గోప్యతా విధానం"
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:50
+#: apps/client/src/pages/home/sections/hero/index.tsx:99
+msgid "Privacy-First"
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:34
+msgid "Product"
+msgstr ""
 
 #: apps/client/src/components/ai-actions.tsx:113
 #: apps/client/src/components/ai-actions.tsx:116
@@ -1183,55 +1232,41 @@ msgstr "ప్రొఫెషనల్"
 msgid "Profile"
 msgstr "ప్రొఫైల్"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:24
+msgid "Profiles"
+msgstr ""
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:30
+msgid "Projects"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:55
 msgid "Public"
 msgstr "పబ్లిక్"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:31
+msgid "Publications"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx:53
 msgid "Publisher"
 msgstr "పబ్లిషర్"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:74
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:73
 msgid "Raise an issue"
 msgstr "ఇష్యూ రైజ్ చేయండి"
 
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:60
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:74
-#: apps/client/src/pages/public/page.tsx:95
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Reactive Resume has helped people land jobs at these great companies:"
-msgstr "Reactive Resume ఈ అద్భుతమైన కంపెనీల్లో జాబ్స్ పొందడానికి ప్రజలకు సహాయపడింది:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Reactive Resume is a free and open-source project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Reactive Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reactive Resume ప్రాజెక్ట్ ఉచితం మరియు ఓపెన్-సోర్స్, చాలా భాగం నేను తయారు చేసాను, మీ సపోర్ట్‌కి చాలా కృతజ్ఞతలు. మీరు సహాయం చేయాలనుకుంటే, మరియు మీరు చేయగలిగితే, జాబితా చేసిన ప్లాట్‌ఫారమ్‌లలో ఏదైనా ద్వారా డొనేషన్ చేయవచ్చు. అదనంగా, Open Collective ద్వారా Reactive Resume కి ఇచ్చే డొనేషన్స్ టాక్స్ ఫ్రీ, ఎందుకంటే ఈ ప్రాజెక్ట్ Open Collective Europe ద్వారా ఫిస్కల్‌గా హోస్ట్ చేయబడింది."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Reactive Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "Reactive Resume 3 సంవత్సరాల కష్టపాటుతో తయారైన ప్యాషన్ ప్రాజెక్ట్, అలాగే పునరావృతమైన ఐడియాలు మరియు ఫీచర్స్ వచ్చాయి, ఇవి (సుమారుగా) పరిపూర్ణతకు దగ్గరగా రూపొందించబడ్డాయి."
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Reactive Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "Reactive Resume దాని ఉత్సాహవంతమైన కమ్యూనిటీ కారణంగా ఫుల్‌గా ఎదుగుతోంది. ఈ ప్రాజెక్ట్ ప్రగతి, తన సమయం మరియు స్కిల్స్ ను అంకితం చేసిన అనేక వ్యక్తులకు రుణపడి ఉంది. కింద, GitHub పై ఫీచర్స్‌ని బెటర్ చేసుకున్న కోడర్స్ మరియు Crowdin లో ట్రాన్స్‌లేషన్స్ చేసి ప్రాజెక్ట్ ని పెద్ద ఆడియన్స్‌కి యాక్సెసిబుల్‌ చేసిన లింగ్విస్ట్స్‌ను మనం సెలబ్రేట్ చేస్తున్నాం."
+#: apps/client/src/pages/home/sections/cta/index.tsx:31
+msgid "Ready to elevate your career?"
+msgstr ""
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:89
 msgid "Redo"
 msgstr "రిడూ"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:35
+msgid "References"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx:105
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:157
@@ -1243,7 +1278,7 @@ msgid "Remove Page"
 msgstr "పేజ్ రిమూవ్ చేయండి"
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:111
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:101
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:159
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:86
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:152
 msgid "Rename"
@@ -1271,18 +1306,13 @@ msgid "Reset Zoom"
 msgstr "జూమ్‌ను రీసెట్ చేయండి"
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
-#: apps/client/src/pages/dashboard/resumes/page.tsx:22
-#: apps/client/src/pages/dashboard/resumes/page.tsx:39
+#: apps/client/src/pages/dashboard/resumes/page.tsx:32
 msgid "Resumes"
 msgstr "రిజ్యూమ్స్"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:14
+#: apps/client/src/pages/home/sections/statistics/index.tsx:16
 msgid "Resumes Generated"
 msgstr "రూపొందించిన రిజ్యూమ్స్"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:105
-msgid "Rich in features, not in pricing."
-msgstr "ఫీచర్లలో సమృద్ధిగా ఉంది, ధరలో కాదు."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:138
 msgid "Rounded"
@@ -1336,25 +1366,21 @@ msgstr "ఫాంట్ వేరియంట్ కోసం శోధించ
 msgid "Search for a language"
 msgstr "భాష కోసం శోధించండి"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:56
-msgid "Secure with two-factor authentication"
-msgstr "రెండు దశల ధృవీకరణతో భద్రత కల్పించండి"
-
 #: apps/client/src/pages/dashboard/settings/_sections/security.tsx:65
 msgid "Security"
 msgstr "సెక్యూరిటీ"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:50
-msgid "Self-host with Docker"
-msgstr "డాకర్‌తో స్వయంగా హోస్ట్ చేయండి"
+#: apps/client/src/pages/builder/_components/form-panel.tsx:44
+msgid "Select a section to edit"
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:104
 msgid "Send Email"
 msgstr "ఈమెయిల్ పంపండి"
 
-#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:79
-msgid "Send me a message"
-msgstr "నాకు సందేశం పంపండి"
+#: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:78
+msgid "Send us a message"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx:97
 msgid "Separate Links"
@@ -1370,6 +1396,19 @@ msgstr "సెట్టింగులు"
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:159
 msgid "Setup two-factor authentication on your account"
 msgstr "మీ ఖాతాలో రెండు దశల ధృవీకరణను సెటప్ చేయండి"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:19
+msgid "Shape your story, multiple versions"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:157
+msgid "Share"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:94
+#: apps/client/src/pages/public/page.tsx:104
+msgid "Share this link with anyone to view your resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:107
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:38
@@ -1394,47 +1433,48 @@ msgid "Sidebar"
 msgstr "సైడ్‌బార్"
 
 #: apps/client/src/pages/auth/backup-otp/page.tsx:103
-#: apps/client/src/pages/auth/login/page.tsx:127
+#: apps/client/src/pages/auth/login/page.tsx:209
+#: apps/client/src/pages/auth/register/page.tsx:278
 #: apps/client/src/pages/auth/verify-otp/page.tsx:92
+#: apps/client/src/pages/home/components/header.tsx:48
 msgid "Sign in"
 msgstr "సైన్ ఇన్ చేయండి"
 
-#: apps/client/src/pages/auth/register/page.tsx:74
-msgid "Sign in now"
-msgstr "ఇప్పుడే సైన్ ఇన్ చేయండి"
+#: apps/client/src/pages/auth/login/page.tsx:95
+msgid "Sign in to Elevate"
+msgstr ""
 
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/login/page.tsx:60
+#: apps/client/src/pages/auth/login/page.tsx:73
 msgid "Sign in to your account"
 msgstr "మీ ఖాతాలో సైన్ ఇన్ అవ్వండి"
 
-#: apps/client/src/pages/home/sections/features/index.tsx:55
-msgid "Sign in with Email"
-msgstr "ఇమెయిల్‌తో సైన్ ఇన్ చేయండి"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:53
-msgid "Sign in with GitHub"
-msgstr "GitHubతో సైన్ ఇన్ చేయండి"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:54
-msgid "Sign in with Google"
-msgstr "గూగుల్ తో సైన్ ఇన్ చేయండి"
-
-#: apps/client/src/pages/auth/register/page.tsx:179
+#: apps/client/src/pages/auth/login/page.tsx:232
 msgid "Sign up"
 msgstr "సైన్ అప్ చేయండి"
 
-#: apps/client/src/pages/auth/login/page.tsx:74
+#: apps/client/src/pages/home/sections/features/index.tsx:23
+msgid "Signal Strength"
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:111
 msgid "Signing in via email is currently disabled by the administrator."
 msgstr "ఇమెయిల్ ద్వారా సైన్ ఇన్ చేయడం ప్రస్తుతం అడ్మినిస్ట్రేటర్ ద్వారా నిలిపివేయబడింది."
 
-#: apps/client/src/pages/auth/register/page.tsx:82
+#: apps/client/src/pages/auth/login/page.tsx:206
+msgid "Signing in..."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:120
 msgid "Signups are currently disabled by the administrator."
 msgstr "సైన్ అప్‌లు ప్రస్తుతం అడ్మినిస్ట్రేటర్ ద్వారా నిలిపివేయబడ్డాయి."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx:65
 msgid "Size (in px)"
 msgstr "పరిమాణం (px లో)"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:27
+msgid "Skills"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:228
 msgid "Slug"
@@ -1457,6 +1497,10 @@ msgstr "మీ అభ్యర్థనను ప్రాసెస్ చేయ
 msgid "Square"
 msgstr "స్క్వేర్"
 
+#: apps/client/src/pages/home/sections/hero/call-to-action.tsx:33
+msgid "Start building"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx:33
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx:23
 msgid "Start building from scratch"
@@ -1465,6 +1509,14 @@ msgstr "స్క్రాచ్ నుండి బిల్డ్ చేయడ
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Start building your resume by giving it a name."
 msgstr "మీ రెజ్యూమేను పేరు పెట్టడం ద్వారా నిర్మించడం ప్రారంభించండి."
+
+#: apps/client/src/pages/home/sections/cta/index.tsx:34
+msgid "Start building your resume today. No credit card required."
+msgstr ""
+
+#: apps/client/src/pages/auth/register/page.tsx:107
+msgid "Start building your story today."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:114
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:22
@@ -1480,6 +1532,7 @@ msgstr "స్టాటిస్టిక్స్ పబ్లిక్ రి�
 msgid "Store your backup codes securely"
 msgstr "మీ బ్యాకప్ కోడ్స్‌ని సురక్షితంగా ఉంచండి"
 
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:23
 #: apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx:101
 #: apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx:95
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:151
@@ -1492,17 +1545,17 @@ msgstr "మీ బ్యాకప్ కోడ్స్‌ని సురక్
 msgid "Summary"
 msgstr "సమ్మరీ"
 
+#: apps/client/src/pages/home/sections/support/index.tsx:17
+msgid "Support options coming soon. For now, reach out at support@elevate.local"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:23
 msgid "Support the app by donating what you can!"
 msgstr "మీకు వీలైనంత డొనేట్ చేసి యాప్‌కి సపోర్ట్ ఇవ్వండి!"
 
 #: apps/client/src/pages/home/sections/support/index.tsx:9
-msgid "Supporting Reactive Resume"
-msgstr "Reactive Resume కి సపోర్ట్ ఇస్తూ"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:65
-msgid "Supports A4/Letter page formats"
-msgstr "A4/Letter పేజ్ ఫార్మాట్స్‌కి సపోర్ట్ చేస్తుంది"
+msgid "Supporting Elevate"
+msgstr ""
 
 #: apps/client/src/components/theme-switch.tsx:31
 msgid "Switch to Dark Mode"
@@ -1522,9 +1575,14 @@ msgstr "సిస్టమ్"
 msgid "Template"
 msgstr "టెంప్లేట్"
 
+#: apps/client/src/pages/home/components/footer.tsx:39
 #: apps/client/src/pages/home/sections/templates/index.tsx:9
 msgid "Templates"
 msgstr "టెంప్లేట్స్"
+
+#: apps/client/src/pages/home/components/footer.tsx:53
+msgid "Terms of Service"
+msgstr ""
 
 #: apps/client/src/pages/home/sections/testimonials/index.tsx:68
 msgid "Testimonials"
@@ -1569,7 +1627,7 @@ msgstr "ఈ యాక్షన్‌ను రివర్ట్ చేయడం
 msgid "This email address is associated with an OAuth account. Please sign in with your OAuth provider."
 msgstr "ఈ ఈమెయిల్ అడ్రస్ OAuth అకౌంట్‌కు అనుసంధానించబడింది. దయచేసి మీ OAuth ప్రొవైడర్ ద్వారా సైన్ ఇన్ అవ్వండి."
 
-#: apps/client/src/pages/builder/_components/header.tsx:57
+#: apps/client/src/pages/builder/_components/header.tsx:64
 msgid "This resume is locked, please unlock to make further changes."
 msgstr "ఈ రిజ్యూమ్ లాక్ అయింది, మరిన్ని మార్పులు చేయాలంటే దాన్ని అన్‌లాక్ చేయండి."
 
@@ -1597,10 +1655,6 @@ msgstr "పేజ్ బ్రేక్ లైన్ టోగుల్ చే�
 #: apps/client/src/pages/builder/_components/toolbar.tsx:150
 msgid "Toggle Page Numbers"
 msgstr "పేజ్ నంబర్స్ టోగుల్ చేయండి"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:68
-msgid "Track views and downloads"
-msgstr "వ్యూస్ మరియు డౌన్‌లోడ్స్ ట్రాక్ చేయండి"
 
 #: apps/client/src/pages/auth/verify-otp/page.tsx:52
 #: apps/client/src/pages/auth/verify-otp/page.tsx:57
@@ -1640,7 +1694,7 @@ msgid "Undo"
 msgstr "అండూ"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:52
-#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:110
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:178
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:105
 #: apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx:161
 msgid "Unlock"
@@ -1649,6 +1703,10 @@ msgstr "అన్‌లాక్"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:44
 msgid "Unlocking a resume will allow you to make changes to it again."
 msgstr "రిజ్యూమ్‌ను అన్‌లాక్ చేయడం వల్ల మీరు దానిలో మళ్లీ మార్పులు చేయగలుగుతారు."
+
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:95
+msgid "Untitled Resume"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:192
 msgid "Unverified"
@@ -1662,9 +1720,13 @@ msgstr "ఉన్న ఐటమ్‌ను అప్‌డేట్ చేయం
 msgid "Update an existing resume"
 msgstr "ఉన్న రిజ్యూమ్‌ను అప్‌డేట్ చేయండి"
 
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:100
+msgid "Updated {lastUpdated}"
+msgstr ""
+
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:212
-msgid "Upload a file from one of the accepted sources to parse existing data and import it into Reactive Resume for easier editing."
-msgstr "ఇప్పటికే ఉన్న డేటాను పార్స్ చేసి, సులభంగా ఎడిట్ చేయడానికి Reactive Resume లో ఇంపోర్ట్ చేయడానికి అంగీకరించిన సోర్సులలో ఒకటి నుండి ఫైల్ అప్లోడ్ చేయండి."
+msgid "Upload a file from one of the accepted sources to parse existing data and import it into Elevate for easier editing."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:73
 msgid "URL"
@@ -1691,13 +1753,13 @@ msgstr "మీ బ్యాకప్ కోడ్ ఉపయోగించండ
 msgid "User does not have an associated 'secrets' record. Please report this issue on GitHub."
 msgstr "యూజర్‌కు సంబంధిత 'secrets' రికార్డు లేదు. ఈ ఇష్యూ GitHub లో రిపోర్ట్ చేయండి."
 
-#: apps/client/src/pages/auth/register/page.tsx:119
+#: apps/client/src/pages/auth/register/page.tsx:162
 #: apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx:55
 #: apps/client/src/pages/dashboard/settings/_sections/account.tsx:167
 msgid "Username"
 msgstr "యూజర్‌నేమ్"
 
-#: apps/client/src/pages/home/sections/statistics/index.tsx:13
+#: apps/client/src/pages/home/sections/statistics/index.tsx:15
 msgid "Users Signed Up"
 msgstr "సైన్ అప్ చేసిన వినియోగదారులు"
 
@@ -1709,7 +1771,7 @@ msgstr "ధృవీకరించండి"
 msgid "Validated"
 msgstr "ధృవీకరించబడింది"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:97
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:101
 msgid "Value"
 msgstr "విలువ"
 
@@ -1726,9 +1788,13 @@ msgstr "రెండు-కారకాల ప్రామాణీకరణ స
 msgid "Verify your email address"
 msgstr "మీ ఇమెయిల్ చిరునామాను ధృవీకరించండి"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "వర్షన్ 4"
+#: apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx:122
+msgid "View"
+msgstr ""
+
+#: apps/client/src/pages/public/page.tsx:116
+msgid "View {title} resume created with Elevate"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1738,9 +1804,17 @@ msgstr "వ్యూస్"
 msgid "Visible"
 msgstr "కనిపించేది"
 
-#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:70
+#: apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx:74
 msgid "Visit <0>Phosphor Icons</0> for a list of available icons"
 msgstr "అందుబాటులో ఉన్న ఐకాన్ల జాబితా కోసం <0>Phosphor Icons</0> ను సందర్శించండి"
+
+#: apps/client/src/pages/builder/_components/section-navigation.tsx:32
+msgid "Volunteer"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/testimonials/index.tsx:70
+msgid "We always love to hear from Elevate users with feedback or support. Here are some of the messages we've received. If you have any feedback, feel free to reach out at <0>support@elevate.local</0>."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:61
 msgid "We verify your email address only to ensure that we can send you a password reset link in case you forget your password."
@@ -1760,9 +1834,13 @@ msgstr "మీరు పాస్‌వర్డ్ మర్చిపోతే,
 msgid "Website"
 msgstr "వెబ్‌సైట్"
 
-#: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "తాజా వెర్షన్‌లో ఏమి కొత్తగా ఉంది"
+#: apps/client/src/pages/home/sections/hero/index.tsx:110
+msgid "Works Offline"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:29
+msgid "Works with governments and think tanks"
+msgstr ""
 
 #: apps/client/src/pages/public/error.tsx:26
 msgid "You are not authorized to access this page."
@@ -1775,7 +1853,7 @@ msgstr "ఈ పేజీని యాక్సెస్ చేయడానిక
 msgid "You can add multiple keywords by separating them with a comma or pressing enter."
 msgstr "మీరు అనేక కీవర్డ్స్‌ను కామాతో విడదీయడం లేదా ఎంటర్ నొక్కడం ద్వారా జోడించవచ్చు."
 
-#: apps/client/src/pages/auth/login/page.tsx:99
+#: apps/client/src/pages/auth/login/page.tsx:144
 msgid "You can also enter your username."
 msgstr "మీరు మీ యూజర్‌నేమ్‌ను కూడా నమోదు చేయవచ్చు."
 
@@ -1795,17 +1873,21 @@ msgstr "మీరు మీ రిజ్యూమ్ తయారుచేస్
 msgid "You can track the number of views your resume has received, or how many people have downloaded the resume by enabling public sharing."
 msgstr "పబ్లిక్ షేరింగ్‌ను ఎనేబుల్ చేయడం ద్వారా, మీ రిజ్యూమ్ ఎంతమంది చూశారు, లేదా ఎంతమంది డౌన్‌లోడ్ చేసుకున్నారు అనే సమాచారాన్ని మీరు ట్రాక్ చేయవచ్చు."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:122
+msgid "You control your data"
+msgstr ""
+
 #: apps/client/src/pages/public/error.tsx:20
 msgid "You don't have permission to access this page."
 msgstr "ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
 
 #: apps/client/src/pages/dashboard/settings/_sections/openai.tsx:128
-msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Reactive Resume altogether, you can simply remove the key from your settings."
-msgstr "మీరు <0>మీ స్వంత OpenAI API కీ పొందే</0> ఎంపికను ఉపయోగించవచ్చు. ఈ కీ ద్వారా మీరు API ను మీ అవసరాలకు అనుగుణంగా ఉపయోగించవచ్చు. ప్రత్యామ్నాయంగా, Reactive Resume లో AI ఫీచర్లను పూర్తిగా ఆపాలనుకుంటే, సెట్టింగ్స్ నుండి ఆ కీని తీసివేయడం సరిపోతుంది."
+msgid "You have the option to <0>obtain your own OpenAI API key</0>. This key empowers you to leverage the API as you see fit. Alternatively, if you wish to disable the AI features in Elevate altogether, you can simply remove the key from your settings."
+msgstr ""
 
 #: apps/client/src/pages/auth/verify-email/page.tsx:50
-msgid "You should have received an email from <0>Reactive Resume</0> with a link to verify your account."
-msgstr "మీ ఖాతాను ధృవీకరించేందుకు లింక్‌తో కూడిన ఇమెయిల్‌ను <0>Reactive Resume</0> నుండి మీరు అందుకున్న ఉండాలి."
+msgid "You should have received an email from <0>Elevate</0> with a link to verify your account."
+msgstr ""
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:49
 #: apps/client/src/pages/auth/forgot-password/page.tsx:54
@@ -1820,6 +1902,22 @@ msgstr "మీ ఖాతా మరియు మీ డేటా విజయవ�
 msgid "Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services."
 msgstr "మీ API కీ బ్రౌజర్ యొక్క లోకల్ స్టోరేజ్‌లో సురక్షితంగా నిల్వ చేయబడుతుంది మరియు ఇది OpenAI యొక్క అధికారిక SDK ద్వారా అభ్యర్థనలు పంపేటప్పుడు మాత్రమే ఉపయోగించబడుతుంది. మీరు నమ్మకంగా ఉండవచ్చు — OpenAI సేవలతో పరస్పర చర్య జరగినప్పుడు తప్ప, మీ కీ ఎలాంటి బాహ్య సర్వర్‌కు పంపబడదు."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:67
+msgid "Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:54
+msgid "Your Data"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:100
+msgid "Your data stays local"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/features/index.tsx:34
+msgid "Your data, your device, your rules"
+msgstr ""
+
 #: apps/client/src/pages/auth/verify-email/page.tsx:28
 msgid "Your email address has been verified successfully."
 msgstr "మీ ఇమెయిల్ చిరునామా విజయవంతంగా ధృవీకరించబడింది."
@@ -1832,6 +1930,27 @@ msgstr "మీ OpenAI API కీ ఇంకా సెటప్ చేయలేద
 msgid "Your password has been updated successfully."
 msgstr "మీ పాస్‌వర్డ్ విజయవంతంగా నవీకరించబడింది."
 
+#: apps/client/src/pages/home/sections/hero/index.tsx:65
+msgid "Your resume."
+msgstr ""
+
+#: apps/client/src/pages/auth/login/page.tsx:98
+#: apps/client/src/pages/home/page.tsx:25
+msgid "Your resume. Your story. Your control."
+msgstr ""
+
+#: apps/client/src/pages/home/components/footer.tsx:27
+msgid "Your resume. Your story. Your control. A privacy-first resume builder that puts you in control of your data and narrative."
+msgstr ""
+
+#: apps/client/src/pages/dashboard/resumes/page.tsx:47
+msgid "Your Resumes"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/hero/index.tsx:66
+msgid "Your story."
+msgstr ""
+
 #: apps/client/src/pages/builder/_components/toolbar.tsx:112
 msgid "Zoom In"
 msgstr "జూమ్ ఇన్ చేయండి"
@@ -1839,4 +1958,3 @@ msgstr "జూమ్ ఇన్ చేయండి"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "జూమ్ అవుట్ చేయండి"
-

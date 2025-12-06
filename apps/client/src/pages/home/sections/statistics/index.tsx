@@ -8,10 +8,12 @@ type Statistic = {
 };
 
 export const StatisticsSection = () => {
+  // TODO: Update these statistics with Elevate's actual metrics when available
+  // For now, showing placeholder values that will be updated with real data
   const stats: Statistic[] = [
-    { name: t`GitHub Stars`, value: 27_000 },
-    { name: t`Users Signed Up`, value: 650_000 },
-    { name: t`Resumes Generated`, value: 840_000 },
+    { name: t`GitHub Stars`, value: 0 },
+    { name: t`Users Signed Up`, value: 0 },
+    { name: t`Resumes Generated`, value: 0 },
   ];
 
   return (

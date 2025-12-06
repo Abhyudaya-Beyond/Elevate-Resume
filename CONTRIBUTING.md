@@ -1,4 +1,4 @@
-# Contributing to Reactive Resume
+# Contributing to Elevate
 
 ## Getting the project set up locally
 
@@ -14,8 +14,8 @@ To run the development environment of the application locally on your computer, 
 ### 1. Fork and Clone the Repository
 
 ```sh
-git clone https://github.com/{your-github-username}/Reactive-Resume.git
-cd Reactive-Resume
+git clone https://github.com/{your-github-username}/elevate.git
+cd elevate
 ```
 
 ### 2. Install dependencies
@@ -35,10 +35,10 @@ Please have a brief look over the environment variables and change them if neces
 ### 4. Fire up all the required services through Docker Compose
 
 ```sh
-docker compose -f tools/compose/development.yml --env-file .env -p reactive-resume up -d
+docker compose -f tools/compose/development.yml --env-file .env -p elevate up -d
 ```
 
-It should take just under half a minute for all the services to be booted up correctly. You can check the status of all services by running `docker compose -p reactive-resume ps`
+It should take just under half a minute for all the services to be booted up correctly. You can check the status of all services by running `docker compose -p elevate ps`
 
 ### 5. Run the development server
 
@@ -82,4 +82,4 @@ git commit -m "fix(homepage): fix typo on homepage in the faq section"
 
 It helps to be as descriptive as possible in commit messages so that users can be aware of the changes made by you.
 
-Finally, create a pull request to merge the changes on your forked repository to the original repository hosted on AmruthPillai/Reactive-Resume. I can take a look at the changes you've made when I have the time and have it merged onto the app.
+Finally, create a pull request to merge the changes on your forked repository to the main Elevate repository. The maintainers will review your changes and merge them when ready.

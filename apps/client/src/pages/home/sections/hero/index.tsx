@@ -1,7 +1,11 @@
 import { t } from "@lingui/macro";
-import { ArrowRightIcon } from "@phosphor-icons/react";
-import { Badge, buttonVariants } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import {
+  ArrowRightIcon,
+  LockIcon,
+  CloudSunIcon,
+  FileIcon,
+} from "@phosphor-icons/react";
+import { Badge } from "@elevate/ui";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 
@@ -10,64 +14,141 @@ import { defaultTiltProps } from "@/client/constants/parallax-tilt";
 import { HeroCTA } from "./call-to-action";
 import { Decoration } from "./decoration";
 
+/**
+ * Hero Section - Consciousness-First Design
+ * 
+ * Neurobiological Design Principles:
+ * - Hero first = prefrontal attention (clarity)
+ * - Trust signals = limbic safety (amygdala calms)
+ * - Gold CTAs = dopamine (approach motivation)
+ * - White space = reduced cognitive load
+ * - Motion timing: 200ms fade-in (natural appearance)
+ */
 export const HeroSection = () => (
-  <section id="hero" className="relative">
+  <section id="hero" className="relative min-h-screen flex items-center bg-background">
     <Decoration.Grid />
     <Decoration.Gradient />
 
-    <div className="mx-auto max-w-7xl px-6 lg:flex lg:h-screen lg:items-center lg:px-12">
-      <motion.div
-        className="mx-auto mt-32 max-w-3xl shrink-0 lg:mx-0 lg:mt-0 lg:max-w-xl lg:pt-8"
-        viewport={{ once: true }}
-        initial={{ opacity: 0, x: -100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-      >
-        <div className="hidden items-center gap-x-4 sm:flex">
-          <Badge>{t`Version 4`}</Badge>
-
-          <a
-            href="https://docs.rxresu.me/overview/features"
-            className={cn(buttonVariants({ variant: "link" }), "space-x-2 text-left")}
-          >
-            <p>{t`What's new in the latest version`}</p>
-            <ArrowRightIcon />
-          </a>
-        </div>
-
-        <div className="mt-10 space-y-2">
-          <h6 className="text-base font-bold tracking-wide">{t`Finally,`}</h6>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-            {t`A free and open-source resume builder`}
-          </h1>
-        </div>
-
-        <p className="prose prose-base prose-zinc mt-6 text-lg leading-8 dark:prose-invert">
-          {t`A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.`}
-        </p>
-
-        <div className="mt-10 flex items-center gap-x-8">
-          <HeroCTA />
-        </div>
-      </motion.div>
-
-      <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-20">
-        <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
+    <div className="mx-auto max-w-7xl px-gutter w-full">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-gutter-lg lg:items-center">
+        {/* LEFT: Content (Prefrontal Planning Zone) */}
+        <motion.div
+          className="text-center lg:text-left"
+          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, ease: [0.4, 0, 0.6, 1] }}
+        >
+          {/* Trust Badge - Limbic Safety Signal */}
           <motion.div
-            viewport={{ once: true }}
-            initial={{ opacity: 0, x: 100 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            className="flex items-center justify-center lg:justify-start gap-gutter-sm mb-gutter"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.1, duration: 0.3 }}
           >
+            <Badge className="bg-safe/10 text-safe border-safe/20">
+              {t`Privacy-First`}
+            </Badge>
+            <span className="text-sm text-foreground/60">•</span>
+            <Badge className="bg-safe/10 text-safe border-safe/20">
+              {t`Your Data`}
+            </Badge>
+          </motion.div>
+
+          {/* Main Headline - Prefrontal Activation (0ms delay) */}
+          <motion.h1
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-gutter-sm"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0, duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
+          >
+            <span className="block">{t`Your resume.`}</span>
+            <span className="block">{t`Your story.`}</span>
+            <span className="block text-primary">{t`Your control.`}</span>
+          </motion.h1>
+
+          {/* Subheading - Cognitive Load Reduction (100ms delay) */}
+          <motion.p
+            className="text-lg sm:text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-gutter"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1, duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
+          >
+            {t`Build and share a resume that truly represents you—without trackers, dark patterns, or data lock-in.`}
+          </motion.p>
+
+          {/* CTAs - Dopamine Triggers (200ms delay) */}
+          <motion.div
+            className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-gutter-sm mb-gutter-lg"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
+          >
+            <HeroCTA />
+          </motion.div>
+
+          {/* Trust Signals - 3 Column Grid (Limbic Safety) */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-gutter-sm mt-gutter-lg">
+            <motion.div
+              className="flex flex-col items-center lg:items-start p-gutter-sm rounded-base border border-safe/20 bg-safe/10"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3, duration: 0.25, ease: [0.4, 0, 0.6, 1] }}
+            >
+              <LockIcon className="w-6 h-6 text-safe mb-gutter-xs" weight="bold" />
+              <span className="text-sm font-semibold text-foreground">{t`Privacy-First`}</span>
+              <span className="text-xs text-foreground/60 text-center lg:text-left">{t`Your data stays local`}</span>
+            </motion.div>
+
+            <motion.div
+              className="flex flex-col items-center lg:items-start p-gutter-sm rounded-base border border-safe/20 bg-safe/10"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.35, duration: 0.25, ease: [0.4, 0, 0.6, 1] }}
+            >
+              <CloudSunIcon className="w-6 h-6 text-safe mb-gutter-xs" weight="bold" />
+              <span className="text-sm font-semibold text-foreground">{t`Works Offline`}</span>
+              <span className="text-xs text-foreground/60 text-center lg:text-left">{t`Built for 2G networks`}</span>
+            </motion.div>
+
+            <motion.div
+              className="flex flex-col items-center lg:items-start p-gutter-sm rounded-base border border-safe/20 bg-safe/10"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.25, ease: [0.4, 0, 0.6, 1] }}
+            >
+              <FileIcon className="w-6 h-6 text-safe mb-gutter-xs" weight="bold" />
+              <span className="text-sm font-semibold text-foreground">{t`Export Anytime`}</span>
+              <span className="text-xs text-foreground/60 text-center lg:text-left">{t`You control your data`}</span>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* RIGHT: Visual (Consciousness Gating - Real Outcome Feedback) */}
+        <motion.div
+          className="mt-gutter-lg lg:mt-0"
+          viewport={{ once: true }}
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.2, duration: 0.4, ease: [0.4, 0, 0.6, 1] }}
+        >
+          <div className="relative">
             <Tilt {...defaultTiltProps}>
               <img
                 width={3600}
                 height={2078}
                 src="/screenshots/builder.jpg"
-                alt="Reactive Resume - Screenshot - Builder Screen"
-                className="w-[76rem] rounded-lg bg-background/5 shadow-2xl ring-1 ring-foreground/10"
+                alt="Elevate - Screenshot - Builder Screen"
+                className="w-full rounded-lg shadow-2xl ring-2 ring-primary/10"
               />
             </Tilt>
-          </motion.div>
-        </div>
+            {/* Offline Indicator - Teal (Limbic Safety) */}
+            <div className="absolute top-gutter-sm right-gutter-sm flex items-center gap-gutter-xs px-gutter-sm py-gutter-xs rounded-base bg-safe/90 backdrop-blur-sm">
+              <div className="w-2 h-2 rounded-full bg-safe-foreground animate-pulse" />
+              <span className="text-xs font-medium text-safe-foreground">{t`Local`}</span>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </div>
   </section>

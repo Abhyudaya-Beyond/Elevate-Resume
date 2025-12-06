@@ -1,6 +1,6 @@
 import { CheckIcon } from "@phosphor-icons/react";
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@elevate/utils";
 import { forwardRef } from "react";
 
 export const Checkbox = forwardRef<

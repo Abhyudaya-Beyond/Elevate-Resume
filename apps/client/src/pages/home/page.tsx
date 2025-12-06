@@ -3,6 +3,7 @@ import { useLingui } from "@lingui/react";
 import { Helmet } from "react-helmet-async";
 
 import { ContributorsSection } from "./sections/contributors";
+import { CTASection } from "./sections/cta";
 import { FAQSection } from "./sections/faq";
 import { FeaturesSection } from "./sections/features";
 import { HeroSection } from "./sections/hero";
@@ -21,12 +22,12 @@ export const HomePage = () => {
         <html lang={i18n.locale} />
 
         <title>
-          {t`Reactive Resume`} - {t`A free and open-source resume builder`}
+          {t`Elevate`} - {t`Your resume. Your story. Your control.`}
         </title>
 
         <meta
           name="description"
-          content="A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
+          content="Build and share a resume that truly represents you—without trackers, dark patterns, or data lock-in. A privacy-first resume builder that puts you in control."
         />
       </Helmet>
 
@@ -39,6 +40,7 @@ export const HomePage = () => {
       <SupportSection />
       <FAQSection />
       <ContributorsSection />
+      <CTASection />
     </main>
   );
 };

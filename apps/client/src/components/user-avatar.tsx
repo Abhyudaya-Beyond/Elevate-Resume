@@ -1,4 +1,4 @@
-import { getInitials } from "@reactive-resume/utils";
+import { getInitials } from "@elevate/utils";
 
 import { useUser } from "../services/user";
 

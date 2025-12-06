@@ -1,5 +1,5 @@
-import type { UserDto } from "@reactive-resume/dto";
-import { authResponseSchema } from "@reactive-resume/dto";
+import type { UserDto } from "@elevate/dto";
+import { authResponseSchema } from "@elevate/dto";
 import type { LoaderFunction } from "react-router";
 import { redirect } from "react-router";
 

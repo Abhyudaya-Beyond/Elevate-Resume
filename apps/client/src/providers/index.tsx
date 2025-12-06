@@ -1,4 +1,4 @@
-import { TooltipProvider } from "@reactive-resume/ui";
+import { TooltipProvider } from "@elevate/ui";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
 import { Outlet } from "react-router";

@@ -1,11 +1,11 @@
-import type { ResumeData } from "@reactive-resume/schema";
-import { resumeDataSchema } from "@reactive-resume/schema";
-import type { Json } from "@reactive-resume/utils";
+import type { ResumeData } from "@elevate/schema";
+import { resumeDataSchema } from "@elevate/schema";
+import type { Json } from "@elevate/utils";
 import type { Schema } from "zod";
 
 import type { Parser } from "../interfaces/parser";
 
-export class ReactiveResumeParser implements Parser<Json, ResumeData> {
+export class ElevateParser implements Parser<Json, ResumeData> {
   schema: Schema;
 
   constructor() {

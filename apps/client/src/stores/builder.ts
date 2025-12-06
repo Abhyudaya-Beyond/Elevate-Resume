@@ -1,3 +1,4 @@
+import type { SectionKey } from "@elevate/schema";
 import { create } from "zustand";
 import { immer } from "zustand/middleware/immer";
 
@@ -30,6 +31,8 @@ type BuilderState = {
     left: Panel;
     right: Panel;
   };
+  activeSection: SectionKey | null;
+  setActiveSection: (section: SectionKey | null) => void;
 };
 
 type BuilderActions = {
@@ -98,6 +101,12 @@ export const useBuilderStore = create<BuilderState & BuilderActions>()(
           },
         },
       },
+    },
+    activeSection: "basics" as SectionKey,
+    setActiveSection: (section) => {
+      set((state) => {
+        state.activeSection = section;
+      });
     },
     toggle: (side) => {
       set((state) => {

@@ -1,8 +1,8 @@
 import { t } from "@lingui/macro";
 import { CaretRightIcon } from "@phosphor-icons/react";
-import { basicsSchema } from "@reactive-resume/schema";
-import { Button, Input, Label } from "@reactive-resume/ui";
-import { cn } from "@reactive-resume/utils";
+import { basicsSchema } from "@elevate/schema";
+import { Button, Input, Label } from "@elevate/ui";
+import { cn } from "@elevate/utils";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { useResumeStore } from "@/client/stores/resume";
@@ -15,7 +15,7 @@ import { URLInput } from "./shared/url-input";
 
 export const BasicsSection = () => {
   const setValue = useResumeStore((state) => state.setValue);
-  const basics = useResumeStore((state) => state.resume.data.basics);
+  const basics = useResumeStore((state) => state.resume?.data?.basics ?? {});
 
   const collapsed = useResumeStore((state) => state.collapsedSections.basics ?? false);
   const toggleCollapseSection = useResumeStore((state) => state.toggleCollapseSection);

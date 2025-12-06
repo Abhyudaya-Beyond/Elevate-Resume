@@ -1,5 +1,5 @@
 import * as TabsPrimitive from "@radix-ui/react-tabs";
-import { cn } from "@reactive-resume/utils";
+import { cn } from "@elevate/utils";
 import { forwardRef } from "react";
 
 export const Tabs = TabsPrimitive.Root;

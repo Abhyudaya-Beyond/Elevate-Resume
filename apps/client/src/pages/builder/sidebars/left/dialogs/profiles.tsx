@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { t, Trans } from "@lingui/macro";
-import { defaultProfile, profileSchema } from "@reactive-resume/schema";
+import { defaultProfile, profileSchema } from "@elevate/schema";
 import {
   Avatar,
   FormControl,
@@ -10,7 +10,7 @@ import {
   FormLabel,
   FormMessage,
   Input,
-} from "@reactive-resume/ui";
+} from "@elevate/ui";
 import { useForm } from "react-hook-form";
 import type { z } from "zod";
 

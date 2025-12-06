@@ -25,6 +25,13 @@ export default defineConfig({
   resolve: {
     alias: {
       "@/artboard/": `${searchForWorkspaceRoot(process.cwd())}/apps/artboard/src/`,
+      // Elevate package aliases
+      "@elevate/dto": `${searchForWorkspaceRoot(process.cwd())}/libs/dto/src/index.ts`,
+      "@elevate/hooks": `${searchForWorkspaceRoot(process.cwd())}/libs/hooks/src/index.ts`,
+      "@elevate/parser": `${searchForWorkspaceRoot(process.cwd())}/libs/parser/src/index.ts`,
+      "@elevate/schema": `${searchForWorkspaceRoot(process.cwd())}/libs/schema/src/index.ts`,
+      "@elevate/ui": `${searchForWorkspaceRoot(process.cwd())}/libs/ui/src/index.ts`,
+      "@elevate/utils": `${searchForWorkspaceRoot(process.cwd())}/libs/utils/src/index.ts`,
     },
   },
 });

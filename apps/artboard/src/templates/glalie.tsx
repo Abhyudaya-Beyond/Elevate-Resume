@@ -13,8 +13,8 @@ import type {
   SectionWithItem,
   Skill,
   URL,
-} from "@reactive-resume/schema";
-import { Education, Experience, Volunteer } from "@reactive-resume/schema";
+} from "@elevate/schema";
+import { Education, Experience, Volunteer } from "@elevate/schema";
 import {
   cn,
   hexToRgb,
@@ -22,7 +22,7 @@ import {
   isUrl,
   linearTransform,
   sanitize,
-} from "@reactive-resume/utils";
+} from "@elevate/utils";
 import get from "lodash.get";
 import { Fragment } from "react";
 
