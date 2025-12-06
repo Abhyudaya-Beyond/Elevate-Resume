@@ -13,6 +13,35 @@ A free and open-source resume builder that simplifies the process of creating, u
 
 </div>
 
+## 🚀 Quick Start (For Mentors & Reviewers)
+
+**Get Elevate running locally in 3 steps:**
+
+### Prerequisites
+- Docker Desktop installed and running
+- Git installed
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abhyudaya-Beyond/Elevate-Resume.git
+   cd Elevate-Resume
+   ```
+
+2. **Start with Docker (one command):**
+   ```bash
+   docker compose -f docker-compose.local.yml up -d --build
+   ```
+
+3. **Open your browser:**
+   - **App:** http://localhost:3000
+   - **Health Check:** http://localhost:3000/api/health
+
+**That's it!** The app is running. See [MENTOR_SETUP.md](./MENTOR_SETUP.md) for detailed instructions.
+
+---
+
 ## Description
 
 Elevate is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.

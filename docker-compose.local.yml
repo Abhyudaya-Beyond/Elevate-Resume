@@ -1,0 +1,117 @@
+# ============================================
+# ELEVATE - LOCAL DEMO DOCKER COMPOSE
+# ============================================
+# Quick setup for local development and mentor demo
+# Run: docker compose -f docker-compose.local.yml up -d
+
+services:
+  # Database (Postgres)
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: elevate
+      POSTGRES_USER: elevate
+      POSTGRES_PASSWORD: elevate123
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U elevate -d elevate"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Storage (Minio)
+  minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"  # Minio API
+      - "9001:9001"  # Minio Console (http://localhost:9001)
+    volumes:
+      - minio_data:/data
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin123
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Browserless (Chrome for PDF generation)
+  chrome:
+    image: ghcr.io/browserless/chromium:latest
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    environment:
+      HEALTH: "true"
+      TOKEN: 310dccc635b410943cf54dda6b0afee3da6d8fedbd3d420874a038876af224a3
+      PROXY_HOST: "localhost"
+      PROXY_PORT: 3001
+      PROXY_SSL: "false"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Elevate Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+      chrome:
+        condition: service_healthy
+    environment:
+      # Environment
+      NODE_ENV: production
+      PORT: 3000
+
+      # URLs
+      PUBLIC_URL: http://localhost:3000
+      STORAGE_URL: http://localhost:9000/elevate-resumes
+
+      # Database
+      DATABASE_URL: postgresql://elevate:elevate123@postgres:5432/elevate?schema=public
+
+      # Authentication Secrets (from generated secrets)
+      ACCESS_TOKEN_SECRET: 8c5c182837bfae5cd99c08a1db2f365ab572522eddc204c41b5092e1733cc13c
+      REFRESH_TOKEN_SECRET: b60cf47ccca1b8f97ba674e8320fc9f8b7ade83d655fc0fcfc4b3fc50586c64c
+
+      # Browserless (Chrome)
+      CHROME_TOKEN: 310dccc635b410943cf54dda6b0afee3da6d8fedbd3d420874a038876af224a3
+      CHROME_URL: ws://chrome:3000
+      CHROME_IGNORE_HTTPS_ERRORS: "false"
+
+      # Storage (Minio)
+      STORAGE_ENDPOINT: minio
+      STORAGE_PORT: 9000
+      STORAGE_REGION: us-east-1
+      STORAGE_BUCKET: elevate-resumes
+      STORAGE_ACCESS_KEY: minioadmin
+      STORAGE_SECRET_KEY: minioadmin123
+      STORAGE_USE_SSL: "false"
+      STORAGE_SKIP_BUCKET_CHECK: "false"
+
+      # Email (Optional - can skip for local demo)
+      MAIL_FROM: noreply@elevate.local
+      MAIL_FROM_NAME: Elevate
+      # SMTP_URL: # Optional - skip for local demo
+
+volumes:
+  postgres_data:
+  minio_data:
+
