@@ -1,9 +1,9 @@
 <div align="center" markdown="1">
 ---
 
-<img alt="Elevate" width="800" src="https://i.imgur.com/FFc4nyZ.jpg" />
+# Elevate
 
-![App Version](https://img.shields.io/github/package-json/version/your-org/elevate?label=version)
+![App Version](https://img.shields.io/github/package-json/version/Abhyudaya-Beyond/Elevate-Resume?label=version)
 
 # Elevate
 
@@ -11,7 +11,7 @@
 
 A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. Built with privacy-first principles and consciousness-first design.
 
-### [Go to App](https://elevate.local/) | [Docs](https://docs.elevate.local/)
+### [Go to App](https://elevate.local/) | [Documentation](https://github.com/Abhyudaya-Beyond/Elevate-Resume#readme)
 
 </div>
 
