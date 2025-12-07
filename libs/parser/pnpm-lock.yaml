@@ -11,10 +11,10 @@ importers:
       '@paralleldrive/cuid2':
         specifier: ^2.2.2
         version: 2.2.2
-      '@reactive-resume/schema':
+      '@elevate/schema':
         specifier: '*'
         version: link:../schema
-      '@reactive-resume/utils':
+      '@elevate/utils':
         specifier: '*'
         version: link:../utils
       '@swc/helpers':

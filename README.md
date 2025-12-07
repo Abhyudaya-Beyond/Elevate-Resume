@@ -30,7 +30,7 @@ docker compose -f docker-compose.local.yml up -d --build
 
 **Wait 60-90 seconds**, then visit: **http://localhost:3000**
 
-**That's it!** The app is running. See [MENTOR_SETUP.md](./MENTOR_SETUP.md) for detailed instructions.
+**That's it!** The app is running. See [README_MENTOR.md](./README_MENTOR.md) for the complete setup guide.
 
 ---
 

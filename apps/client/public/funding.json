@@ -20,8 +20,8 @@
         "url": "https://elevate.local"
       },
       "repositoryUrl": {
-        "url": "https://github.com/your-org/elevate",
-        "wellKnown": "https://github.com/your-org/elevate/blob/main/.github/.well-known/funding-manifest-urls"
+        "url": "https://github.com/Abhyudaya-Beyond/Elevate-Resume",
+        "wellKnown": "https://github.com/Abhyudaya-Beyond/Elevate-Resume/blob/main/.github/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:MIT"],
       "tags": ["data", "design", "productivity", "resume-builder", "privacy"]
@@ -55,7 +55,7 @@
         "guid": "github",
         "type": "payment-provider",
         "description": "GitHub Sponsors",
-        "address": "https://github.com/sponsors/your-org"
+        "address": "https://github.com/sponsors/Abhyudaya-Beyond"
       },
       {
         "guid": "open-collective",
