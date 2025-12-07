@@ -15,28 +15,20 @@ A free and open-source resume builder that simplifies the process of creating, u
 
 ## 🚀 Quick Start (For Mentors & Reviewers)
 
-**Get Elevate running locally in 3 steps:**
+**Run with Docker - One command!**
 
 ### Prerequisites
 - Docker Desktop installed and running
-- Git installed
 
-### Steps
+### Run It
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Abhyudaya-Beyond/Elevate-Resume.git
-   cd Elevate-Resume
-   ```
+```bash
+git clone https://github.com/Abhyudaya-Beyond/Elevate-Resume.git
+cd Elevate-Resume
+docker compose -f docker-compose.local.yml up -d --build
+```
 
-2. **Start with Docker (one command):**
-   ```bash
-   docker compose -f docker-compose.local.yml up -d --build
-   ```
-
-3. **Open your browser:**
-   - **App:** http://localhost:3000
-   - **Health Check:** http://localhost:3000/api/health
+**Wait 60-90 seconds**, then visit: **http://localhost:3000**
 
 **That's it!** The app is running. See [MENTOR_SETUP.md](./MENTOR_SETUP.md) for detailed instructions.
 
