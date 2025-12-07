@@ -103,9 +103,3 @@ Start creating your standout resume with Elevate today!
 
 
 **Your resume. Your story. Your control.**
-
-<p>
-  <a href="https://m.do.co/c/ceae1fff245e">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="200px">
-  </a>
-</p>
