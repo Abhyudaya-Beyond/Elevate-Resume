@@ -92,15 +92,7 @@ export const ProfilesDialog = () => {
               <FormMessage />
               <FormDescription className="ml-10">
                 <Trans>
-                  Powered by{" "}
-                  <a
-                    href="https://simpleicons.org/"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="font-medium"
-                  >
-                    Simple Icons
-                  </a>
+                  Select a platform to add your profile link
                 </Trans>
               </FormDescription>
             </FormItem>
