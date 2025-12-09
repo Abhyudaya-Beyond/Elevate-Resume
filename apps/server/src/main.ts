@@ -94,7 +94,7 @@ async function bootstrap() {
       "Elevate is a privacy-first resume builder that helps you tell your story with full control over your data.",
     )
     .addCookieAuth("Authentication", { type: "http", in: "cookie", scheme: "Bearer" })
-    .setVersion("4.0.0")
+    .setVersion("1.0.0")
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup("docs", app, document);
