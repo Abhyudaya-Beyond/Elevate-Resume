@@ -75,7 +75,7 @@ export const RegisterPage = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
-      className="w-full max-w-[400px] mx-auto"
+      className="w-full max-w-[400px] mx-auto px-4 sm:px-0"
     >
       <Helmet>
         <title>

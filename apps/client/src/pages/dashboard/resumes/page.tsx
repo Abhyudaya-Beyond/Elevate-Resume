@@ -40,10 +40,10 @@ export const ResumesPage = () => {
         transition={{ duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
         className="sticky top-0 z-40 w-full border-b border-border bg-background shadow-sm"
       >
-        <div className="mx-auto max-w-7xl px-gutter py-gutter-sm">
-          <div className="flex items-center justify-between">
+        <div className="mx-auto max-w-7xl px-4 sm:px-gutter py-gutter-sm">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
             {/* Left: Heading */}
-            <h1 className="text-3xl font-bold tracking-tight text-primary">
+            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-primary">
               {t`Your Resumes`}
             </h1>
 
@@ -62,7 +62,7 @@ export const ResumesPage = () => {
       </motion.header>
 
       {/* Main Content */}
-      <main className="mx-auto max-w-7xl px-gutter py-gutter-lg">
+      <main className="mx-auto max-w-7xl px-4 sm:px-gutter py-gutter-lg">
         <GridView />
       </main>
     </div>
