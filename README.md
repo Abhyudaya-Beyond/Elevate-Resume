@@ -1,5 +1,4 @@
 <div align="center" markdown="1">
----
 
 # Elevate
 
@@ -7,15 +6,15 @@
 
 **Your resume. Your story. Your control.**
 
-A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. Built with privacy-first principles and consciousness-first design.
+A privacy-first resume builder built on consciousness-first design principles. Own your professional narrative with complete data control and institutional-grade credibility.
 
 ### [Go to App](https://elevate.local/) | [Documentation](https://github.com/Abhyudaya-Beyond/Elevate-Resume#readme)
 
 </div>
 
-## 🚀 Quick Start (For Mentors & Reviewers)
+## 🚀 Quick Start
 
-**Run with Docker - One command!**
+**Get Elevate running in under 60 seconds with Docker.**
 
 ### Prerequisites
 - Docker Desktop installed and running
@@ -34,72 +33,228 @@ docker compose -f docker-compose.local.yml up -d --build
 
 ---
 
-## Description
+## Why Elevate?
 
-Elevate is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.
+Most resume builders treat your data as fuel for their algorithms—tracking your usage, selling your information, or locking you into their platform. **Elevate flips that model entirely.**
 
-It's available in multiple languages and comes packed with features such as real-time editing, 17 professional templates, drag-and-drop customisation, and integration with OpenAI for enhancing your writing.
+Elevate is built on the principle that **you should own your professional narrative end-to-end**. Whether you're a student preparing for your first job, a professional switching careers, or working with governments and think tanks, Elevate gives you the tools to create a resume that truly represents you—**without trackers, dark patterns, or data lock-in**.
 
-You can share a personalised link of your resume to potential employers, track its views or downloads, and customise your page layout by dragging-and-dropping sections. The platform also supports various font options and provides multiple templates to choose from. And yes, there's even a dark mode for a more comfortable viewing experience.
+### Our Core Philosophy
 
-Start creating your standout resume with Elevate today!
+- **Privacy-First**: Your data stays under your control, always
+- **Consciousness-First Design**: Built with neurobiological principles for optimal user experience
+- **Narrative Control**: Shape your story across multiple versions and contexts
+- **Institutional Credibility**: Designed to work with governments, think tanks, and policy makers
+- **Signal Strength**: AI-powered suggestions that enhance your impact without compromising your voice
 
-## Templates
-
-| Azurill                                                                 | Bronzor                                                                 | Chikorita                                                                 |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| <img src="./apps/client/public/templates/jpg/azurill.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/bronzor.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/chikorita.jpg" width="200px" /> |
-
-| Ditto                                                                | Gengar                                                                 | Glalie                                                                 |
-| -------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| <img src="./apps/client/public/templates/jpg/ditto.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/gengar.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/glalie.jpg" width="200px" /> |
-
-| Kakuna                                                                 | Leafish                                                                 | Nosepass                                                                 |
-| ---------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| <img src="./apps/client/public/templates/jpg/kakuna.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/leafish.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/nosepass.jpg" width="200px" /> |
-
-| Onyx                                                                | Pikachu                                                                 | Rhyhorn                                                                 |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| <img src="./apps/client/public/templates/jpg/onyx.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/pikachu.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/rhyhorn.jpg" width="200px" /> |
+---
 
 ## Features
 
-- **Free, forever** and open-source
-- No telemetry, user tracking or advertising
-- You can self-host the application in less than 30 seconds
-- **Available in multiple languages** (help add/improve your language)
-- Use your email address (or a throw-away address, no problem) to create an account
-- You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security
-- Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score
-- **Bring your own OpenAI API key** and unlock features such as improving your writing, fixing spelling and grammar or changing the tone of your text in one-click
-- Translate your resume into any language using ChatGPT and import it back for easier editing
-- Create single page resumes or a resume that spans multiple pages easily
-- Customize the colours and layouts to add a personal touch to your resume
-- Customise your page layout as you like just by dragging-and-dropping sections
-- Create custom sections that are specific to your industry if the existing ones don't fit
-- Jot down personal notes specific to your resume that's only visible to you
-- Lock a resume to prevent making any further edits (useful for master templates)
-- **Dozens of templates** to choose from, ranging from professional to modern
-- Design your resume using the standardised EuroPass design template
-- Supports printing resumes in A4 or Letter page formats
-- Design your resume with any font that's available on [Google Fonts](https://fonts.google.com/)
-- **Share a personalised link of your resume** to companies or recruiters for them to get the latest updates
-- You can track the number of views or downloads your public resume has received
-- Built with state-of-the-art (at the moment) and dependable technologies that's battle tested and peer reviewed by the open-source community on GitHub
-- **Open source**, so do what you like with the code
-- And yes, there’s a dark mode too 🌓
+### Privacy & Data Control
+- **Free Forever & Open Source** - Completely free to use, forever. Built as open-source software with complete transparency and freedom to modify, distribute, and customize.
+- **Zero Tracking & Advertising** - No telemetry, user tracking, or advertising. Your privacy is non-negotiable. We don't track your usage, sell your data, or serve you ads.
+- **Complete Data Ownership** - Export your data anytime, anywhere. Your resume data belongs to you, without restrictions or data lock-in.
+- **Self-Hostable** - Deploy in under 30 seconds with Docker. Take complete control of your infrastructure and ensure your data never leaves your environment.
+- **Offline-First Architecture** - Works offline and on low-connectivity networks. Built for 2G networks, your data stays local and you can work without an internet connection.
 
-## Built With
+### Authentication & Security
+- **Flexible Account Creation** - Use your email address (or a throwaway address—no problem), or sign in seamlessly with your GitHub or Google account for quick access.
+- **Two-Factor Authentication (2FA)** - Protect your account with time-based one-time passwords (TOTP). Add an extra layer of security to ensure only you can access your professional data.
+- **Secure by Default** - Built with modern security best practices and enterprise-grade security standards.
 
-- React (Vite), for the frontend
-- NestJS, for the backend
-- Postgres (primary database)
-- Prisma ORM, which frees you to switch to any other relational database with a few minor changes in the code
-- Minio (for object storage: to store avatars, resume PDFs and previews)
-- Browserless (for headless chrome, to print PDFs and generate previews)
-- SMTP Server (to send password recovery emails)
-- GitHub/Google OAuth (for quickly authenticating users)
-- LinguiJS and Crowdin (for translation management and localization)
+### Resume Creation & Management
+- **Unlimited Resume Creation** - Create as many resumes as you need under a single account. Optimize each resume for specific job applications, tailoring your narrative to match job descriptions for higher ATS (Applicant Tracking System) scores.
+- **Real-Time Editing** - See changes instantly as you build. No waiting, no delays—your edits appear immediately.
+- **Flexible Page Layout** - Create concise single-page resumes for quick scanning, or detailed multi-page resumes that tell your complete professional story. Switch between formats seamlessly.
+- **Drag-and-Drop Customization** - Arrange your resume sections exactly how you want with intuitive drag-and-drop functionality. Customize your page layout to highlight what matters most.
+- **Custom Section Builder** - Build industry-specific sections tailored to your profession. If standard sections don't fit your industry, create custom sections that reflect your unique career path.
+- **Personal Notes System** - Jot down personal notes, reminders, or ideas specific to each resume. These notes are visible only to you and never appear in the final document.
+- **Resume Locking** - Lock a resume to prevent accidental edits. Perfect for maintaining master templates or finalized versions while continuing to work on variations.
 
+### AI-Powered Enhancement
+- **Bring Your Own OpenAI API Key** - Use your own OpenAI API key, stored securely in your browser. We never see or store your API credentials. You control your AI usage and costs.
+- **One-Click Writing Enhancement** - Enhance your writing with a single click. Improve tone, correct spelling and grammar, or adjust the voice to be more confident, professional, or casual—all powered by your own AI.
+- **Multi-Language Translation** - Translate your resume into any language using ChatGPT integration and import it back for easier editing. Maintain consistency across language versions while preserving your original formatting.
+- **Signal Strength Optimization** - Get intelligent AI suggestions that enhance your professional impact without compromising your authentic voice. Optimize your resume for maximum signal strength.
+
+### Design & Customization
+- **17+ Professional Templates** - Choose from a curated collection of templates ranging from modern and creative to traditional and EuroPass-compliant designs. Each template is optimized for different industries and use cases.
+- **EuroPass Standard Support** - Create resumes that comply with the European standard EuroPass format, ensuring compatibility with European job applications and ATS systems.
+- **Color & Branding Customization** - Personalize your resume with custom color schemes and layouts that match your personal brand or industry standards.
+- **Hundreds of Google Fonts** - Choose from hundreds of professional fonts available on Google Fonts. Find the perfect typography that reflects your professional identity.
+- **Print-Ready Formats** - Export your resume in standard A4 (international) or Letter (US) page formats. Print-ready PDFs that look perfect on paper.
+- **Dark Mode** - Switch to dark mode for comfortable viewing in low-light environments. Reduce eye strain while building your resume.
+- **Responsive Design** - Looks great on any device, from desktop to mobile. Your resume builder adapts to your screen size.
+
+### Sharing & Analytics
+- **Personalized Share Links** - Generate personalized, shareable links for your resume. Send to companies or recruiters, and they'll always see your latest version automatically.
+- **View & Download Tracking** - Track engagement metrics and know when someone views or downloads your public resume. Get insights into how your resume is being received by potential employers.
+- **Always Up-to-Date** - When you update your resume, all shared links automatically reflect the latest version. No need to resend links or worry about outdated copies.
+
+### Internationalization
+- **50+ Languages** - Available in multiple languages with community-driven translations. Help add or improve translations for your language through our Crowdin integration.
+- **Right-to-Left (RTL) Support** - Complete support for right-to-left languages, ensuring proper layout and readability for Arabic, Hebrew, and other RTL languages.
+
+---
+
+## Templates
+
+Elevate comes with 17 professionally designed templates, each optimized for different industries and use cases:
+
+| Azurill | Bronzor | Chikorita |
+|---------|---------|-----------|
+| <img src="./apps/client/public/templates/jpg/azurill.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/bronzor.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/chikorita.jpg" width="200px" /> |
+
+| Ditto | Gengar | Glalie |
+|-------|--------|--------|
+| <img src="./apps/client/public/templates/jpg/ditto.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/gengar.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/glalie.jpg" width="200px" /> |
+
+| Kakuna | Leafish | Nosepass |
+|--------|---------|---------|
+| <img src="./apps/client/public/templates/jpg/kakuna.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/leafish.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/nosepass.jpg" width="200px" /> |
+
+| Onyx | Pikachu | Rhyhorn |
+|------|---------|---------|
+| <img src="./apps/client/public/templates/jpg/onyx.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/pikachu.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/rhyhorn.jpg" width="200px" /> |
+
+---
+
+## Technology Stack
+
+Elevate is built with modern, battle-tested technologies:
+
+### Frontend
+- **React 18** with **Vite** - Lightning-fast development and builds
+- **TypeScript** - Type-safe code throughout
+- **TailwindCSS** - Utility-first styling
+- **Framer Motion** - Smooth, consciousness-first animations
+- **Radix UI** - Accessible component primitives
+
+### Backend
+- **NestJS** - Scalable, enterprise-grade Node.js framework
+- **PostgreSQL** - Robust relational database
+- **Prisma ORM** - Type-safe database access
+- **Zod** - Runtime type validation
+
+### Infrastructure
+- **Minio/S3** - Object storage for avatars, PDFs, and previews
+- **Browserless** - Headless Chrome for PDF generation
+- **SMTP** - Email delivery for password recovery and notifications
+- **Docker** - Containerized deployment
+
+### Internationalization
+- **LinguiJS** - i18n framework
+- **Crowdin** - Translation management platform
+
+---
+
+## Self-Hosting
+
+Elevate is designed to be self-hosted easily. You have complete control over your data and infrastructure.
+
+### Quick Start with Docker
+
+```bash
+docker compose -f docker-compose.local.yml up -d --build
+```
+
+### Production Deployment
+
+See [env.production.example](./env.production.example) for production environment configuration.
+
+Key requirements:
+- PostgreSQL database
+- Minio or S3-compatible storage
+- Browserless instance (for PDF generation)
+- SMTP server (for email delivery)
+
+---
+
+## Development
+
+### Prerequisites
+- Node.js 22.13.1 or higher
+- pnpm 10.20.0 or higher
+- Docker (for local services)
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Abhyudaya-Beyond/Elevate-Resume.git
+cd Elevate-Resume
+
+# Install dependencies
+pnpm install
+
+# Start development services
+docker compose -f tools/compose/development.yml up -d
+
+# Run database migrations
+pnpm prisma:migrate:dev
+
+# Start development server
+pnpm dev
+```
+
+The frontend will be available at `http://localhost:5173` and the API at `http://localhost:3000`.
+
+---
+
+## Contributing
+
+We welcome contributions! Elevate is built by the community, for the community.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit with conventional commits (`git commit -m "feat: add amazing feature"`)
+5. Push to your branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+### Areas for Contribution
+
+- **Translations** - Help bring Elevate to more languages
+- **Templates** - Design new resume templates
+- **Features** - Build new functionality
+- **Documentation** - Improve our docs
+- **Bug Fixes** - Help us squash bugs
+
+---
+
+## License
+
+Elevate is open-source software. See [LICENSE](./LICENSE) for details.
+
+---
+
+## Support
+
+- **Documentation**: [GitHub Wiki](https://github.com/Abhyudaya-Beyond/Elevate-Resume/wiki)
+- **Issues**: [GitHub Issues](https://github.com/Abhyudaya-Beyond/Elevate-Resume/issues)
+- **Email**: support@elevate.local
+
+---
+
+## Acknowledgments
+
+Elevate is built with privacy, control, and user empowerment at its core. We believe that your professional narrative belongs to you, and you should have complete ownership over how it's created, shared, and stored.
 
 **Your resume. Your story. Your control.**
+
+### Attribution
+
+This project is based on [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume) by [Amruth Pillai](https://github.com/AmruthPillai), used under the [MIT License](https://opensource.org/licenses/MIT). We are grateful for the excellent foundation provided by the original project.
+
+---
+
+<div align="center">
+
+Made with ❤️ by the Elevate Team
+
+[⭐ Star us on GitHub](https://github.com/Abhyudaya-Beyond/Elevate-Resume) • [🐛 Report a Bug](https://github.com/Abhyudaya-Beyond/Elevate-Resume/issues) • [💡 Request a Feature](https://github.com/Abhyudaya-Beyond/Elevate-Resume/issues)
+
+</div>
