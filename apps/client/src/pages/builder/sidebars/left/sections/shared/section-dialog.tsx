@@ -60,6 +60,7 @@ export const SectionDialog = <T extends SectionItem>({
 
   useEffect(() => {
     if (isOpen) onReset();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen, payload]);
 
   const onSubmit = (values: T) => {

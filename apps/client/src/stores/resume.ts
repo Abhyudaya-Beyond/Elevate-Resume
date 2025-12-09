@@ -72,11 +72,16 @@ export const useResumeStore = create<ResumeStore>()(
         };
 
         set((state) => {
-          const lastPageIndex = state.resume.data.metadata.layout.length - 1;
-          state.resume.data.metadata.layout[lastPageIndex][0].push(`custom.${section.id}`);
-          state.resume.data = _set(state.resume.data, `sections.custom.${section.id}`, section);
+          // Safety check: ensure resume.data exists
+          if (!state.resume.data || !state.resume.data.metadata?.layout) return;
 
-          void debouncedUpdateResume(JSON.parse(JSON.stringify(state.resume)));
+          const lastPageIndex = state.resume.data.metadata.layout.length - 1;
+          if (lastPageIndex >= 0 && state.resume.data.metadata.layout[lastPageIndex]?.[0]) {
+            state.resume.data.metadata.layout[lastPageIndex][0].push(`custom.${section.id}`);
+            state.resume.data = _set(state.resume.data, `sections.custom.${section.id}`, section);
+
+            void debouncedUpdateResume(JSON.parse(JSON.stringify(state.resume)));
+          }
         });
       },
       removeSection: (sectionId: SectionKey) => {
@@ -84,9 +89,14 @@ export const useResumeStore = create<ResumeStore>()(
           const id = sectionId.split("custom.")[1];
 
           set((state) => {
+            // Safety check: ensure resume.data exists
+            if (!state.resume.data || !state.resume.data.metadata?.layout) return;
+
             removeItemInLayout(sectionId, state.resume.data.metadata.layout);
             // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
-            delete state.resume.data.sections.custom[id];
+            if (state.resume.data.sections?.custom) {
+              delete state.resume.data.sections.custom[id];
+            }
 
             void debouncedUpdateResume(JSON.parse(JSON.stringify(state.resume)));
           });
@@ -107,13 +117,18 @@ export const useResumeStore = create<ResumeStore>()(
       },
       collapseAllSections: () => {
         set((state) => {
+          // Safety check: ensure resume.data exists
+          if (!state.resume.data || !state.resume.data.sections) return;
+
           const collapsed: Record<string, boolean> = { basics: true };
           for (const section of Object.keys(state.resume.data.sections)) {
             collapsed[section] = true;
           }
           // Add any custom sections to the collapsed state
-          for (const section of Object.keys(state.resume.data.sections.custom)) {
-            collapsed[`custom.${section}`] = true;
+          if (state.resume.data.sections.custom) {
+            for (const section of Object.keys(state.resume.data.sections.custom)) {
+              collapsed[`custom.${section}`] = true;
+            }
           }
           state.collapsedSections = collapsed;
         });

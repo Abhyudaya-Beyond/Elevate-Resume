@@ -38,18 +38,21 @@ export const PublicResumePage = () => {
   const format = resume.metadata.page.format as keyof typeof pageSizeMap;
 
   const updateResumeInFrame = useCallback(() => {
+    if (!frameRef.current?.contentWindow) return;
     const message = { type: "SET_RESUME", payload: resume };
 
     setImmediate(() => {
       frameRef.current?.contentWindow?.postMessage(message, "*");
     });
-  }, [frameRef.current, resume]);
+  }, [resume]);
 
   useEffect(() => {
     if (!frameRef.current) return;
     frameRef.current.addEventListener("load", updateResumeInFrame);
-    return () => frameRef.current?.removeEventListener("load", updateResumeInFrame);
-  }, [frameRef]);
+    return () => {
+      frameRef.current?.removeEventListener("load", updateResumeInFrame);
+    };
+  }, [updateResumeInFrame]);
 
   useEffect(() => {
     if (!frameRef.current?.contentWindow) return;
@@ -70,7 +73,7 @@ export const PublicResumePage = () => {
     return () => {
       frameRef.current?.contentWindow?.removeEventListener("message", handleMessage);
     };
-  }, [frameRef]);
+  }, []);
 
   const onDownloadPdf = async () => {
     const { url } = await printResume({ id });

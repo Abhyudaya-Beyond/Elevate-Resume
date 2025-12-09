@@ -10,7 +10,7 @@ import { SectionIcon } from "../shared/section-icon";
 
 export const TemplateSection = () => {
   const setValue = useResumeStore((state) => state.setValue);
-  const currentTemplate = useResumeStore((state) => state.resume.data.metadata.template);
+  const currentTemplate = useResumeStore((state) => state.resume.data?.metadata?.template ?? "modern");
   const [imageErrors, setImageErrors] = useState<Set<string>>(new Set());
 
   const handleImageError = (template: string) => {

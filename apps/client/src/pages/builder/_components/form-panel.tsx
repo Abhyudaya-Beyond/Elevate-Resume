@@ -40,7 +40,7 @@ import { SummarySection } from "../sidebars/left/sections/summary";
 export const FormPanel = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const addSection = useResumeStore((state) => state.addSection);
-  const customSections = useResumeStore((state) => state.resume.data.sections.custom);
+  const customSections = useResumeStore((state) => state.resume.data?.sections?.custom ?? {});
   const expandAllSections = useResumeStore((state) => state.expandAllSections);
   const collapseAllSections = useResumeStore((state) => state.collapseAllSections);
 

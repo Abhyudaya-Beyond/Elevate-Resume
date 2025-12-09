@@ -20,10 +20,10 @@ export const PreviewPanel = () => {
   const title = useResumeStore((state) => state.resume.title);
 
   const syncResumeToArtboard = useCallback(() => {
-    if (!frameRef?.contentWindow) return;
+    if (!frameRef?.contentWindow || !resume.data) return;
     const message = { type: "SET_RESUME", payload: resume.data };
     frameRef.contentWindow.postMessage(message, "*");
-  }, [frameRef?.contentWindow, resume.data]);
+  }, [frameRef, resume.data]);
 
   // Send resume data to iframe on initial load
   useEffect(() => {
@@ -34,10 +34,12 @@ export const PreviewPanel = () => {
     return () => {
       frameRef.removeEventListener("load", syncResumeToArtboard);
     };
-  }, [frameRef]);
+  }, [frameRef, syncResumeToArtboard]);
 
   // Persistently check if iframe has loaded using setInterval
   useEffect(() => {
+    if (!frameRef) return;
+
     const interval = setInterval(() => {
       if (frameRef?.contentWindow?.document.readyState === "complete") {
         syncResumeToArtboard();
@@ -48,10 +50,12 @@ export const PreviewPanel = () => {
     return () => {
       clearInterval(interval);
     };
-  }, [frameRef]);
+  }, [frameRef, syncResumeToArtboard]);
 
   // Send resume data to iframe on change of resume data
-  useEffect(syncResumeToArtboard, [resume.data]);
+  useEffect(() => {
+    syncResumeToArtboard();
+  }, [syncResumeToArtboard]);
 
   return (
     <div className="relative flex h-full flex-col bg-background">
