@@ -202,29 +202,6 @@ The frontend will be available at `http://localhost:5173` and the API at `http:/
 
 ---
 
-## Contributing
-
-We welcome contributions! Elevate is built by the community, for the community.
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit with conventional commits (`git commit -m "feat: add amazing feature"`)
-5. Push to your branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
-
-### Areas for Contribution
-
-- **Translations** - Help bring Elevate to more languages
-- **Templates** - Design new resume templates
-- **Features** - Build new functionality
-- **Documentation** - Improve our docs
-- **Bug Fixes** - Help us squash bugs
-
----
-
 ## License
 
 Elevate is open-source software. See [LICENSE](./LICENSE) for details.
