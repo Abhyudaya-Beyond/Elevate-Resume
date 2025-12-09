@@ -245,10 +245,6 @@ Elevate is built with privacy, control, and user empowerment at its core. We bel
 
 **Your resume. Your story. Your control.**
 
-### Attribution
-
-This project is based on [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume) by [Amruth Pillai](https://github.com/AmruthPillai), used under the [MIT License](https://opensource.org/licenses/MIT). We are grateful for the excellent foundation provided by the original project.
-
 ---
 
 <div align="center">
