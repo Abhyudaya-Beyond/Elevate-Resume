@@ -80,7 +80,7 @@ export const ResumeCard = ({ resume }: Props) => {
       className="group relative"
     >
       {/* Card - White, Clean, Organized */}
-      <div className="rounded-base border border-border bg-background p-gutter-sm shadow-sm transition-all duration-smooth hover:shadow-md">
+      <div className="h-full rounded-base border border-border bg-background p-4 sm:p-gutter-sm shadow-sm transition-all duration-smooth hover:shadow-md flex flex-col">
         {/* Locked Indicator */}
         <AnimatePresence>
           {resume.locked && (
@@ -109,7 +109,7 @@ export const ResumeCard = ({ resume }: Props) => {
         </p>
 
         {/* Button Row - Logical Action Flow */}
-        <div className="flex flex-wrap gap-gutter-xs">
+        <div className="flex flex-wrap gap-2 sm:gap-gutter-xs mt-auto">
           <Button
             onClick={onEdit}
             variant="primary"

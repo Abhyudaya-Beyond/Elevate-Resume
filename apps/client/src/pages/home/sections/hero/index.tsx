@@ -25,12 +25,12 @@ import { Decoration } from "./decoration";
  * - Motion timing: 200ms fade-in (natural appearance)
  */
 export const HeroSection = () => (
-  <section id="hero" className="relative min-h-screen flex items-center bg-background">
+  <section id="hero" className="relative min-h-screen flex items-center bg-background overflow-x-hidden">
     <Decoration.Grid />
     <Decoration.Gradient />
 
-    <div className="mx-auto max-w-7xl px-gutter w-full">
-      <div className="lg:grid lg:grid-cols-2 lg:gap-gutter-lg lg:items-center">
+    <div className="mx-auto max-w-7xl px-4 sm:px-gutter w-full">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-gutter-lg lg:items-center">
         {/* LEFT: Content (Prefrontal Planning Zone) */}
         <motion.div
           className="text-center lg:text-left"
@@ -57,7 +57,7 @@ export const HeroSection = () => (
 
           {/* Main Headline - Prefrontal Activation (0ms delay) */}
           <motion.h1
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-gutter-sm"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-4 sm:mb-gutter-sm"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0, duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
@@ -69,7 +69,7 @@ export const HeroSection = () => (
 
           {/* Subheading - Cognitive Load Reduction (100ms delay) */}
           <motion.p
-            className="text-lg sm:text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-gutter"
+            className="text-base sm:text-lg md:text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-gutter px-2 sm:px-0"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
@@ -88,7 +88,7 @@ export const HeroSection = () => (
           </motion.div>
 
           {/* Trust Signals - 3 Column Grid (Limbic Safety) */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-gutter-sm mt-gutter-lg">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-gutter-sm mt-6 sm:mt-gutter-lg px-2 sm:px-0">
             <motion.div
               className="flex flex-col items-center lg:items-start p-gutter-sm rounded-base border border-safe/20 bg-safe/10"
               initial={{ opacity: 0, y: 10 }}
@@ -126,7 +126,7 @@ export const HeroSection = () => (
 
         {/* RIGHT: Visual (Consciousness Gating - Real Outcome Feedback) */}
         <motion.div
-          className="mt-gutter-lg lg:mt-0"
+          className="mt-6 sm:mt-gutter-lg lg:mt-0 px-2 sm:px-0"
           viewport={{ once: true }}
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -139,7 +139,7 @@ export const HeroSection = () => (
                 height={2078}
                 src="/screenshots/builder.jpg"
                 alt="Elevate - Screenshot - Builder Screen"
-                className="w-full rounded-lg shadow-2xl ring-2 ring-primary/10"
+                className="w-full h-auto rounded-lg shadow-2xl ring-2 ring-primary/10"
               />
             </Tilt>
             {/* Offline Indicator - Teal (Limbic Safety) */}

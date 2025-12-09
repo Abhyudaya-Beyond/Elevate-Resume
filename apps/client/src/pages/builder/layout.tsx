@@ -45,20 +45,20 @@ export const BuilderLayout = () => {
   // Desktop: Three-panel layout (lg breakpoint = 1024px)
   if (isDesktop) {
     return (
-      <div className="relative flex h-screen flex-col overflow-hidden">
+      <div className="relative flex h-screen flex-col overflow-x-hidden overflow-y-hidden">
         {/* Top Header */}
         <BuilderHeader />
 
         {/* Three-Panel Layout - Elevate Builder Structure */}
         <PanelGroup direction="horizontal" className="flex flex-1 overflow-hidden">
           {/* Left Panel: LeftSidebar (with vertical toolbar + form sections) */}
-          <Panel defaultSize={30} minSize={20} maxSize={40} className="overflow-hidden border-r border-border">
+          <Panel defaultSize={28} minSize={18} maxSize={38} className="overflow-hidden border-r border-border">
             <LeftSidebar />
           </Panel>
           <PanelResizeHandle />
           
           {/* Center Panel: Preview (live resume preview) */}
-          <Panel defaultSize={45} minSize={30} maxSize={60} className="overflow-hidden">
+          <Panel defaultSize={47} minSize={32} maxSize={62} className="overflow-hidden">
             <PreviewPanel />
           </Panel>
           <PanelResizeHandle
@@ -68,15 +68,15 @@ export const BuilderLayout = () => {
           
           {/* Right Panel: RightSidebar (Template, Layout, Theme, etc.) */}
           <Panel
-            minSize={25}
-            maxSize={50}
+            minSize={20}
+            maxSize={45}
             defaultSize={25}
             className={cn(
-              "z-10 flex min-w-[350px] overflow-hidden bg-background border-l border-border",
+              "z-10 flex overflow-hidden bg-background border-l border-border",
+              "min-w-[280px] xl:min-w-[320px] 2xl:min-w-[350px]",
               !rightHandle.isDragging && "transition-[flex]",
             )}
             onResize={rightSetSize}
-            style={{ minWidth: "350px" }}
           >
             <RightSidebar />
           </Panel>

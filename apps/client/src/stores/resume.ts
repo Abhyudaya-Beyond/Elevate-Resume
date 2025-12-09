@@ -14,18 +14,29 @@ import { useStoreWithEqualityFn } from "zustand/traditional";
 
 import { debouncedUpdateResume } from "../services/resume";
 
+/**
+ * Allowed value types for setValue
+ * Since lodash.set doesn't preserve types, we accept common resume data types
+ */
+type ResumeValue = string | number | boolean | null | undefined | ResumeValue[] | Record<string, ResumeValue>;
+
 type ResumeStore = {
   resume: ResumeDto;
 
   // Actions
-  setValue: (path: string, value: unknown) => void;
+  /**
+   * Set a value at a nested path in the resume data structure
+   * @param path - Dot-separated path (e.g., "metadata.notes", "sections.experience.items")
+   * @param value - Value to set (string, number, boolean, array, object, or null)
+   */
+  setValue: (path: string, value: ResumeValue) => void;
 
   // Custom Section Actions
   addSection: () => void;
   removeSection: (sectionId: SectionKey) => void;
 
   // Section Collapsed/Expanded State
-  collapsedSections: Record<string, boolean | undefined>;
+  collapsedSections: Record<string, boolean>;
   toggleCollapseSection: (id: string) => void;
   expandAllSections: () => void;
   collapseAllSections: () => void;
@@ -38,9 +49,15 @@ export const useResumeStore = create<ResumeStore>()(
       setValue: (path, value) => {
         set((state) => {
           if (path === "visibility") {
-            state.resume.visibility = value as "public" | "private";
+            // Type guard for visibility enum
+            if (value === "public" || value === "private") {
+              state.resume.visibility = value;
+            } else {
+              console.warn(`Invalid visibility value: ${value}. Expected "public" or "private".`);
+            }
           } else {
-            state.resume.data = _set(state.resume.data, path, value);
+            // Use lodash.set for nested paths (type safety is handled by ResumeValue type)
+            state.resume.data = _set(state.resume.data, path, value) as typeof state.resume.data;
           }
 
           void debouncedUpdateResume(JSON.parse(JSON.stringify(state.resume)));
@@ -78,7 +95,9 @@ export const useResumeStore = create<ResumeStore>()(
       collapsedSections: {},
       toggleCollapseSection: (id) => {
         set((state) => {
-          state.collapsedSections[id] = !state.collapsedSections[id];
+          // Ensure boolean type (handle undefined as false)
+          const currentValue = state.collapsedSections[id] ?? false;
+          state.collapsedSections[id] = !currentValue;
         });
       },
       expandAllSections: () => {

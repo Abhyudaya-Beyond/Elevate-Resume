@@ -113,7 +113,7 @@ export const RegisterPage = () => {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.2 }}
-        className="bg-white border border-border rounded-base p-gutter shadow-sm"
+        className="bg-background border border-border rounded-base p-6 sm:p-gutter shadow-sm"
       >
         {flags.isSignupsDisabled && (
           <Alert variant="error" className="mb-gutter-sm">

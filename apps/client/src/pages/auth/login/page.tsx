@@ -66,7 +66,7 @@ export const LoginPage = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
-      className="w-full max-w-[400px] mx-auto"
+      className="w-full max-w-[400px] mx-auto px-4 sm:px-0"
     >
       <Helmet>
         <title>
@@ -104,7 +104,7 @@ export const LoginPage = () => {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.2 }}
-        className="bg-white border border-border rounded-base p-gutter shadow-sm"
+        className="bg-background border border-border rounded-base p-6 sm:p-gutter shadow-sm"
       >
         {flags.isEmailAuthDisabled && (
           <Alert variant="error" className="mb-gutter-sm">

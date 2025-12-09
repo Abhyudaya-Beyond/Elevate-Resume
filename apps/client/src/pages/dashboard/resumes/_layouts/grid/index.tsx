@@ -29,11 +29,11 @@ export const GridView = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: [0.4, 0, 0.6, 1] }}
-        className="flex min-h-[60vh] items-center justify-center"
+        className="flex min-h-[60vh] items-center justify-center px-4"
       >
-        <div className="mx-auto max-w-[500px] text-center">
+        <div className="mx-auto w-full max-w-[500px] text-center">
           {/* Card Wrapper - White, Clean, Organized */}
-          <div className="rounded-base border border-border bg-background p-gutter-lg shadow-lg">
+          <div className="rounded-base border border-border bg-background p-6 sm:p-gutter-lg shadow-lg">
             {/* Icon - Emotional Anchor */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -72,14 +72,14 @@ export const GridView = () => {
   // Loading State
   if (loading) {
     return (
-      <div className="grid grid-cols-1 gap-gutter sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {Array.from({ length: 6 }).map((_, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.05, duration: 0.2 }}
-            className="h-64 animate-pulse rounded-base bg-secondary/30"
+            className="h-[200px] sm:h-[220px] animate-pulse rounded-base bg-secondary/30"
           />
         ))}
       </div>
@@ -88,7 +88,7 @@ export const GridView = () => {
 
   // Resume Cards Grid
   return (
-    <div className="grid grid-cols-1 gap-gutter sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <AnimatePresence>
         {resumes
           ?.sort((a, b) => sortByDate(a, b, "updatedAt"))

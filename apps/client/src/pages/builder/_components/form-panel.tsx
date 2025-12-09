@@ -62,7 +62,7 @@ export const FormPanel = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2, ease: [0.4, 0, 0.6, 1] }}
           ref={containerRef}
-          className="mx-auto max-w-3xl grid gap-y-10 px-gutter-lg py-gutter-lg"
+          className="mx-auto max-w-3xl grid gap-y-8 px-gutter py-gutter-lg"
         >
         <BasicsSection />
         <Separator />
