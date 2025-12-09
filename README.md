@@ -98,28 +98,6 @@ Elevate is built on the principle that **you should own your professional narrat
 
 ---
 
-## Templates
-
-Elevate comes with 17 professionally designed templates, each optimized for different industries and use cases:
-
-| Azurill | Bronzor | Chikorita |
-|---------|---------|-----------|
-| <img src="./apps/client/public/templates/jpg/azurill.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/bronzor.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/chikorita.jpg" width="200px" /> |
-
-| Ditto | Gengar | Glalie |
-|-------|--------|--------|
-| <img src="./apps/client/public/templates/jpg/ditto.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/gengar.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/glalie.jpg" width="200px" /> |
-
-| Kakuna | Leafish | Nosepass |
-|--------|---------|---------|
-| <img src="./apps/client/public/templates/jpg/kakuna.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/leafish.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/nosepass.jpg" width="200px" /> |
-
-| Onyx | Pikachu | Rhyhorn |
-|------|---------|---------|
-| <img src="./apps/client/public/templates/jpg/onyx.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/pikachu.jpg" width="200px" /> | <img src="./apps/client/public/templates/jpg/rhyhorn.jpg" width="200px" /> |
-
----
-
 ## Technology Stack
 
 Elevate is built with modern, battle-tested technologies:
