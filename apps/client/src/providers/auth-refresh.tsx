@@ -19,16 +19,33 @@ export const AuthRefreshProvider = ({ children }: Props) => {
   const isLoggedIn = useAuthStore((state) => !!state.user);
 
   useEffect(() => {
-    if (!isLoggedIn && intervalId.current) {
-      clearInterval(intervalId.current);
+    if (!isLoggedIn) {
+      if (intervalId.current) {
+        clearInterval(intervalId.current);
+        intervalId.current = undefined;
+      }
       return;
     }
 
-    const _refreshToken = () => refreshToken(axios);
+    const _refreshToken = async () => {
+      try {
+        await refreshToken(axios);
+      } catch (error) {
+        // Silently handle refresh errors (user might have logged out)
+        // The axios interceptor will handle redirecting to login if needed
+        console.debug("Token refresh failed:", error);
+      }
+    };
+
+    // Refresh immediately on mount, then every 5 minutes
+    void _refreshToken();
     intervalId.current = setInterval(_refreshToken, 5 * 60 * 1000);
 
     return () => {
-      clearInterval(intervalId.current);
+      if (intervalId.current) {
+        clearInterval(intervalId.current);
+        intervalId.current = undefined;
+      }
     };
   }, [isLoggedIn]);
 

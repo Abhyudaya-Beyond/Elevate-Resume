@@ -6,6 +6,7 @@ import createAuthRefreshInterceptor from "axios-auth-refresh";
 import { redirect } from "react-router";
 
 import { refreshToken } from "@/client/services/auth";
+import { useAuthStore } from "@/client/stores/auth";
 
 import { USER_KEY } from "../constants/query-keys";
 import { toast } from "../hooks/use-toast";
@@ -24,7 +25,9 @@ axios.interceptors.response.use(
     const message = error.response?.data.message as ErrorMessage;
     const description = translateError(message);
 
-    if (description) {
+    // Don't show toast for 403 errors from refresh endpoint (user not logged in)
+    const isRefreshEndpoint = error.config?.url?.includes("/auth/refresh");
+    if (description && !isRefreshEndpoint) {
       toast({
         variant: "error",
         title: t`Oops, the server returned an error.`,
@@ -41,7 +44,22 @@ axios.interceptors.response.use(
 const axiosForRefresh = _axios.create({ baseURL: "/api", withCredentials: true });
 
 // Interceptor to handle expired access token errors
-const handleAuthError = () => refreshToken(axiosForRefresh);
+// Only attempt refresh if user is logged in and error is not from refresh endpoint
+const handleAuthError = (failedRequest: any) => {
+  // Check if user is logged in
+  const user = useAuthStore.getState().user;
+  if (!user) {
+    // User not logged in, don't attempt refresh
+    return Promise.reject(failedRequest);
+  }
+
+  // Check if this is already a refresh request to prevent infinite loop
+  if (failedRequest.config?.url?.includes("/auth/refresh")) {
+    return Promise.reject(failedRequest);
+  }
+
+  return refreshToken(axiosForRefresh);
+};
 
 // Interceptor to handle expired refresh token errors
 const handleRefreshError = async () => {
@@ -49,6 +67,11 @@ const handleRefreshError = async () => {
   redirect("/auth/login");
 };
 
-// Intercept responses to check for 401 and 403 errors, refresh token and retry the request
-createAuthRefreshInterceptor(axios, handleAuthError, { statusCodes: [401, 403] });
+// Intercept responses to check for 401 errors only (403 can mean forbidden, not just expired token)
+// Only attempt refresh for 401 (Unauthorized) - token expired
+// 403 (Forbidden) might mean no access, not necessarily expired token
+createAuthRefreshInterceptor(axios, handleAuthError, { 
+  statusCodes: [401], // Only catch 401, not 403
+  skipWhileRefreshing: true,
+});
 createAuthRefreshInterceptor(axiosForRefresh, handleRefreshError);
